@@ -23,7 +23,9 @@
 #########################################################
 """
 
+from __future__ import print_function
 import base64
+import io
 import ssl
 import types
 from json import dump, loads, load
@@ -40,6 +42,17 @@ import six
 from six import iteritems, unichr
 from six.moves import html_entities, html_parser
 from Tools.Directories import SCOPE_PLUGINS, resolveFilename
+import socket
+
+_original_getaddrinfo = socket.getaddrinfo
+
+
+def _force_ipv4(host, port, family=0, type=0, proto=0, flags=0):
+    return _original_getaddrinfo(
+        host, port, socket.AF_INET, type, proto, flags)
+
+
+socket.getaddrinfo = _force_ipv4
 
 try:
     unicode
@@ -53,30 +66,26 @@ except ImportError:
 
 
 PLUGIN_PATH = resolveFilename(SCOPE_PLUGINS, "Extensions/vavoo")
-PYTHON_VER = version_info.major
+PY2 = version_info[0] == 2
+PY3 = version_info[0] == 3
 
-if PYTHON_VER == 3:
+if PY3:
     from urllib.request import urlopen, Request
     from urllib.error import URLError
     ssl_context = ssl.create_default_context()
-    # Disabilita SSLv2, SSLv3, TLS1.0 e TLS1.1 esplicitamente
-    ssl_context.options |= ssl.OP_NO_SSLv2
-    ssl_context.options |= ssl.OP_NO_SSLv3
-    ssl_context.options |= ssl.OP_NO_TLSv1
-    ssl_context.options |= ssl.OP_NO_TLSv1_1
+    # Disable old protocols when supported by current OpenSSL build.
+    for _ssl_opt in (
+        "OP_NO_SSLv2",
+        "OP_NO_SSLv3",
+        "OP_NO_TLSv1",
+            "OP_NO_TLSv1_1"):
+        ssl_context.options |= getattr(ssl, _ssl_opt, 0)
     unichr_func = unichr
 else:
-    from urllib2 import urlopen, Request
-    from urllib2 import URLError
+    from urllib2 import urlopen, Request, URLError
+    ssl = None
     ssl_context = None
     unichr_func = chr
-
-
-try:
-    TimeoutError
-except NameError:
-    class TimeoutError(Exception):
-        pass
 
 
 def get_screen_width():
@@ -93,20 +102,15 @@ def get_screen_width():
 
 
 def trace_error():
+    """error tracing and logging"""
     import traceback
-    import sys
-
+    from sys import stdout, stderr
     try:
-        error_text = traceback.format_exc()
-
-        sys.stdout.write(error_text)
-
-        f = open("/tmp/vavoo.log", "a")
-        f.write(error_text)
-        f.close()
-
-    except BaseException:
-        pass
+        traceback.print_exc(file=stdout)
+        with open("/tmp/vavoo.log", "a") as log_file:
+            traceback.print_exc(file=log_file)
+    except Exception as e:
+        print("Failed to log the error:", e, file=stderr)
 
 
 class AspectManager:
@@ -142,7 +146,7 @@ class AspectManager:
 
 
 aspect_manager = AspectManager()
-class_types = (type,) if PYTHON_VER == 3 else (type, types.ClassType)
+class_types = (type,) if PY3 else (type, types.ClassType)
 text_type = six.text_type  # unicode in Py2, str in Py3
 binary_type = six.binary_type  # str in Py2, bytes in Py3
 MAXSIZE = maxsize
@@ -186,16 +190,19 @@ def RequestAgent():
 
 
 def ensure_str(s, encoding="utf-8", errors="strict"):
-    if isinstance(s, str):
+    if s is None:
+        return ""
+    if isinstance(s, text_type):
         return s
     if isinstance(s, binary_type):
         return s.decode(encoding, errors)
-    raise TypeError("not expecting type '%s'" % type(s))
+    return text_type(s)
 
 
 def html_escape(value):
     """Escape HTML special characters"""
-    return _ESCAPE_RE.sub(lambda m: _ESCAPE_DICT[m.group(0)], value.strip())
+    value = ensure_str(value, errors='ignore').strip()
+    return _ESCAPE_RE.sub(lambda m: _ESCAPE_DICT[m.group(0)], value)
 
 
 def html_unescape(value):
@@ -216,16 +223,23 @@ def _convert_entity(m):
 
 def b64decoder(data):
     """Robust base64 decoding with padding correction"""
-    data = data.strip()
-    pad = len(data) % 4
-    if pad == 1:  # Invalid base64 length
+    if not data:
         return ""
-    if pad:
-        data += "=" * (4 - pad)
 
     try:
-        decoded = base64.b64decode(data)
-        return decoded.decode('utf-8') if PYTHON_VER == 3 else decoded
+        data = ensure_str(data, errors='ignore').strip()
+        pad = len(data) % 4
+        if pad == 1:  # Invalid base64 length
+            return ""
+        if pad:
+            data += "=" * (4 - pad)
+
+        decoded = base64.b64decode(data.encode('ascii'))
+        try:
+            return decoded.decode('utf-8')
+        except UnicodeDecodeError:
+            return decoded
+
     except Exception as e:
         print("Base64 decoding error: %s" % e)
         return ""
@@ -234,34 +248,43 @@ def b64decoder(data):
 def getUrl(url, timeout=30, retries=3, backoff=2):
     """Fetch URL with exponential backoff retry logic"""
     import time
-    import socket
+
     headers = {'User-Agent': RequestAgent()}
+
+    if not url:
+        raise ValueError("Empty URL passed to getUrl")
+
+    url = ensure_str(url, errors='ignore').strip()
+
+    if not url.startswith(("http://", "https://")):
+        raise ValueError("Invalid URL (missing scheme): %s" % url)
+
     for i in range(retries):
         try:
             socket.setdefaulttimeout(timeout)
+            request = Request(url, headers=headers)
 
-            if PYTHON_VER == 3:
+            if PY3:
                 response = urlopen(
-                    Request(url, headers=headers),
+                    request,
                     timeout=timeout,
                     context=ssl_context)
-                return response.read().decode('utf-8', errors='ignore')
-            else:
+                data = response.read()
+                return data.decode('utf-8', 'ignore')
+            if PY2:
                 response = urlopen(
-                    Request(
-                        url,
-                        headers=headers),
+                    request,
                     timeout=timeout)
-                return response.read()
+                data = response.read()
+                return data
 
-        except (TimeoutError, socket.timeout, URLError) as e:
+        except (URLError, socket.timeout) as e:
             if i < retries - 1:
                 wait_time = backoff ** i  # Exponential backoff
                 print(
                     "Attempt {0} failed, retrying in {1} seconds...".format(
                         i + 1, wait_time))
                 time.sleep(wait_time)
-                continue
             else:
                 print(
                     "Failed after {0} attempts for URL: {1}".format(
@@ -271,7 +294,10 @@ def getUrl(url, timeout=30, retries=3, backoff=2):
 
         except Exception as e:
             print("Unexpected error for URL {0}: {1}".format(url, e))
-            trace_error()
+            try:
+                trace_error()
+            except BaseException:
+                pass
             return ""
 
 
@@ -279,13 +305,20 @@ def get_external_ip():
     """Get external IP using multiple fallback services"""
     from subprocess import Popen, PIPE
 
+    def _decode_cmd_output(value):
+        if value is None:
+            return ""
+        if isinstance(value, binary_type):
+            return value.decode('utf-8', 'ignore').strip()
+        return ensure_str(value, errors='ignore').strip()
+
     services = [
         lambda: Popen(
             [
                 'curl',
                 '-s',
                 'ifconfig.me'],
-            stdout=PIPE).communicate()[0].decode('utf-8').strip(),
+            stdout=PIPE).communicate()[0],
         lambda: requests.get(
             'https://v4.ident.me',
                 timeout=5).text.strip(),
@@ -305,6 +338,7 @@ def get_external_ip():
     for service in services:
         try:
             ip = service()
+            ip = _decode_cmd_output(ip)
             if ip:
                 return ip
         except Exception:
@@ -317,8 +351,7 @@ def set_cache(key, data, timeout):
     try:
         if not isinstance(data, dict):
             data = {"value": data}
-        if PYTHON_VER < 3:
-            import io
+        if PY2:
             converted_data = convert_to_unicode(data)
             with io.open(file_path, 'w', encoding='utf-8') as cache_file:
                 dump(
@@ -327,7 +360,7 @@ def set_cache(key, data, timeout):
                     indent=4,
                     ensure_ascii=False)
         else:
-            with open(file_path, 'w', encoding='utf-8') as cache_file:
+            with io.open(file_path, 'w', encoding='utf-8') as cache_file:
                 dump(data, cache_file, indent=4, ensure_ascii=False)
     except Exception as e:
         print("Error saving cache:", e)
@@ -340,10 +373,10 @@ def convert_to_unicode(data):
                 for key, value in data.items()}
     elif isinstance(data, list):
         return [convert_to_unicode(element) for element in data]
-    elif PYTHON_VER < 3 and isinstance(data, str):
+    elif PY2 and isinstance(data, str):
         # Decode strings to Unicode for Python 2
         return data.decode('utf-8')
-    elif PYTHON_VER < 3 and isinstance(data, unicode):
+    elif PY2 and isinstance(data, unicode):
         return data
     else:
         return data
@@ -381,17 +414,12 @@ def get_cache(key):
 
 
 def _read_json_file(file_path):
-    if PYTHON_VER < 3:
-        import io
-        with io.open(file_path, 'r', encoding='utf-8') as f:
-            return load(f)
-    else:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            return load(f)
+    with io.open(file_path, 'r', encoding='utf-8') as f:
+        return load(f)
 
 
 def _write_json_file(file_path, data):
-    with open(file_path, 'w', encoding='utf-8') as f:
+    with io.open(file_path, 'w', encoding='utf-8') as f:
         dump(data, f, indent=4, ensure_ascii=False)
 
 
@@ -454,8 +482,8 @@ def get_new_auth_signature():
         print("[vUtils] Using new proxy authentication system...")
 
         try:
-            req = Request("http://127.0.0.1:4323/status", timeout=5)
-            response = urlopen(req)
+            req = Request("http://127.0.0.1:4323/status")
+            response = urlopen(req, timeout=5)
             if response.getcode() == 200:
                 data = loads(response.read().decode('utf-8'))
                 if data.get("initialized", False):
@@ -484,6 +512,7 @@ def get_new_auth_signature():
 
 def get_proxy_channels(country_name):
     """Get channels for a country from proxy - with retry"""
+    country_name = ensure_str(country_name, errors='ignore').strip()
     max_retries = 3
 
     for attempt in range(max_retries):
@@ -497,7 +526,8 @@ def get_proxy_channels(country_name):
             except ImportError:
                 from urllib import quote
 
-            encoded_country = quote(country_name)
+            encoded_country = quote(country_name.encode(
+                'utf-8')) if PY2 else quote(country_name)
 
             # Build URL
             proxy_url = "http://127.0.0.1:" + \
@@ -551,7 +581,7 @@ def get_proxy_channels(country_name):
             print("[vUtils] Attempt " + str(attempt + 1) +
                   " failed for '" + str(country_name) + "': " + str(e))
             if attempt < max_retries - 1:
-                time.sleep(2)  # Wait before retry
+                sleep(2)  # Wait before retry
 
     print("[vUtils] All attempts failed for '" + str(country_name) + "'")
     return []
@@ -589,15 +619,15 @@ def get_proxy_status():
 
 
 def is_proxy_running():
-    """Check if the proxy is running (Py2 & Py3 compatible)"""
-    import socket
+    """Controlla se il proxy è in esecuzione"""
     try:
+        import socket
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.settimeout(1)
-        result = s.connect_ex(('127.0.0.1', 4323)) == 0
-        s.close()
-        return result
-    except Exception:
+        try:
+            return s.connect_ex(('127.0.0.1', 4323)) == 0
+        finally:
+            s.close()
+    except BaseException:
         return False
 
 
@@ -651,7 +681,12 @@ def fetch_vec_list():
 
 def rimuovi_parentesi(text):
     """Remove parentheses and their content from text"""
-    return sub(r'\s*\([^()]*\)\s*', ' ', text).strip()
+    return sub(
+        r'\s*\([^()]*\)\s*',
+        ' ',
+        ensure_str(
+            text,
+            errors='ignore')).strip()
 
 
 def purge(directory, pattern):
@@ -697,23 +732,17 @@ def ReloadBouquets():
 
 def sanitizeFilename(filename):
     """Sanitize filename for safe filesystem use"""
+    filename = ensure_str(filename, errors='ignore')
+
     # Remove unsafe characters
     filename = sub(r'[\\/:*?"<>|\0]', '', filename)
     filename = ''.join(c for c in filename if ord(c) > 31)
 
-    # Unicode support for Python 2 and 3
-    try:
-        # Python 2
-        if isinstance(filename, str):
-            filename = filename.decode('utf-8', 'ignore')
-        filename = normalize('NFKD', filename).encode('ascii', 'ignore')
-    except BaseException:
-        # Python 3
-        filename = normalize(
-            'NFKD',
-            filename).encode(
-            'ascii',
-            'ignore').decode()
+    normalized = normalize('NFKD', filename).encode('ascii', 'ignore')
+    if isinstance(normalized, binary_type):
+        filename = normalized.decode('ascii', 'ignore')
+    else:
+        filename = normalized
 
     filename = filename.rstrip('. ').strip()
 
@@ -740,12 +769,14 @@ def sanitizeFilename(filename):
 
 
 def decodeHtml(text):
-    if PYTHON_VER == 3:
+    text = ensure_str(text, errors='ignore')
+
+    if PY3:
         import html
         text = html.unescape(text)
     else:
         h = html_parser.HTMLParser()
-        text = h.unescape(text.decode('utf8')).encode('utf8')
+        text = h.unescape(text)
 
     replacements = {
         '&amp;': '&', '&apos;': "'", '&lt;': '<', '&gt;': '>', '&ndash;': '-',
@@ -900,7 +931,7 @@ def download_flag_online(
         # 8. Download
         req = Request(url, headers={'User-Agent': 'Vavoo-Stream/1.0'})
         try:
-            if PYTHON_VER == 3:
+            if PY3:
                 response = urlopen(req, timeout=5, context=ssl_context)
             else:
                 response = urlopen(req, timeout=5)
@@ -987,7 +1018,12 @@ def download_flag_with_size(
               (country_name, width, height, url))
 
         # Create cache folder
-        makedirs(cache_dir, exist_ok=True)
+        # Python 2 compatible directory creation
+        if not exists(cache_dir):
+            try:
+                makedirs(cache_dir)
+            except Exception:
+                pass
 
         # Cache path
         cache_file = join(cache_dir, "%s.png" % country_code.lower())
@@ -995,7 +1031,7 @@ def download_flag_with_size(
         req = Request(url, headers={'User-Agent': 'Vavoo-Stream/1.0'})
 
         try:
-            if PYTHON_VER == 3:
+            if PY3:
                 response = urlopen(req, timeout=5, context=ssl_context)
             else:
                 response = urlopen(req, timeout=5)
@@ -1031,6 +1067,7 @@ def get_country_code(country_name):
     Handles formats like 'France', 'France ➾ Sports', etc.
     Returns ISO 2-letter country code or empty string if not found.
     """
+    country_name = ensure_str(country_name, errors='ignore').strip()
     if not country_name:
         return ""
 
