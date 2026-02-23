@@ -909,6 +909,52 @@ class VavooProxy:
 class VavooHTTPHandler(BaseHTTPRequestHandler):
     timeout = 10
 
+    def open_upstream_stream(self, stream_url, channel_id, max_attempts=3):
+        """Open an upstream stream with retries and bounded timeouts"""
+        last_error = None
+
+        for attempt in range(max_attempts):
+            try:
+                upstream = proxy.session.get(
+                    stream_url,
+                    stream=True,
+                    timeout=(5, 15)
+                )
+                upstream.raise_for_status()
+                return upstream, None
+            except requests.exceptions.Timeout as e:
+                last_error = e
+                print(
+                    "[Proxy] CRITICAL: Cannot reach upstream stream for channel " +
+                    str(channel_id) +
+                    " (attempt " + str(attempt + 1) +
+                    "/" + str(max_attempts) + "): " +
+                    str(e)
+                )
+            except requests.exceptions.ConnectionError as e:
+                last_error = e
+                print(
+                    "[Proxy] Connection error to upstream for channel " +
+                    str(channel_id) +
+                    " (attempt " + str(attempt + 1) +
+                    "/" + str(max_attempts) + "): " +
+                    str(e)
+                )
+            except requests.exceptions.RequestException as e:
+                last_error = e
+                print(
+                    "[Proxy] Upstream request failure for channel " +
+                    str(channel_id) +
+                    " (attempt " + str(attempt + 1) +
+                    "/" + str(max_attempts) + "): " +
+                    str(e)
+                )
+
+            if attempt < max_attempts - 1:
+                time.sleep(2 ** attempt)
+
+        return None, last_error
+
     def safe_write(self, data):
         """Safe write that handles BrokenPipeError"""
         try:
@@ -1049,10 +1095,15 @@ class VavooHTTPHandler(BaseHTTPRequestHandler):
                         self.send_error(404, "Stream not resolved")
                         return
 
-                    # 2. Connect to upstream with streaming
-                    upstream = proxy.session.get(
-                        stream_url, stream=True, timeout=30)
-                    upstream.raise_for_status()
+                    # 2. Connect to upstream with streaming (retry-aware)
+                    upstream, last_error = self.open_upstream_stream(stream_url, channel_id)
+
+                    if not upstream:
+                        error_msg = "Unable to reach upstream stream"
+                        if last_error:
+                            error_msg += ": " + str(last_error)
+                        self.send_error(504, error_msg)
+                        return
 
                     # 3. Send headers to player
                     if not self.safe_send_response(200):
