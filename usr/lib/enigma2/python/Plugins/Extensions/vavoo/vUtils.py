@@ -281,8 +281,18 @@ def getUrl(url, timeout=30, retries=3, backoff=2):
                 data = response.read()
                 return data
 
-        except (URLError, socket.timeout) as e:
-            if i < retries - 1:
+        except (URLError, socket.timeout, socket.error) as e:
+            err_no = getattr(e, 'errno', None)
+            if err_no is None and getattr(e, 'args', None):
+                err_no = e.args[0]
+
+            retryable_socket_errors = (104, 110, 111)
+            is_retryable_socket = isinstance(e, socket.error) and (
+                err_no in retryable_socket_errors or err_no is None
+            )
+            is_retryable = not isinstance(e, socket.error) or is_retryable_socket
+
+            if is_retryable and i < retries - 1:
                 wait_time = backoff ** i  # Exponential backoff
                 print(
                     "Attempt {0} failed, retrying in {1} seconds...".format(
@@ -296,7 +306,17 @@ def getUrl(url, timeout=30, retries=3, backoff=2):
                 return ""
 
         except Exception as e:
-            print("Unexpected error for URL {0}: {1}".format(url, e))
+            if i < retries - 1:
+                wait_time = backoff ** i
+                print(
+                    "Unexpected error on attempt {0}, retrying in {1} seconds...".format(
+                        i + 1, wait_time))
+                print("Error: {0}".format(e))
+                time.sleep(wait_time)
+                continue
+
+            print("Failed after {0} attempts for URL: {1}".format(retries, url))
+            print("Unexpected error: {0}".format(e))
             try:
                 trace_error()
             except BaseException:

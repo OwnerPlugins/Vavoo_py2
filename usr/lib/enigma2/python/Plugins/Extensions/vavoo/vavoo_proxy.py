@@ -347,25 +347,52 @@ class VavooProxy:
             self.start_periodic_refresh()
 
     def _robust_request(self, method, url, **kwargs):
-        """Simplified and safer version"""
-        # Set reasonable timeouts
+        """Request helper with controlled retries and endpoint fallback"""
         if 'timeout' not in kwargs:
             kwargs['timeout'] = (5, 15)  # 5s connect, 15s read
 
-        try:
-            # SINGLE REQUEST, no infinite retries
-            response = requests.Session.request(
-                self.session, method, url, **kwargs)
-            return response
-        except (requests.exceptions.Timeout, socket.timeout) as e:
-            print("[Proxy] Timeout on " + str(url) + ": " + str(e))
-            raise
-        except requests.exceptions.ConnectionError as e:
-            print("[Proxy] Connection error on " + str(url) + ": " + str(e))
-            raise
-        except Exception as e:
-            print("[Proxy] Error on " + str(url) + ": " + str(e))
-            raise
+        retries = kwargs.pop('retries', 3)
+        if retries < 1:
+            retries = 1
+
+        candidate_urls = [url]
+        if "vavoo.to" in url:
+            candidate_urls.append(url.replace("vavoo.to", "www.vavoo.tv"))
+
+        last_exception = None
+
+        for candidate_url in candidate_urls:
+            for attempt in range(retries):
+                try:
+                    response = requests.Session.request(
+                        self.session, method, candidate_url, **kwargs)
+                    return response
+                except (requests.exceptions.Timeout, socket.timeout) as e:
+                    last_exception = e
+                    print("[Proxy] Timeout on " + str(candidate_url) +
+                          " (attempt " + str(attempt + 1) +
+                          "/" + str(retries) + "): " + str(e))
+                except requests.exceptions.ConnectionError as e:
+                    last_exception = e
+                    print("[Proxy] Connection error on " + str(candidate_url) +
+                          " (attempt " + str(attempt + 1) +
+                          "/" + str(retries) + "): " + str(e))
+                except Exception as e:
+                    last_exception = e
+                    print("[Proxy] Error on " + str(candidate_url) +
+                          " (attempt " + str(attempt + 1) +
+                          "/" + str(retries) + "): " + str(e))
+
+                if attempt < retries - 1:
+                    time.sleep(2 ** attempt)
+
+            if candidate_url != candidate_urls[-1]:
+                print("[Proxy] Falling back to alternate endpoint...")
+
+        if last_exception:
+            raise last_exception
+
+        raise RuntimeError("Request failed without exception for URL: " + str(url))
 
     def start_token_monitor(self):
         """Monitor and refresh token automatically"""
@@ -955,14 +982,20 @@ class VavooHTTPHandler(BaseHTTPRequestHandler):
                                 "[Proxy] WARNING: Upstream stream returned empty data for channel: " +
                                 channel_id)
 
-                    except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+                    except requests.exceptions.Timeout as e:
                         print(
-                            "[Proxy] CRITICAL: Cannot reach upstream stream for channel " +
+                            "[Proxy] WARNING: Upstream test timeout for channel " +
                             channel_id +
                             ": " +
-                            str(e))
-                        self.send_error(502, "Cannot connect to video source")
-                        return
+                            str(e) +
+                            " (continuing with redirect)")
+                    except requests.exceptions.ConnectionError as e:
+                        print(
+                            "[Proxy] WARNING: Upstream preflight connection issue for channel " +
+                            channel_id +
+                            ": " +
+                            str(e) +
+                            " (continuing with redirect)")
                     except Exception as e:
                         print(
                             "[Proxy] Warning during stream test for " +
@@ -1351,7 +1384,38 @@ def start_proxy():
                     print("[✗] Max restart attempts reached")
                     return False
 
-            server = ReusableHTTPServer(('0.0.0.0', PORT), VavooHTTPHandler)
+            try:
+                server = ReusableHTTPServer(('0.0.0.0', PORT), VavooHTTPHandler)
+            except socket.error as bind_error:
+                err_no = getattr(bind_error, 'errno', None)
+                if err_no is None and bind_error.args:
+                    err_no = bind_error.args[0]
+
+                if err_no == 98:
+                    print("[!] Port " + str(PORT) + " already in use")
+                    try:
+                        response = requests.get(
+                            "http://127.0.0.1:{0}/status".format(PORT),
+                            timeout=2
+                        )
+                        if response.status_code == 200:
+                            print("[✓] Existing proxy instance is already running")
+                            proxy.stop_background_tasks()
+                            return True
+                    except Exception:
+                        pass
+
+                    print("[!] Stale process detected, attempting cleanup...")
+                    try:
+                        import subprocess
+                        subprocess.call(["pkill", "-f", "python.*vavoo_proxy"])
+                        time.sleep(2)
+                        continue
+                    except Exception as cleanup_error:
+                        print("[✗] Cleanup failed: " + str(cleanup_error))
+
+                raise
+
             server.timeout = 30
             server.request_queue_size = 10
             proxy.server = server
