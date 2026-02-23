@@ -392,7 +392,9 @@ class VavooProxy:
         if last_exception:
             raise last_exception
 
-        raise RuntimeError("Request failed without exception for URL: " + str(url))
+        raise RuntimeError(
+            "Request failed without exception for URL: " +
+            str(url))
 
     def start_token_monitor(self):
         """Monitor and refresh token automatically"""
@@ -1385,7 +1387,8 @@ def start_proxy():
                     return False
 
             try:
-                server = ReusableHTTPServer(('0.0.0.0', PORT), VavooHTTPHandler)
+                server = ReusableHTTPServer(
+                    ('0.0.0.0', PORT), VavooHTTPHandler)
             except socket.error as bind_error:
                 err_no = getattr(bind_error, 'errno', None)
                 if err_no is None and bind_error.args:
@@ -1399,7 +1402,8 @@ def start_proxy():
                             timeout=2
                         )
                         if response.status_code == 200:
-                            print("[✓] Existing proxy instance is already running")
+                            print(
+                                "[✓] Existing proxy instance is already running")
                             proxy.stop_background_tasks()
                             return True
                     except Exception:
