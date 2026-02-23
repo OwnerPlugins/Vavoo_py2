@@ -321,12 +321,6 @@ def get_channels_from_proxy(name, export_type):
     """Get channels from the proxy"""
     try:
         import json
-
-        try:
-            from urllib.parse import quote  # Python3
-        except ImportError:
-            from urllib import quote  # Python2
-
         # Encode the name
         encoded_name = quote(name)
 

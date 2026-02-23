@@ -829,11 +829,6 @@ class vavoo_config(Screen, ConfigListScreen):
                 help_text
             )
         )
-        # self.list.append(
-        # getConfigListEntry(
-        # _("Select DNS Server"),
-        # cfg.dns,
-        # _("Configure Dns Server for Box.")))
         self.list.append(
             getConfigListEntry(
                 _("Select Background"),
