@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
-from __future__ import absolute_import
+from __future__ import absolute_import, print_function
 __author__ = "Lululla"
 __email__ = "ekekaz@gmail.com"
 __copyright__ = 'Copyright (c) 2024 Lululla'
 __license__ = "CC BY-NC-SA 4.0"
-__version__ = "1.47"
+__version__ = "1.49"
 
 from Components.Language import language
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
@@ -62,12 +62,12 @@ language.addCallback(localeInit)
 
 file_path = "/usr/lib/enigma2/python/Plugins/Extensions/vavoo/start_proxy.sh"
 try:
+    # Python 3
     subprocess.run(["chmod", "+x", file_path])
 except AttributeError:
-    try:
-        subprocess.call(["chmod", "+x", file_path])
-    except OSError:
-        os.system("chmod +x {0}".format(file_path))
+    # Python 2 compatibility
+    subprocess.call(["chmod", "+x", file_path])
+
 
 country_codes = {
     "Albania": "al",

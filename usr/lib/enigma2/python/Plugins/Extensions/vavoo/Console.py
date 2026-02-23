@@ -3,7 +3,7 @@
 # RAED & mfaraj57 &  (c) 2018
 # mod Lululla 20251113
 
-from __future__ import print_function
+from __future__ import print_function, unicode_literals
 from enigma import eConsoleAppContainer
 from Screens.Screen import Screen
 from Components.Label import Label
@@ -87,7 +87,8 @@ class Console(Screen):
             }, -1
         )
 
-        self.newtitle = _('Console') if title == 'Console' else title
+        self.newtitle = title == 'Console' and _(
+            'Console') or title  # Fixed: Added _ function
         self.cmdlist = isinstance(cmdlist, list) and cmdlist or [cmdlist]
         self.cancel_msg = None
         self.onShown.append(self.updateTitle)
