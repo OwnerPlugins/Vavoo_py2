@@ -23,7 +23,7 @@
 #########################################################
 """
 
-from __future__ import print_function
+from __future__ import absolute_import, print_function
 import base64
 import io
 import ssl
@@ -37,7 +37,10 @@ from shutil import copy2
 from sys import maxsize, version_info
 from time import time, sleep
 from unicodedata import normalize
-import requests
+try:
+    import requests
+except Exception:
+    requests = None
 import six
 from six import iteritems, unichr
 from six.moves import html_entities, html_parser
@@ -319,21 +322,25 @@ def get_external_ip():
                 '-s',
                 'ifconfig.me'],
             stdout=PIPE).communicate()[0],
-        lambda: requests.get(
-            'https://v4.ident.me',
-                timeout=5).text.strip(),
-        lambda: requests.get(
-                    'https://api.ipify.org',
-                    timeout=5).text.strip(),
-        lambda: requests.get(
-                        'https://api.myip.com',
-                        timeout=5).json().get(
-                            "ip",
-                            "").strip(),
-        lambda: requests.get(
-                                'https://checkip.amazonaws.com',
-                                timeout=5).text.strip(),
     ]
+
+    if requests is not None:
+        services.extend([
+            lambda: requests.get(
+                'https://v4.ident.me',
+                    timeout=5).text.strip(),
+            lambda: requests.get(
+                        'https://api.ipify.org',
+                        timeout=5).text.strip(),
+            lambda: requests.get(
+                            'https://api.myip.com',
+                            timeout=5).json().get(
+                                "ip",
+                                "").strip(),
+            lambda: requests.get(
+                                    'https://checkip.amazonaws.com',
+                                    timeout=5).text.strip(),
+        ])
 
     for service in services:
         try:
@@ -375,7 +382,7 @@ def convert_to_unicode(data):
         return [convert_to_unicode(element) for element in data]
     elif PY2 and isinstance(data, str):
         # Decode strings to Unicode for Python 2
-        return data.decode('utf-8')
+        return data.decode('utf-8', 'ignore')
     elif PY2 and isinstance(data, unicode):
         return data
     else:
@@ -610,9 +617,15 @@ def get_proxy_status():
     """Get detailed proxy status"""
     try:
         status_url = "http://127.0.0.1:4323/status"
-        response = requests.get(status_url, timeout=3)
-        if response.status_code == 200:
-            return response.json()
+        if requests is not None:
+            response = requests.get(status_url, timeout=3)
+            if response.status_code == 200:
+                return response.json()
+        else:
+            req = Request(status_url)
+            response = urlopen(req, timeout=3)
+            if response.getcode() == 200:
+                return loads(response.read().decode('utf-8', 'ignore'))
     except BaseException:
         return None
     return None
@@ -669,9 +682,14 @@ def getAuthSignature():
 def fetch_vec_list():
     """Fetch vector list from GitHub"""
     try:
-        vec_list = requests.get(
-            "https://raw.githubusercontent.com/Belfagor2005/vavoo/main/data.json",
-            timeout=10).json()
+        if requests is not None:
+            vec_list = requests.get(
+                "https://raw.githubusercontent.com/Belfagor2005/vavoo/main/data.json",
+                timeout=10).json()
+        else:
+            req = Request("https://raw.githubusercontent.com/Belfagor2005/vavoo/main/data.json")
+            response = urlopen(req, timeout=10)
+            vec_list = loads(response.read().decode('utf-8', 'ignore'))
         set_cache("vec_list", vec_list, 3600)
         return vec_list
     except Exception as e:

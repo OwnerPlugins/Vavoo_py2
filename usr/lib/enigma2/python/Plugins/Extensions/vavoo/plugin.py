@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from __future__ import absolute_import, print_function, unicode_literals
+from __future__ import absolute_import, print_function
 
 """
 #########################################################
@@ -36,18 +36,26 @@ from re import compile, DOTALL
 from json import loads
 from sys import version_info
 
-import requests
+try:
+    import requests
+except Exception:
+    requests = None
+
+try:
+    from urllib.request import Request as UrlRequest, urlopen
+except ImportError:
+    from urllib2 import Request as UrlRequest, urlopen
 try:
     from requests.adapters import HTTPAdapter
-except ImportError:
+except Exception:
     HTTPAdapter = None
 
 try:
     from urllib3.util.retry import Retry
-except ImportError:
+except Exception:
     try:
         from requests.packages.urllib3.util.retry import Retry
-    except ImportError:
+    except Exception:
         Retry = None
 
 try:
@@ -368,15 +376,20 @@ def check_vavoo_connectivity():
     """Test connectivity to vavoo.to"""
     try:
         test_url = "https://huhu.to"
-        response = requests.get(test_url, timeout=5)
-        if response.status_code == 200:
+        if requests is not None:
+            response = requests.get(test_url, timeout=5)
+            status_code = response.status_code
+        else:
+            req = UrlRequest(test_url, headers={'User-Agent': vUtils.RequestAgent()})
+            response = urlopen(req, timeout=5)
+            status_code = getattr(response, 'getcode', lambda: 0)() or 0
+
+        if status_code == 200:
             print("[Connectivity] huhu.to is reachable")
             return True
-        else:
-            print(
-                "[Connectivity] huhu.to returned {0}".format(
-                    response.status_code))
-            return False
+
+        print("[Connectivity] huhu.to returned {0}".format(status_code))
+        return False
     except Exception as e:
         print("[Connectivity] Cannot reach huhu.to: {0}".format(e))
         return False
@@ -469,31 +482,38 @@ except BaseException:
 def raises(url):
     """Attempts to fetch a URL with retries and error handling"""
     try:
-        http = requests.Session()
-        if HTTPAdapter is not None:
-            if Retry is not None:
-                retries = Retry(total=1, backoff_factor=1)
-                adapter = HTTPAdapter(max_retries=retries)
-            else:
-                adapter = HTTPAdapter(max_retries=1)
-            http.mount("http://", adapter)
-            http.mount("https://", adapter)
+        if requests is not None:
+            http = requests.Session()
+            if HTTPAdapter is not None:
+                if Retry is not None:
+                    retries = Retry(total=1, backoff_factor=1)
+                    adapter = HTTPAdapter(max_retries=retries)
+                else:
+                    adapter = HTTPAdapter(max_retries=1)
+                http.mount("http://", adapter)
+                http.mount("https://", adapter)
 
-        r = http.get(
-            url,
-            headers={'User-Agent': vUtils.RequestAgent()},
-            timeout=(3, 10),
-            verify=True,
-            stream=True,
-            allow_redirects=False
-        )
-        r.raise_for_status()
+            r = http.get(
+                url,
+                headers={'User-Agent': vUtils.RequestAgent()},
+                timeout=(3, 10),
+                verify=True,
+                stream=True,
+                allow_redirects=False
+            )
+            r.raise_for_status()
 
-        if r.status_code == requests.codes.ok:
-            for xc in r.iter_content(1024):
-                pass
-            r.close()
-            return True
+            if r.status_code == requests.codes.ok:
+                for xc in r.iter_content(1024):
+                    pass
+                r.close()
+                return True
+        else:
+            req = UrlRequest(url, headers={'User-Agent': vUtils.RequestAgent()})
+            resp = urlopen(req, timeout=10)
+            status_code = getattr(resp, 'getcode', lambda: 0)() or 0
+            if status_code == 200:
+                return True
 
     except Exception as error:
         print("Server check failed:", error)
@@ -1867,7 +1887,11 @@ class MainVavoo(Screen):
         try:
             # Try to stop the existing proxy
             try:
-                requests.get("http://127.0.0.1:4323/shutdown", timeout=2)
+                if requests is not None:
+                    requests.get("http://127.0.0.1:4323/shutdown", timeout=2)
+                else:
+                    req = UrlRequest("http://127.0.0.1:4323/shutdown", headers={'User-Agent': vUtils.RequestAgent()})
+                    urlopen(req, timeout=2)
                 time.sleep(3)
             except BaseException:
                 pass
