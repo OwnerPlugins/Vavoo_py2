@@ -1098,7 +1098,8 @@ class VavooHTTPHandler(BaseHTTPRequestHandler):
                         return
 
                     # 2. Connect to upstream with streaming (retry-aware)
-                    upstream, last_error = self.open_upstream_stream(stream_url, channel_id)
+                    upstream, last_error = self.open_upstream_stream(
+                        stream_url, channel_id)
 
                     if not upstream:
                         error_msg = "Unable to reach upstream stream"
