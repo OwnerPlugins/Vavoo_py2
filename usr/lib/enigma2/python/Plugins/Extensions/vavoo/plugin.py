@@ -380,7 +380,9 @@ def check_vavoo_connectivity():
             response = requests.get(test_url, timeout=5)
             status_code = response.status_code
         else:
-            req = UrlRequest(test_url, headers={'User-Agent': vUtils.RequestAgent()})
+            req = UrlRequest(
+                test_url, headers={
+                    'User-Agent': vUtils.RequestAgent()})
             response = urlopen(req, timeout=5)
             status_code = getattr(response, 'getcode', lambda: 0)() or 0
 
@@ -509,7 +511,9 @@ def raises(url):
                 r.close()
                 return True
         else:
-            req = UrlRequest(url, headers={'User-Agent': vUtils.RequestAgent()})
+            req = UrlRequest(
+                url, headers={
+                    'User-Agent': vUtils.RequestAgent()})
             resp = urlopen(req, timeout=10)
             status_code = getattr(resp, 'getcode', lambda: 0)() or 0
             if status_code == 200:
@@ -1890,7 +1894,10 @@ class MainVavoo(Screen):
                 if requests is not None:
                     requests.get("http://127.0.0.1:4323/shutdown", timeout=2)
                 else:
-                    req = UrlRequest("http://127.0.0.1:4323/shutdown", headers={'User-Agent': vUtils.RequestAgent()})
+                    req = UrlRequest(
+                        "http://127.0.0.1:4323/shutdown",
+                        headers={
+                            'User-Agent': vUtils.RequestAgent()})
                     urlopen(req, timeout=2)
                 time.sleep(3)
             except BaseException:

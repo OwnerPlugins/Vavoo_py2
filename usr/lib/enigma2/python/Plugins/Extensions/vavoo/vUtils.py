@@ -328,18 +328,18 @@ def get_external_ip():
         services.extend([
             lambda: requests.get(
                 'https://v4.ident.me',
-                    timeout=5).text.strip(),
+                timeout=5).text.strip(),
             lambda: requests.get(
-                        'https://api.ipify.org',
-                        timeout=5).text.strip(),
+                'https://api.ipify.org',
+                timeout=5).text.strip(),
             lambda: requests.get(
-                            'https://api.myip.com',
-                            timeout=5).json().get(
-                                "ip",
-                                "").strip(),
+                'https://api.myip.com',
+                timeout=5).json().get(
+                "ip",
+                "").strip(),
             lambda: requests.get(
-                                    'https://checkip.amazonaws.com',
-                                    timeout=5).text.strip(),
+                'https://checkip.amazonaws.com',
+                timeout=5).text.strip(),
         ])
 
     for service in services:
@@ -524,7 +524,7 @@ def get_proxy_channels(country_name):
 
     for attempt in range(max_retries):
         try:
-            print("[vUtils] Getting channels for '" + str(country_name) +
+            print("[vUtils] Getting channels for '" + str(country_name) + \
                   "' (attempt " + str(attempt + 1) + "/" + str(max_retries) + ")")
 
             # URL-encode
@@ -687,7 +687,8 @@ def fetch_vec_list():
                 "https://raw.githubusercontent.com/Belfagor2005/vavoo/main/data.json",
                 timeout=10).json()
         else:
-            req = Request("https://raw.githubusercontent.com/Belfagor2005/vavoo/main/data.json")
+            req = Request(
+                "https://raw.githubusercontent.com/Belfagor2005/vavoo/main/data.json")
             response = urlopen(req, timeout=10)
             vec_list = loads(response.read().decode('utf-8', 'ignore'))
         set_cache("vec_list", vec_list, 3600)
