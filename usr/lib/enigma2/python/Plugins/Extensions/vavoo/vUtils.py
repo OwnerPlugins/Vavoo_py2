@@ -290,7 +290,8 @@ def getUrl(url, timeout=30, retries=3, backoff=2):
             is_retryable_socket = isinstance(e, socket.error) and (
                 err_no in retryable_socket_errors or err_no is None
             )
-            is_retryable = not isinstance(e, socket.error) or is_retryable_socket
+            is_retryable = not isinstance(
+                e, socket.error) or is_retryable_socket
 
             if is_retryable and i < retries - 1:
                 wait_time = backoff ** i  # Exponential backoff
@@ -315,7 +316,9 @@ def getUrl(url, timeout=30, retries=3, backoff=2):
                 time.sleep(wait_time)
                 continue
 
-            print("Failed after {0} attempts for URL: {1}".format(retries, url))
+            print(
+                "Failed after {0} attempts for URL: {1}".format(
+                    retries, url))
             print("Unexpected error: {0}".format(e))
             try:
                 trace_error()
@@ -544,7 +547,7 @@ def get_proxy_channels(country_name):
 
     for attempt in range(max_retries):
         try:
-            print("[vUtils] Getting channels for '" + str(country_name) + \
+            print("[vUtils] Getting channels for '" + str(country_name) +
                   "' (attempt " + str(attempt + 1) + "/" + str(max_retries) + ")")
 
             # URL-encode
