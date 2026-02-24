@@ -320,12 +320,11 @@ def convert_bouquet(
 def get_channels_from_proxy(name, export_type):
     """Get channels from the proxy"""
     try:
-        import json
         # Encode the name
         encoded_name = quote(name)
 
         # Proxy URL
-        proxy_url = "http://127.0.0.1:%d/channels?country=%s" % (
+        proxy_url = "http://127.0.0.1:{}/channels?country={}".format(
             PORT, encoded_name)
 
         # Request to the proxy
@@ -337,15 +336,13 @@ def get_channels_from_proxy(name, export_type):
 
         # JSON parsing
         try:
-            channels = json.loads(response)
-        except BaseException:
-            # Try with different encodings
-            try:
-                channels = json.loads(response.decode(
-                    'utf-8') if isinstance(response, bytes) else response)
-            except BaseException:
-                print("[Proxy] Invalid JSON response for %s" % name)
-                return []
+            channels = loads(response)
+        except Exception:
+            # Se response è bytes, decodifica
+            if isinstance(response, bytes):
+                channels = loads(response.decode('utf-8', 'ignore'))
+            else:
+                raise
 
         if not isinstance(channels, list):
             print("[Proxy] Invalid response format for %s" % name)
@@ -620,14 +617,14 @@ def create_bouquet_file(
                     # If URL is proxy /resolve?id=, convert to /vavoo?channel=
                     if "/resolve?id=" in channel_url:
                         channel_id = channel_url.split("/resolve?id=")[1]
-                        channel_url = "http://127.0.0.1:%d/vavoo?channel=%s" % (
+                        channel_url = "http://127.0.0.1:{}/vavoo?channel={}".format(
                             PORT, channel_id)
 
                     # If URL is not proxy, use base version
                     if not channel_url.startswith("http://127.0.0.1"):
                         channel_id = channel.get('id', '')
                         if channel_id:
-                            channel_url = "http://127.0.0.1:%d/vavoo?channel=%s" % (
+                            channel_url = "http://127.0.0.1:{}/vavoo?channel={}".format(
                                 PORT, channel_id)
 
                     # Clean channel name
@@ -658,22 +655,21 @@ def create_bouquet_file(
 
         # Write bouquet file
         try:
-            if PY3:
-                with io.open(bouquet_path, 'w', encoding='utf-8') as f:
-                    f.write('\n'.join(content))
-                print(
-                    "[Bouquet] File created: %s (%d channels)" %
-                    (bouquet_filename, channel_count))
-            else:
-                with open(bouquet_path, 'w') as f:
-                    f.write('\n'.join(content).encode('utf-8'))
-                print(
-                    "[Bouquet] File created: %s (%d channels)" %
-                    (bouquet_filename, channel_count))
-        except Exception as e:
-            print("[Bouquet] Error writing file: %s" % str(e))
-            with open(bouquet_path, 'w') as f:
+            with io.open(bouquet_path, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(content))
+            print(
+                "[Bouquet] File created: %s (%d channels)" %
+                (bouquet_filename, channel_count))
+        except Exception as e:
+            print("[Bouquet] Error writing file with encoding: %s" % str(e))
+            try:
+                with open(bouquet_path, 'wb') as f:
+                    f.write(('\n'.join(content)).encode('utf-8', 'ignore'))
+                print(
+                    "[Bouquet] File created (binary fallback): %s (%d channels)" %
+                    (bouquet_filename, channel_count))
+            except Exception as e2:
+                print("[Bouquet] Critical error writing file: %s" % str(e2))
 
         # Add to main bouquet
         _add_to_main_bouquet(bouquet_filename, 'tv', bouquet_position)
