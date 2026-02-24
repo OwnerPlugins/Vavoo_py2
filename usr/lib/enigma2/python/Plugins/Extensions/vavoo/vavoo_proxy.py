@@ -37,6 +37,16 @@ import socket
 import os
 from json import loads, dumps
 
+_starting_lock = threading.Lock()
+_starting = False
+
+
+try:
+    unicode
+except NameError:
+    unicode = str
+
+
 try:
     from io import BytesIO
 except ImportError:
@@ -185,9 +195,7 @@ class ProxyHealthMonitor:
         try:
             # 1. Check if proxy responds
             response = requests.get(
-                "http://127.0.0.1:" + str(PORT) + "/health",
-                timeout=5
-            )
+                "http://127.0.0.1:{}/health".format(PORT), timeout=2)
 
             if response.status_code == 200:
                 data = response.json()
@@ -236,9 +244,8 @@ class ProxyHealthMonitor:
             # 1. Try to shut down the current proxy
             try:
                 requests.get(
-                    "http://127.0.0.1:" + str(PORT) + "/shutdown",
-                    timeout=2
-                )
+                    "http://127.0.0.1:{}/shutdown".format(PORT),
+                    timeout=2)
                 time.sleep(2)
             except Exception:
                 pass
@@ -1391,12 +1398,12 @@ def shutdown_proxy():
 
     try:
         response = requests.get(
-            "http://127.0.0.1:{0}/shutdown".format(PORT), timeout=2)
+            "http://127.0.0.1:{}/shutdown".format(PORT), timeout=2)
         if response.status_code == 200:
             print("[Proxy] Shutdown request sent successfully")
             return True
     except Exception as e:
-        print("[Proxy] Shutdown via HTTP failed: {0}".format(e))
+        print("[Proxy] Shutdown via HTTP failed: {}".format(e))
 
     # Fallback: kill process
     try:
@@ -1405,7 +1412,7 @@ def shutdown_proxy():
         print("[Proxy] Killed by pkill")
         return True
     except Exception as e:
-        print("[Proxy] Failed to kill process: {0}".format(e))
+        print("[Proxy] Failed to kill process: {}".format(e))
     return False
 
 
@@ -1537,62 +1544,68 @@ def start_proxy():
 
 def run_proxy_in_background():
     """Start the proxy in background only if it is not already running"""
-    def is_proxy_running():
-        try:
-            import socket
-            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            try:
-                s.settimeout(1)
-                return s.connect_ex(('127.0.0.1', PORT)) == 0
-            finally:
-                s.close()
-        except BaseException:
+    global _starting
+    with _starting_lock:
+        if _starting:
+            print("[Proxy] Already starting, skipping...")
             return False
+        _starting = True
 
-    # If already running, perform a health check
-    if is_proxy_running():
-        from os import system
-        try:
-            response = requests.get(
-                "http://127.0.0.1:" +
-                str(PORT) +
-                "/status",
-                timeout=2)
-            if response.status_code == 200:
-                return True
-            else:
-                # Proxy is running but not responding, kill it
-                print("[Proxy] Proxy is running but not responding, killing...")
+    try:
+        def is_proxy_running():
+            try:
+                import socket
+                with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                    s.settimeout(1)
+                    return s.connect_ex(('127.0.0.1', PORT)) == 0
+
+            except BaseException:
+                return False
+
+        # If already running, perform a health check
+        if is_proxy_running():
+            from os import system
+            try:
+                              
+                response = requests.get(
+                    "http://127.0.0.1:{}/status".format(PORT), timeout=2)
+                if response.status_code == 200:
+                    return True
+                else:
+                    # Proxy is running but not responding, kill it
+                    print("[Proxy] Proxy is running but not responding, killing...")
+                    system("pkill -f 'python.*vavoo_proxy' 2>/dev/null")
+                    time.sleep(2)
+            except BaseException:
+                # Proxy not responding, kill it
                 system("pkill -f 'python.*vavoo_proxy' 2>/dev/null")
                 time.sleep(2)
-        except BaseException:
-            # Proxy not responding, kill it
-            system("pkill -f 'python.*vavoo_proxy' 2>/dev/null")
-            time.sleep(2)
 
-    # Start new proxy
-    proxy_thread = threading.Thread(target=start_proxy)
-    proxy_thread.setDaemon(True)
-    proxy_thread.start()
+        # Start new proxy
+        proxy_thread = threading.Thread(target=start_proxy, daemon=True)
+        proxy_thread.start()
 
-    # Wait for startup with longer timeout
-    for i in range(15):  # 15 attempts
-        if is_proxy_running():
-            try:
-                # Health check
-                response = requests.get(
-                    "http://127.0.0.1:" + str(PORT) + "/status", timeout=3)
-                if response.status_code == 200:
-                    data = response.json()
-                    if data.get("initialized", False):
-                        print("[Proxy] Started and initialized successfully")
-                        return True
-            except BaseException:
-                pass
-        time.sleep(1)
+        # Wait for startup with longer timeout
+        for i in range(30):  # 30 attempts
+            if is_proxy_running():
+                try:
+                    # Health check
+                    response = requests.get(
+                        "http://127.0.0.1:{}/status".format(PORT), timeout=2)
+                    if response.status_code == 200:
+                        data = response.json()
+                        if data.get("initialized", False):
+                            print("[Proxy] Started and initialized successfully")
+                            return True
+                except BaseException:
+                    pass
+            time.sleep(1)
 
-    print("[Proxy] Failed to start within timeout")
-    return False
+        print("[Proxy] Failed to start within timeout")
+        return False
+    finally:
+        with _starting_lock:
+            _starting = False
 
 
 if __name__ == "__main__":

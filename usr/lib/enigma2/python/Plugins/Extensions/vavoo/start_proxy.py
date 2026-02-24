@@ -34,7 +34,6 @@ try:
         from .vavoo_proxy import start_proxy
     except Exception:
         from vavoo_proxy import start_proxy
-
     print("Starting Vavoo proxy...")
     start_proxy()
 except Exception as e:
