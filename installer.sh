@@ -1,7 +1,7 @@
 #!/bin/bash
 
 version='1.49'
-changelog='\nFix Minor fixes @pQu4k3r\nOffer coffee please :)'
+changelog='\nMajor Code Upgrade\nOffer coffee please :)'
 
 TMPPATH=/tmp/vavoo-install
 FILEPATH=/tmp/Vavoo_py2-main.tar.gz
