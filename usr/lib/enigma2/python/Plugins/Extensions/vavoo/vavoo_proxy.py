@@ -1566,7 +1566,7 @@ def run_proxy_in_background():
         if is_proxy_running():
             from os import system
             try:
-                              
+
                 response = requests.get(
                     "http://127.0.0.1:{}/status".format(PORT), timeout=2)
                 if response.status_code == 200:
