@@ -609,17 +609,17 @@ def show_list(name, link, is_category=False, is_channel=False):
                 pass
 
     if screen_width >= 2560:
-        icon_size = (80, 60)
+        icon_size = (60, 40)
         icon_pos = (10, 10)
         text_size = (750, 60)
         text_pos = (icon_size[0] + 20, 0)
     elif screen_width >= 1920:
-        icon_size = (60, 45)
-        icon_pos = (10, 10)
+        icon_size = (60, 40)
+        icon_pos = (10, 5)
         text_size = (540, 50)
         text_pos = (icon_size[0] + 20, 0)
     else:
-        icon_size = (40, 30)
+        icon_size = (60, 40)
         icon_pos = (10, 5)
         text_size = (380, 50)
         text_pos = (icon_size[0] + 20, 0)
@@ -1219,9 +1219,8 @@ class vavoo_config(Screen, ConfigListScreen):
         """Get channels for a country from the proxy"""
         try:
             encoded_country = url_quote(country_name)
-            proxy_url = "http://127.0.0.1:%d/channels?country=%s" % (
+            proxy_url = "http://127.0.0.1:{}/channels?country={}".format(
                 PORT, encoded_country)
-
             response = getUrl(proxy_url, timeout=15)
             if not response:
                 print("[M3U] No response for %s" % country_name)
@@ -1360,9 +1359,6 @@ class vavoo_config(Screen, ConfigListScreen):
 
             if old_position and old_position != cfg.list_position.value:
                 self._reorganize_bouquets_position()
-
-            for x in self["config"].list:
-                x[1].save()
 
             if self.v6 != cfg.ipv6.value:
                 # Se il valore di ipv6 è cambiato, applica i cambiamenti
@@ -1829,9 +1825,7 @@ class MainVavoo(Screen):
             try:
                 # Try to refresh the token
                 response = getUrl(
-                    "http://127.0.0.1:4323/refresh_token",
-                    timeout=5
-                )
+                    "http://127.0.0.1:4323/refresh_token", timeout=5)
                 if response:
                     data = loads(response)
                     if data.get("status") == "success":
@@ -1982,27 +1976,27 @@ class MainVavoo(Screen):
             # === 3. UPDATE INTERFACE ===
             self._update_ui()
 
-            # === 4. START PROXY IN BACKGROUND (ONLY FOR NEXT PHASE) ===
-            # Does NOT block UI, handles its own errors internally
-            if not hasattr(self, '_proxy_bg_started'):
-                def start_bg_proxy():
-                    try:
-                        print(
-                            "[BG] Starting proxy for future channel resolution...")
-                        # Important: do not call initialize_for_country("default")!
-                        # Let the proxy start with its base configuration.
-                        self.start_vavoo_proxy()
-                    except Exception as bg_e:
-                        print(
-                            "[BG] Proxy background start non-critical: %s" %
-                            str(bg_e))
+            # # === 4. START PROXY IN BACKGROUND (ONLY FOR NEXT PHASE) ===
+            # # Does NOT block UI, handles its own errors internally
+            # if not hasattr(self, '_proxy_bg_started'):
+            # def start_bg_proxy():
+            # try:
+            # print(
+            # "[BG] Starting proxy for future channel resolution...")
+            # # Important: do not call initialize_for_country("default")!
+            # # Let the proxy start with its base configuration.
+            # self.start_vavoo_proxy()
+            # except Exception as bg_e:
+            # print(
+            # "[BG] Proxy background start non-critical: %s" %
+            # str(bg_e))
 
-                import threading
-                bg_thread = threading.Thread(
-                    target=start_bg_proxy)
-                bg_thread.setDaemon(True)
-                bg_thread.start()
-                self._proxy_bg_started = True
+            # import threading
+            # bg_thread = threading.Thread(
+            # target=start_bg_proxy)
+            # bg_thread.setDaemon(True)
+            # bg_thread.start()
+            # self._proxy_bg_started = True
 
         except Exception as error:
             print("[MainVavoo] Critical error in cat(): %s" % str(error))
@@ -2512,9 +2506,8 @@ class vavoo(Screen):
                   str(self.country_name))
 
             # URL to initialize the proxy for the specific country
-            init_url = "http://127.0.0.1:4323/initialize_country?country=" + \
-                str(self.country_name)
-
+            init_url = "http://127.0.0.1:4323/initialize_country?country={}".format(
+                self.country_name)
             content = getUrl(init_url, timeout=10)
             if content:
                 if PY3:
@@ -2567,17 +2560,16 @@ class vavoo(Screen):
     def cat(self):
         """Load channels for the selected country with proxy verification and fallback"""
         print("[DEBUG] vavoo.cat() called for country: " + str(self.country_name))
-
+        if not cfg.proxy_enabled.value:
+            print("[vavoo] Proxy disabled, using fallback directly")
+            self._fallback_to_original_method()
+            return
         try:
             # 1. TRY THE PROXY FIRST
             try:
                 country_encoded = url_quote(self.country_name)
-                proxy_url = (
-                    "http://127.0.0.1:" +
-                    str(PORT) +
-                    "/channels?country=" +
-                    country_encoded
-                )
+                proxy_url = "http://127.0.0.1:{}/channels?country={}".format(
+                    PORT, country_encoded)
                 print("[DEBUG] Fetching from proxy: " + proxy_url)
 
                 content = getUrl(proxy_url, timeout=10)
@@ -2761,8 +2753,8 @@ class vavoo(Screen):
                     str(token_age) +
                     "s), forcing refresh...")
                 try:
-                    refresh_url = "http://127.0.0.1:" + \
-                        str(PORT) + "/refresh_token"
+                    refresh_url = "http://127.0.0.1:{}/refresh_token".format(
+                        PORT)
                     getUrl(refresh_url, timeout=3)
                 except Exception:
                     pass
@@ -2785,8 +2777,7 @@ class vavoo(Screen):
 
             # 1. Try token refresh
             try:
-                refresh_url = "http://127.0.0.1:" + \
-                    str(PORT) + "/refresh_token"
+                refresh_url = "http://127.0.0.1:{}/refresh_token".format(PORT)
                 getUrl(refresh_url, timeout=3)
                 print("[vavoo] Token refresh attempted")
             except Exception:
@@ -2848,25 +2839,24 @@ class vavoo(Screen):
             self.timer.start(3000, True)
 
     def start_vavoo_proxy(self):
-        """Start the proxy only if it is not already running"""
-        try:
-            if is_proxy_running():
-                print("[MainVavoo] Proxy already running")
-                return True
-
-            print("[MainVavoo] Starting proxy...")
-            success = run_proxy_in_background()
-
-            if success:
-                print("[MainVavoo] Proxy started")
-                return True
-            else:
-                print("[Vavoo] Proxy start error")
-                return False
-
-        except Exception as e:
-            print("[MainVavoo] Error: {0}".format(e))
+        if not cfg.proxy_enabled.value:
             return False
+        if is_proxy_running():
+            print("[MainVavoo] Proxy already running")
+            return True
+
+        print("[MainVavoo] Starting proxy...")
+        success = run_proxy_in_background()
+        if success:
+            for i in range(10):
+                if is_proxy_ready(timeout=1):
+                    print("[MainVavoo] Proxy ready")
+                    return True
+                time.sleep(1)
+            print("[MainVavoo] Proxy started but not ready after 10s")
+        else:
+            print("[MainVavoo] Proxy start error")
+        return False
 
     def _matches_selection(self, country_field, selected_name):
         """
