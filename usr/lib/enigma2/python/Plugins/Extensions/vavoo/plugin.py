@@ -361,15 +361,17 @@ def to_string(text):
 FNT_Path = join(PLUGIN_PATH, "fonts")
 fonts = []
 try:
-    if file_exists(FNT_Path):
+    if isfile(FNT_Path) is False and file_exists(FNT_Path):
         for font_name in listdir(FNT_Path):
-            font_name_path = join(FNT_Path, font_name)
-            if font_name.endswith(".ttf") or font_name.endswith(".otf"):
-                font_name = font_name[:-4]
-                fonts.append((font_name_path, font_name))
-        fonts = sorted(fonts, key=lambda x: x[1])
+            if font_name.lower().endswith((".ttf", ".otf")):
+                font_path = join(FNT_Path, font_name)
+                font_display = font_name.rsplit(".", 1)[0]
+                fonts.append((font_path, font_display))
+
+        fonts.sort(key=lambda x: x[1].lower())
+
 except Exception as e:
-    print(e)
+    print("Font scan error:", e)
 
 
 def check_vavoo_connectivity():
@@ -4453,20 +4455,24 @@ def add_skin_back(bakk):
         os_system(cmd)
         os_system('sync')
 
-
 def add_skin_font():
-    print('**********addFont')
+    print("********** addFont")
     from enigma import addFont
-    addFont(FNT_Path + '/Lcdx.ttf', 'Lcdx', 100, 1)
-    addFont(str(FONTSTYPE), 'cvfont', 100, 1)
-    addFont(
-        join(
-            str(FNT_Path),
-            'Inconsolata-Regular.ttf'),
-        'Vav',
-        100,
-        1)  # lcd
+    try:
+        lcd_font = join(FNT_Path, "Lcdx.ttf")
+        if isfile(lcd_font):
+            addFont(lcd_font, "Lcdx", 100, 1)
 
+        if FONTSTYPE and isfile(FONTSTYPE):
+            addFont(FONTSTYPE, "cvfont", 100, 1)
+
+        inconsolata = join(FNT_Path, "Inconsolata-Regular.ttf")
+        if isfile(inconsolata):
+            addFont(inconsolata, "Vav", 100, 1)
+
+    except Exception as e:
+        print("addFont error:", e)
+        
 
 def cfgmain(menuid, **kwargs):
     if menuid == "mainmenu":
