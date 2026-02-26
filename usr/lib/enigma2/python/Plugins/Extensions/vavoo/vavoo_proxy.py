@@ -34,7 +34,6 @@ import uuid
 import time
 import threading
 import socket
-import os
 from json import loads, dumps
 
 _starting_lock = threading.Lock()
@@ -46,23 +45,7 @@ try:
 except NameError:
     unicode = str
 
-
-try:
-    from io import BytesIO
-except ImportError:
-    from StringIO import StringIO as BytesIO
-
 socket.setdefaulttimeout(30)
-
-try:
-    from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
-    from urlparse import urlparse, parse_qs
-    print("[Proxy] Python 2 detected")
-except ImportError:
-    from http.server import BaseHTTPRequestHandler, HTTPServer
-    from urllib.parse import urlparse, parse_qs
-    print("[Proxy] Python 3 detected")
-
 
 try:
     BrokenPipeError
@@ -75,17 +58,23 @@ except NameError:
     ConnectionResetError = socket.error
 
 try:
-    text_type = unicode
+    ConnectionError
 except NameError:
-    text_type = str
+    ConnectionError = socket.error
+
+
+try:
+    from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
+    from urlparse import urlparse, parse_qs
+    print("[Proxy] Python 2 detected")
+except ImportError:
+    from http.server import BaseHTTPRequestHandler, HTTPServer
+    from urllib.parse import urlparse, parse_qs
+    print("[Proxy] Python 3 detected")
 
 
 class ReusableHTTPServer(HTTPServer):
     allow_reuse_address = True
-
-    def server_bind(self):
-        self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        HTTPServer.server_bind(self)
 
 
 # ========== CONFIGURAZIONE ==========
@@ -126,7 +115,7 @@ Description: Gracefully shuts down the proxy server.
 
 # API Endpoints
 TOKEN_ADDON_SIG = 600  # 10 minutes - TOKEN EXPIRES EVERY 10 MINUTES!
-TOKEN_REFRESH_AGE = 480  # 8 minutes
+TOKEN_REFRESH_AGE = 480
 PORT = 4323
 GEOIP_URL = "https://www.vavoo.tv/geoip"
 PING_URL = "https://www.lokke.app/api/app/ping"
@@ -145,11 +134,7 @@ HEADERS = {
 def decode_response(resp):
     """Decode gzip response if needed"""
     if resp.content[:2] == b'\x1f\x8b':
-        gz = gzip.GzipFile(fileobj=BytesIO(resp.content))
-        try:
-            return loads(gz.read())
-        finally:
-            gz.close()
+        return loads(gzip.decompress(resp.content))
     return resp.json()
 
 
@@ -168,7 +153,7 @@ class ProxyHealthMonitor:
         """Start the background health monitor"""
         self.running = True
         self.monitor_thread = threading.Thread(
-            target=self._monitor_loop
+            target=self._monitor_loop,
         )
         self.monitor_thread.setDaemon(True)
         self.monitor_thread.start()
@@ -239,7 +224,6 @@ class ProxyHealthMonitor:
             self.failure_count = 0
 
     def _restart_proxy(self):
-        """Attempt to restart the proxy"""
         try:
             # 1. Try to shut down the current proxy
             try:
@@ -252,7 +236,7 @@ class ProxyHealthMonitor:
 
             # 2. Kill proxy python processes
             import subprocess
-            with open(os.devnull, 'wb') as devnull:
+            with open('/dev/null', 'w') as devnull:
                 subprocess.call(
                     ["pkill", "-f", "python.*vavoo_proxy"],
                     stdout=devnull,
@@ -265,38 +249,40 @@ class ProxyHealthMonitor:
             proxy = VavooProxy()
 
             if proxy.initialize_proxy():
-                # Restart HTTP server
                 server = ReusableHTTPServer(
-                    ('0.0.0.0', PORT),
-                    VavooHTTPHandler
-                )
+                    ('0.0.0.0', PORT), VavooHTTPHandler)
                 proxy.server = server
-
-                # Start server in a separate thread
                 server_thread = threading.Thread(
-                    target=server.serve_forever
-                )
+                    target=server.serve_forever)
                 server_thread.setDaemon(True)
                 server_thread.start()
-
                 print("[Health Monitor] Proxy restarted successfully")
                 return True
 
         except Exception as e:
-            print(
-                "[Health Monitor] Failed to restart proxy: " +
-                str(e)
-            )
-
+            print("[Health Monitor] Failed to restart proxy: " + str(e))
         return False
 
 
 class VavooProxy:
     def __init__(self):
-        self.session = None
-        self._configure_session()
+        self.session = requests.Session()
+        self.session.headers.update(HEADERS)
 
-        self.addon_sig_lock = threading.RLock()
+        # 1. ADAPTER IMPROVED: more intelligent retries
+        adapter = requests.adapters.HTTPAdapter(
+            pool_connections=5,
+            pool_maxsize=5,
+            max_retries=2,
+            pool_block=False
+        )
+        self.session.mount('http://', adapter)
+        self.session.mount('https://', adapter)
+
+        # 2. REPLACE request wrapper with safer version
+        self.session.request = self._robust_request
+
+        self.addon_sig_lock = threading.Lock()
         self.addon_sig_data = {"sig": None, "ts": 0}
         self.all_filtered_items = []
         self.initialized = False
@@ -307,129 +293,55 @@ class VavooProxy:
         self.last_heartbeat = time.time()
         self.server = None
         self.start_time = time.time()
-        self.shutdown_requested = False
-        self.running = True
-        self.token_monitor_thread = None
 
         # 3. Start periodic refresh and Token Monitor
         self.start_periodic_refresh()
         self.start_token_monitor()
         print("[Proxy] Initialized at " + time.ctime())
 
-    def _configure_session(self):
-        """Create and configure a requests session"""
-        self.session = requests.Session()
-        self.session.headers.update(HEADERS)
-
-        adapter = requests.adapters.HTTPAdapter(
-            pool_connections=5,
-            pool_maxsize=5,
-            max_retries=2,
-            pool_block=False
-        )
-        self.session.mount('http://', adapter)
-        self.session.mount('https://', adapter)
-        self.session.request = self._robust_request
-
-    def _thread_is_alive(self, thread_obj):
-        """Python 2/3 compatible thread alive check"""
-        if not thread_obj:
-            return False
-        is_alive = getattr(thread_obj, "is_alive", None)
-        if callable(is_alive):
-            return is_alive()
-        return thread_obj.isAlive()
-
-    def ensure_background_tasks_running(self):
-        """Ensure monitor thread/timer/session are active"""
-        self.running = True
-
-        if self.session is None:
-            self._configure_session()
-
-        if not self._thread_is_alive(self.token_monitor_thread):
-            self.start_token_monitor()
-
-        if not self.refresh_timer:
-            self.start_periodic_refresh()
-
     def _robust_request(self, method, url, **kwargs):
-        """Request helper with controlled retries and endpoint fallback"""
+        """Simplified and safer version"""
+        # Set reasonable timeouts
         if 'timeout' not in kwargs:
             kwargs['timeout'] = (5, 15)  # 5s connect, 15s read
 
-        retries = kwargs.pop('retries', 3)
-        if retries < 1:
-            retries = 1
-
-        candidate_urls = [url]
-        if "vavoo.to" in url:
-            candidate_urls.append(url.replace("vavoo.to", "www.vavoo.tv"))
-
-        last_exception = None
-
-        for candidate_url in candidate_urls:
-            for attempt in range(retries):
-                try:
-                    response = requests.Session.request(
-                        self.session, method, candidate_url, **kwargs)
-                    return response
-                except (requests.exceptions.Timeout, socket.timeout) as e:
-                    last_exception = e
-                    print("[Proxy] Timeout on " + str(candidate_url) +
-                          " (attempt " + str(attempt + 1) +
-                          "/" + str(retries) + "): " + str(e))
-                except requests.exceptions.ConnectionError as e:
-                    last_exception = e
-                    print("[Proxy] Connection error on " + str(candidate_url) +
-                          " (attempt " + str(attempt + 1) +
-                          "/" + str(retries) + "): " + str(e))
-                except Exception as e:
-                    last_exception = e
-                    print("[Proxy] Error on " + str(candidate_url) +
-                          " (attempt " + str(attempt + 1) +
-                          "/" + str(retries) + "): " + str(e))
-
-                if attempt < retries - 1:
-                    time.sleep(2 ** attempt)
-
-            if candidate_url != candidate_urls[-1]:
-                print("[Proxy] Falling back to alternate endpoint...")
-
-        if last_exception:
-            raise last_exception
-
-        raise RuntimeError(
-            "Request failed without exception for URL: " +
-            str(url))
+        try:
+            # SINGLE REQUEST, no infinite retries
+            response = requests.Session.request(
+                self.session, method, url, **kwargs)
+            return response
+        except (requests.exceptions.Timeout, socket.timeout) as e:
+            print("[Proxy] Timeout on " + str(url) + ": " + str(e))
+            raise
+        except requests.exceptions.ConnectionError as e:
+            print("[Proxy] Connection error on " + str(url) + ": " + str(e))
+            raise
+        except Exception as e:
+            print("[Proxy] Error on " + str(url) + ": " + str(e))
+            raise
 
     def start_token_monitor(self):
         """Monitor and refresh token automatically"""
         def token_monitor_loop():
-            while self.running:
+            while True:
                 time.sleep(30)  # Check every 30 seconds
                 try:
-                    now = time.time()
-                    should_refresh = False
-
                     with self.addon_sig_lock:
+                        now = time.time()
                         if self.addon_sig_data["sig"]:
                             token_age = now - self.addon_sig_data["ts"]
                             # Refresh if token older than 8 minutes (480s)
-                            should_refresh = token_age > TOKEN_REFRESH_AGE
-
-                    if should_refresh:
-                        print("[Token Monitor] Token old (" +
-                              str(int(token_age)) + "s), refreshing...")
-                        self.refresh_addon_sig_if_needed(force=True)
+                            if token_age > TOKEN_REFRESH_AGE:
+                                print("[Token Monitor] Token old (" + \
+                                      str(int(token_age)) + "s), refreshing...")
+                                self.refresh_addon_sig_if_needed(force=True)
 
                     # ALSO: Send heartbeat to keep connections alive
-                    if self.session:
-                        try:
-                            self.session.head("https://vavoo.to/", timeout=5)
-                            self.last_heartbeat = now
-                        except Exception as e:
-                            print("[Token Monitor] Heartbeat error: " + str(e))
+                    try:
+                        self.session.head("https://vavoo.to/", timeout=5)
+                        self.last_heartbeat = now
+                    except Exception as e:
+                        print("[Token Monitor] Heartbeat error: " + str(e))
 
                 except Exception as e:
                     print("[Token Monitor] Error: " + str(e))
@@ -438,7 +350,6 @@ class VavooProxy:
             target=token_monitor_loop)
         monitor_thread.setDaemon(True)
         monitor_thread.start()
-        self.token_monitor_thread = monitor_thread
         print("[Proxy] Token monitor started (with heartbeat)")
 
     def start_periodic_refresh(self):
@@ -450,16 +361,10 @@ class VavooProxy:
             TOKEN_REFRESH_AGE, self._periodic_refresh_task)
         self.refresh_timer.setDaemon(True)
         self.refresh_timer.start()
-        print(
-            "[Proxy] Periodic refresh scheduled (" +
-            str(TOKEN_REFRESH_AGE) +
-            "s)")
+        print("[Proxy] Periodic refresh scheduled (480s)")
 
     def _periodic_refresh_task(self):
         """Periodic task to refresh token"""
-        if not self.running:
-            return
-
         try:
             print("[Proxy] Periodic refresh task running...")
             sig = self.refresh_addon_sig_if_needed(force=True)
@@ -469,42 +374,14 @@ class VavooProxy:
             print("[Proxy] Error in periodic refresh: " + str(e))
 
         # Schedule next refresh
-        if self.running:
-            self.start_periodic_refresh()
-
-    def stop_background_tasks(self):
-        """Stop timers/threads and close network resources"""
-        self.running = False
-
-        if self.refresh_timer:
-            try:
-                self.refresh_timer.cancel()
-            except Exception:
-                pass
-            self.refresh_timer = None
-
-        if self.token_monitor_thread and self._thread_is_alive(
-                self.token_monitor_thread):
-            try:
-                self.token_monitor_thread.join(1)
-            except Exception:
-                pass
-
-        if self.session:
-            try:
-                self.session.close()
-            except Exception:
-                pass
-            self.session = None
-
-        self.token_monitor_thread = None
+        self.start_periodic_refresh()
 
     def refresh_addon_sig_if_needed(self, force=False):
         """Refresh the addonSig if needed with better error handling"""
         with self.addon_sig_lock:
             now = time.time()
             if not force and self.addon_sig_data["sig"] and (
-                    now - self.addon_sig_data["ts"] < TOKEN_REFRESH_AGE):  # 8 minutes
+                    now - self.addon_sig_data["ts"] < 300):  # 8 minutes
                 return self.addon_sig_data["sig"]
 
             try:
@@ -565,10 +442,10 @@ class VavooProxy:
                             break  # Found, exit loop
                         else:
                             print(
-                                "[AddonSig] No addonSig received from {0}".format(url))
+                                "[AddonSig] No addonSig received from {}".format(url))
                     except Exception as e:
                         print(
-                            "[AddonSig] Request to {0} failed: {1}".format(
+                            "[AddonSig] Request to {} failed: {}".format(
                                 url, e))
 
                 if sig:
@@ -918,61 +795,15 @@ class VavooProxy:
 class VavooHTTPHandler(BaseHTTPRequestHandler):
     timeout = 10
 
-    def open_upstream_stream(self, stream_url, channel_id, max_attempts=3):
-        """Open an upstream stream with retries and bounded timeouts"""
-        last_error = None
-
-        for attempt in range(max_attempts):
-            try:
-                upstream = proxy.session.get(
-                    stream_url,
-                    stream=True,
-                    timeout=(5, 15)
-                )
-                upstream.raise_for_status()
-                return upstream, None
-            except requests.exceptions.Timeout as e:
-                last_error = e
-                print(
-                    "[Proxy] CRITICAL: Cannot reach upstream stream for channel " +
-                    str(channel_id) +
-                    " (attempt " + str(attempt + 1) +
-                    "/" + str(max_attempts) + "): " +
-                    str(e)
-                )
-            except requests.exceptions.ConnectionError as e:
-                last_error = e
-                print(
-                    "[Proxy] Connection error to upstream for channel " +
-                    str(channel_id) +
-                    " (attempt " + str(attempt + 1) +
-                    "/" + str(max_attempts) + "): " +
-                    str(e)
-                )
-            except requests.exceptions.RequestException as e:
-                last_error = e
-                print(
-                    "[Proxy] Upstream request failure for channel " +
-                    str(channel_id) +
-                    " (attempt " + str(attempt + 1) +
-                    "/" + str(max_attempts) + "): " +
-                    str(e)
-                )
-
-            if attempt < max_attempts - 1:
-                time.sleep(2 ** attempt)
-
-        return None, last_error
-
     def safe_write(self, data):
-        """Safe write that handles BrokenPipeError"""
         try:
-            if isinstance(data, text_type):
+            if isinstance(data, unicode):
                 data = data.encode('utf-8')
+            elif not isinstance(data, bytes):
+                data = str(data).encode('utf-8')
             self.wfile.write(data)
             self.wfile.flush()
-        except (BrokenPipeError, ConnectionResetError):
-            print("[Proxy] Client disconnected during write - ignoring")
+        except (socket.error, IOError):
             return False
         return True
 
@@ -1037,20 +868,14 @@ class VavooHTTPHandler(BaseHTTPRequestHandler):
                                 "[Proxy] WARNING: Upstream stream returned empty data for channel: " +
                                 channel_id)
 
-                    except requests.exceptions.Timeout as e:
+                    except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
                         print(
-                            "[Proxy] WARNING: Upstream test timeout for channel " +
+                            "[Proxy] CRITICAL: Cannot reach upstream stream for channel " +
                             channel_id +
                             ": " +
-                            str(e) +
-                            " (continuing with redirect)")
-                    except requests.exceptions.ConnectionError as e:
-                        print(
-                            "[Proxy] WARNING: Upstream preflight connection issue for channel " +
-                            channel_id +
-                            ": " +
-                            str(e) +
-                            " (continuing with redirect)")
+                            str(e))
+                        self.send_error(502, "Cannot connect to video source")
+                        return
                     except Exception as e:
                         print(
                             "[Proxy] Warning during stream test for " +
@@ -1104,16 +929,10 @@ class VavooHTTPHandler(BaseHTTPRequestHandler):
                         self.send_error(404, "Stream not resolved")
                         return
 
-                    # 2. Connect to upstream with streaming (retry-aware)
-                    upstream, last_error = self.open_upstream_stream(
-                        stream_url, channel_id)
-
-                    if not upstream:
-                        error_msg = "Unable to reach upstream stream"
-                        if last_error:
-                            error_msg += ": " + str(last_error)
-                        self.send_error(504, error_msg)
-                        return
+                    # 2. Connect to upstream with streaming
+                    upstream = proxy.session.get(
+                        stream_url, stream=True, timeout=30)
+                    upstream.raise_for_status()
 
                     # 3. Send headers to player
                     if not self.safe_send_response(200):
@@ -1141,7 +960,7 @@ class VavooHTTPHandler(BaseHTTPRequestHandler):
                                         "[Proxy Stream] Upstream timeout for channel: " + channel_id)
                                     break
                                 time.sleep(0.1)
-                    except (socket.timeout, socket.error, ConnectionResetError, BrokenPipeError) as e:
+                    except (socket.timeout, ConnectionError, BrokenPipeError) as e:
                         print("[Proxy Stream] Downstream error: " + str(e))
                     finally:
                         upstream.close()
@@ -1243,7 +1062,7 @@ class VavooHTTPHandler(BaseHTTPRequestHandler):
                     now = time.time()
                     token_age = now - proxy.addon_sig_data["ts"]
                     token_valid = proxy.addon_sig_data["sig"] is not None
-                    needs_refresh = token_age > TOKEN_REFRESH_AGE  # 8 minutes
+                    needs_refresh = token_age > 300  # 8 minutes
 
                     # Calculate token expiration
                     ttl = max(0, TOKEN_ADDON_SIG - int(token_age))
@@ -1319,22 +1138,17 @@ class VavooHTTPHandler(BaseHTTPRequestHandler):
                     return
 
             elif parsed_path.path == '/shutdown':
-                proxy.shutdown_requested = True
-                proxy.stop_background_tasks()
-
                 if not self.safe_send_response(200):
                     return
                 self.send_header('Content-Type', 'text/plain')
                 self.end_headers()
-                self.safe_write(b"Proxy shutting down...")
+                if not self.safe_write(b"Proxy shutting down..."):
+                    return
 
                 def shutdown_server():
                     time.sleep(1)
                     if proxy.server:
-                        try:
-                            proxy.server.shutdown()
-                        finally:
-                            proxy.server.server_close()
+                        proxy.server.shutdown()
 
                 t = threading.Thread(target=shutdown_server)
                 t.setDaemon(True)
@@ -1392,11 +1206,6 @@ proxy = VavooProxy()
 def shutdown_proxy():
     """Shutdown the proxy server if running."""
     try:
-        proxy.stop_background_tasks()
-    except Exception:
-        pass
-
-    try:
         response = requests.get(
             "http://127.0.0.1:{}/shutdown".format(PORT), timeout=2)
         if response.status_code == 200:
@@ -1423,10 +1232,6 @@ def start_proxy():
     max_restarts = 3
     restart_count = 0
 
-    # Reset stale shutdown flag when starting a new lifecycle
-    proxy.shutdown_requested = False
-    proxy.ensure_background_tasks_running()
-
     while restart_count < max_restarts:
         try:
             print("=" * 50)
@@ -1445,40 +1250,7 @@ def start_proxy():
                     print("[✗] Max restart attempts reached")
                     return False
 
-            try:
-                server = ReusableHTTPServer(
-                    ('0.0.0.0', PORT), VavooHTTPHandler)
-            except socket.error as bind_error:
-                err_no = getattr(bind_error, 'errno', None)
-                if err_no is None and bind_error.args:
-                    err_no = bind_error.args[0]
-
-                if err_no == 98:
-                    print("[!] Port " + str(PORT) + " already in use")
-                    try:
-                        response = requests.get(
-                            "http://127.0.0.1:{0}/status".format(PORT),
-                            timeout=2
-                        )
-                        if response.status_code == 200:
-                            print(
-                                "[✓] Existing proxy instance is already running")
-                            proxy.stop_background_tasks()
-                            return True
-                    except Exception:
-                        pass
-
-                    print("[!] Stale process detected, attempting cleanup...")
-                    try:
-                        import subprocess
-                        subprocess.call(["pkill", "-f", "python.*vavoo_proxy"])
-                        time.sleep(2)
-                        continue
-                    except Exception as cleanup_error:
-                        print("[✗] Cleanup failed: " + str(cleanup_error))
-
-                raise
-
+            server = ReusableHTTPServer(('0.0.0.0', PORT), VavooHTTPHandler)
             server.timeout = 30
             server.request_queue_size = 10
             proxy.server = server
@@ -1497,7 +1269,6 @@ def start_proxy():
                 server.serve_forever(poll_interval=0.5)
             except KeyboardInterrupt:
                 print("\n[!] Proxy stopped by user")
-                proxy.stop_background_tasks()
                 break
             except Exception as e:
                 print("[✗] Server error: " + str(e))
@@ -1514,11 +1285,6 @@ def start_proxy():
                             pass
                     proxy = VavooProxy()  # Recreate proxy
                     continue
-
-            if proxy.shutdown_requested:
-                print("[✓] Proxy shutdown requested")
-                proxy.stop_background_tasks()
-                break
 
         except Exception as e:
             print("[✗] Critical error: " + str(e))
@@ -1558,7 +1324,6 @@ def run_proxy_in_background():
                 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                     s.settimeout(1)
                     return s.connect_ex(('127.0.0.1', PORT)) == 0
-
             except BaseException:
                 return False
 
@@ -1566,7 +1331,6 @@ def run_proxy_in_background():
         if is_proxy_running():
             from os import system
             try:
-
                 response = requests.get(
                     "http://127.0.0.1:{}/status".format(PORT), timeout=2)
                 if response.status_code == 200:
@@ -1582,7 +1346,8 @@ def run_proxy_in_background():
                 time.sleep(2)
 
         # Start new proxy
-        proxy_thread = threading.Thread(target=start_proxy, daemon=True)
+        proxy_thread = threading.Thread(target=start_proxy)
+        proxy_thread.setDaemon(True)
         proxy_thread.start()
 
         # Wait for startup with longer timeout
