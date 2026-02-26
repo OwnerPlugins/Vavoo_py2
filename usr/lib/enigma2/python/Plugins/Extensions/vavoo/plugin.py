@@ -373,9 +373,8 @@ except Exception as e:
 
 
 def check_vavoo_connectivity():
-    """Test connectivity to vavoo.to"""
     try:
-        test_url = "https://huhu.to"
+        test_url = "https://vavoo.to"
         if requests is not None:
             response = requests.get(test_url, timeout=5)
             status_code = response.status_code
@@ -385,15 +384,14 @@ def check_vavoo_connectivity():
                     'User-Agent': vUtils.RequestAgent()})
             response = urlopen(req, timeout=5)
             status_code = getattr(response, 'getcode', lambda: 0)() or 0
-
         if status_code == 200:
-            print("[Connectivity] huhu.to is reachable")
+            print("[Connectivity] vavoo.to is reachable")
             return True
 
-        print("[Connectivity] huhu.to returned {0}".format(status_code))
+        print("[Connectivity] vavoo.to returned {0}".format(status_code))
         return False
     except Exception as e:
-        print("[Connectivity] Cannot reach huhu.to: {0}".format(e))
+        print("[Connectivity] Cannot reach vavoo.to: {0}".format(e))
         return False
 
 
@@ -406,10 +404,10 @@ class ConfigSearchText(ConfigText):
 
 config.plugins.vavoo = ConfigSubsection()
 cfg = config.plugins.vavoo
-cfg.proxy_enabled = ConfigEnableDisable(default=False)
+cfg.proxy_enabled = ConfigEnableDisable(default=True)
 cfg.autobouquetupdate = ConfigEnableDisable(default=False)
 cfg.genm3u = NoSave(ConfigYesNo(default=False))
-cfg.server = ConfigSelection(default="https://huhu.to", choices=myser)
+cfg.server = ConfigSelection(default="https://vavoo.to", choices=myser)
 cfg.services = ConfigSelection(default='4097', choices=modemovie)
 cfg.timerupdate = ConfigSelectionNumber(default=5, min=1, max=60, stepwidth=1)
 cfg.timetype = ConfigSelection(
@@ -538,7 +536,7 @@ def zServer(opt=0, server=None, port=None):
             return str(server)
     except HTTPError as err:
         print(err.code)
-        return 'https://huhu.to'
+        return 'https://vavoo.to'
 
 
 # menulist
@@ -4461,7 +4459,13 @@ def add_skin_font():
     from enigma import addFont
     addFont(FNT_Path + '/Lcdx.ttf', 'Lcdx', 100, 1)
     addFont(str(FONTSTYPE), 'cvfont', 100, 1)
-    addFont(join(str(FNT_Path), 'vav.ttf'), 'Vav', 100, 1)  # lcd
+    addFont(
+        join(
+            str(FNT_Path),
+            'Inconsolata-Regular.ttf'),
+        'Vav',
+        100,
+        1)  # lcd
 
 
 def cfgmain(menuid, **kwargs):
