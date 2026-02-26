@@ -4455,6 +4455,7 @@ def add_skin_back(bakk):
         os_system(cmd)
         os_system('sync')
 
+
 def add_skin_font():
     print("********** addFont")
     from enigma import addFont
@@ -4472,7 +4473,7 @@ def add_skin_font():
 
     except Exception as e:
         print("addFont error:", e)
-        
+
 
 def cfgmain(menuid, **kwargs):
     if menuid == "mainmenu":
