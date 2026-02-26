@@ -71,7 +71,7 @@ except ImportError:
     from http.server import BaseHTTPRequestHandler, HTTPServer
     from urllib.parse import urlparse, parse_qs
     print("[Proxy] Python 3 detected")
-    
+
 
 class ReusableHTTPServer(HTTPServer):
     allow_reuse_address = True
@@ -249,7 +249,8 @@ class ProxyHealthMonitor:
             proxy = VavooProxy()
 
             if proxy.initialize_proxy():
-                server = ReusableHTTPServer(('0.0.0.0', PORT), VavooHTTPHandler)
+                server = ReusableHTTPServer(
+                    ('0.0.0.0', PORT), VavooHTTPHandler)
                 proxy.server = server
                 server_thread = threading.Thread(
                     target=server.serve_forever)
