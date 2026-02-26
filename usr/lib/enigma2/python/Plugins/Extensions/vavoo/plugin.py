@@ -366,7 +366,7 @@ try:
             font_name_path = join(FNT_Path, font_name)
             if font_name.endswith(".ttf") or font_name.endswith(".otf"):
                 font_name = font_name[:-4]
-                fonts.append((font_name, font_name))
+                fonts.append((font_name_path, font_name))
         fonts = sorted(fonts, key=lambda x: x[1])
 except Exception as e:
     print(e)
