@@ -131,6 +131,20 @@ HEADERS = {
 }
 
 
+def safe_close_server(server):
+    try:
+        if server:
+            try:
+                server.shutdown()
+            except:
+                pass
+            try:
+                server.server_close()
+            except:
+                pass
+    except:
+        pass
+
 def decode_response(resp):
     """Decode gzip response if needed"""
     if resp.content[:2] == b'\x1f\x8b':
@@ -1138,20 +1152,18 @@ class VavooHTTPHandler(BaseHTTPRequestHandler):
                     return
 
             elif parsed_path.path == '/shutdown':
-                if not self.safe_send_response(200):
-                    return
+                self.safe_send_response(200)
                 self.send_header('Content-Type', 'text/plain')
                 self.end_headers()
-                if not self.safe_write(b"Proxy shutting down..."):
-                    return
+                self.safe_write(b"Proxy shutting down...\n")
 
                 def shutdown_server():
                     time.sleep(1)
-                    if proxy.server:
-                        proxy.server.shutdown()
+                    if proxy and proxy.server:
+                        safe_close_server(proxy.server)
 
                 t = threading.Thread(target=shutdown_server)
-                t.setDaemon(True)
+                t.daemon = True  # Py2/3 compatible
                 t.start()
 
             else:
@@ -1226,87 +1238,61 @@ def shutdown_proxy():
 
 
 def start_proxy():
-    """Start the proxy server with restart on failure"""
-
     global proxy
+
     max_restarts = 3
     restart_count = 0
 
     while restart_count < max_restarts:
+
+        server = None
+
         try:
             print("=" * 50)
-            print("VAVOO PROXY v1.0 (Attempt " +
-                  str(restart_count + 1) + "/" + str(max_restarts) + ")")
+            print("VAVOO PROXY START")
             print("=" * 50)
 
+            proxy = VavooProxy()
+
             if not proxy.initialize_proxy():
-                print("[✗] Failed to initialize proxy")
+                print("[✗] Initialization failed")
                 restart_count += 1
-                if restart_count < max_restarts:
-                    time.sleep(3)
-                    proxy = VavooProxy()  # Recreate proxy
-                    continue
-                else:
-                    print("[✗] Max restart attempts reached")
-                    return False
+                time.sleep(3)
+                continue
 
             server = ReusableHTTPServer(('0.0.0.0', PORT), VavooHTTPHandler)
             server.timeout = 30
             server.request_queue_size = 10
             proxy.server = server
-            local_ip = proxy.get_local_ip()
 
-            print("[✓] Channels: " + str(len(proxy.all_filtered_items)))
-            print("[✓] IP: " + str(local_ip) + ":" + str(PORT))
-            print("[✓] Timeout: " + str(server.timeout) + "s")
+            print("[✓] Channels: %s" % len(proxy.all_filtered_items))
+            print("[✓] IP: %s:%s" % (proxy.get_local_ip(), PORT))
             print("[✓] Ready")
             print("=" * 50)
 
-            # Reset restart counter on success
             restart_count = 0
 
-            try:
-                server.serve_forever(poll_interval=0.5)
-            except KeyboardInterrupt:
-                print("\n[!] Proxy stopped by user")
-                break
-            except Exception as e:
-                print("[✗] Server error: " + str(e))
-                restart_count += 1
-                if restart_count < max_restarts:
-                    print("[!] Restarting proxy in 5 seconds...")
-                    time.sleep(5)
-                    # Shutdown old server if exists
-                    if proxy.server:
-                        try:
-                            proxy.server.shutdown()
-                            proxy.server.server_close()
-                        except BaseException:
-                            pass
-                    proxy = VavooProxy()  # Recreate proxy
-                    continue
+            server.serve_forever(poll_interval=0.5)
+
+        except KeyboardInterrupt:
+            print("[!] Proxy stopped by user")
+            break
 
         except Exception as e:
-            print("[✗] Critical error: " + str(e))
-            from .vUtils import trace_error
-            trace_error()
+            print("[✗] Server error: %s" % str(e))
             restart_count += 1
             if restart_count < max_restarts:
-                print("[!] Restarting proxy in 5 seconds...")
+                print("[!] Restarting in 5 seconds...")
                 time.sleep(5)
-                # Shutdown old server if exists
-                if proxy.server:
-                    try:
-                        proxy.server.shutdown()
-                        proxy.server.server_close()
-                    except BaseException:
-                        pass
-                proxy = VavooProxy()  # Recreate proxy
-                continue
 
-    print("[✗] Proxy cannot start after " + str(max_restarts) + " attempts")
+        finally:
+            print("[*] Closing server...")
+            safe_close_server(server)
+            proxy.server = None
+            time.sleep(1)
+
+    print("[✗] Proxy stopped after %s attempts" % max_restarts)
     return False
-
 
 def run_proxy_in_background():
     """Start the proxy in background only if it is not already running"""
