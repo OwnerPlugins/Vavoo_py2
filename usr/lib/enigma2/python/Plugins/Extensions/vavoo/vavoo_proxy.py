@@ -169,7 +169,7 @@ class ProxyHealthMonitor:
         self.monitor_thread = threading.Thread(
             target=self._monitor_loop,
         )
-        self.monitor_thread.setDaemon(True)
+        self.monitor_thread.daemon = True
         self.monitor_thread.start()
         print("[Proxy Health Monitor] Started")
 
@@ -268,7 +268,7 @@ class ProxyHealthMonitor:
                 proxy.server = server
                 server_thread = threading.Thread(
                     target=server.serve_forever)
-                server_thread.setDaemon(True)
+                server_thread.daemon = True
                 server_thread.start()
                 print("[Health Monitor] Proxy restarted successfully")
                 return True
@@ -362,7 +362,7 @@ class VavooProxy:
 
         monitor_thread = threading.Thread(
             target=token_monitor_loop)
-        monitor_thread.setDaemon(True)
+        monitor_thread.daemon = True
         monitor_thread.start()
         print("[Proxy] Token monitor started (with heartbeat)")
 
@@ -373,7 +373,7 @@ class VavooProxy:
 
         self.refresh_timer = threading.Timer(
             TOKEN_REFRESH_AGE, self._periodic_refresh_task)
-        self.refresh_timer.setDaemon(True)
+        self.refresh_timer.daemon = True
         self.refresh_timer.start()
         print("[Proxy] Periodic refresh scheduled (480s)")
 
@@ -1333,7 +1333,7 @@ def run_proxy_in_background():
 
         # Start new proxy
         proxy_thread = threading.Thread(target=start_proxy)
-        proxy_thread.setDaemon(True)
+        proxy_thread.daemon = True
         proxy_thread.start()
 
         # Wait for startup with longer timeout

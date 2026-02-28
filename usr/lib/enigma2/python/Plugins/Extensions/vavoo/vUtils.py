@@ -1333,7 +1333,7 @@ def preload_country_flags(country_list, cache_dir="/tmp/vavoo_flags"):
             target=download_flags_worker,
             args=(chunk,)
         )
-        t.setDaemon(True)
+        t.daemon = True
         t.start()
         threads.append(t)
 

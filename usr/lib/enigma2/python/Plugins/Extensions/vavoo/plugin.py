@@ -714,7 +714,7 @@ def keep_proxy_alive():
 
     # Start monitor thread
     monitor_thread = threading.Thread(target=monitor_proxy)
-    monitor_thread.setDaemon(True)
+    monitor_thread.daemon = True
     monitor_thread.start()
     return monitor_thread
 
@@ -1694,7 +1694,7 @@ class MainVavoo(Screen):
 
                     print("[Background] Finished downloading remaining flags")
                 thread = threading.Thread(target=download_rest)
-                thread.setDaemon(True)
+                thread.daemon = True
                 thread.start()
 
         except Exception as e:
@@ -1994,7 +1994,7 @@ class MainVavoo(Screen):
             # import threading
             # bg_thread = threading.Thread(
             # target=start_bg_proxy)
-            # bg_thread.setDaemon(True)
+            # bg_thread.daemon = True
             # bg_thread.start()
             # self._proxy_bg_started = True
 
