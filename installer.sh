@@ -1,7 +1,7 @@
 #!/bin/bash
 
-version='1.50'
-changelog='\nFix Openwebif\nOffer coffee please :)'
+version='2.50'
+changelog='\nBig Fix\nOffer coffee please :)'
 
 TMPPATH=/tmp/vavoo-install
 FILEPATH=/tmp/Vavoo_py2-main.tar.gz
@@ -105,7 +105,7 @@ cleanup
 mkdir -p "$TMPPATH"
 
 echo "Downloading vavoo..."
-wget --no-check-certificate 'https://github.com/Belfagor2005/Vavoo_py2/archive/refs/heads/main.tar.gz' -O "$FILEPATH"
+wget --no-check-certificate 'https://github.com/Belfagor2005/vavoo/archive/refs/heads/main.tar.gz' -O "$FILEPATH"
 if [ $? -ne 0 ]; then
     echo "Failed to download vavoo package!"
     cleanup
