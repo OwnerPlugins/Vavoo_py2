@@ -19,192 +19,192 @@ msgstr ""
 "X-Poedit-SearchPath-5: vUtils.py\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d chaînes)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d chaînes) ?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s fichiers supprimés)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Actualisation automatique du jeton toutes les 9 minutes"
 
 #, fuzzy
 msgid "- Automatic bouquet generation"
 msgstr "Mise à jour automatique active du bouquet"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Catégorie bouquets"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- L'utilisation commerciale est strictement interdite"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Communauté : Linuxsat-support.com, Forum Corvoboys"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Bouquets en contenants"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Bouquets champêtres"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Pour usage personnel uniquement"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Contenu gratuit uniquement"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Graphismes : @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- Diffusion HTTP en direct"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Système proxy intégré"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Pas d'hébergement direct sur serveur"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- La redistribution doit maintenir l'attribution"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Références services : 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Flux provenant de sources publiques"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "-Formats TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Support technique : Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
 msgstr "Mise à jour automatique active du bouquet"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "LAN Ipv6 actif ou désactivé."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Tous les pays (%d)"
 
 #, fuzzy
 msgid "At an interval hours or fixed time"
 msgstr "A intervalles d'heures ou à heure fixe"
 
 msgid "Author:"
-msgstr ""
+msgstr "Auteur:"
 
 msgid "Back"
 msgstr "Retour"
 
 msgid "Backspace"
-msgstr ""
+msgstr "Retour arrière"
 
 msgid "Bottom"
-msgstr ""
+msgstr "Bas"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Bouquet '%(name)s' créé avec succès !"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Position du bouquet dans la liste"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Erreur de création du bouquet : %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Bouquets réorganisés avec succès !"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Annuler l'exécution ?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Cas: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Journal des modifications : {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Canaux : %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Vérification du proxy..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Tout effacer"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Configuration enregistrée avec succès !"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Configurez les polices."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Configurez l'image d'arrière-plan principale."
 
 msgid "Configure at a fixed time"
 msgstr "Configurer à heure fixe"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Configurer les minutes d'intervalle à partir de maintenant"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
 msgstr "Configurer la référence du service iptv-gstreamer-exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Bravo! Vous disposez déjà de la dernière version..."
 
 msgid "Console"
 msgstr ""
 
 msgid "Countries"
-msgstr ""
+msgstr "Pays"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Pays : %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Pays : %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Crédits :"
 
 msgid "Default View"
-msgstr ""
+msgstr "Vue par défaut"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Vue par défaut à l'ouverture du plugin"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Voulez-vous exporter ce bouquet?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Voulez-vous l'installer maintenant ?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Voulez-vous installer la mise à jour ( %s ) maintenant ?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Ex : arabe ou autre langue."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Activez ou désactivez le proxy."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Saisissez le texte à rechercher..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Erreur lors du démarrage du canal"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Erreur : %s"
 
 msgid "Exit"
 msgstr "Sortir"
@@ -213,164 +213,164 @@ msgid "Export"
 msgstr "Exporter"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Échec de l'actualisation du jeton proxy"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Échec de l'actualisation du proxy :"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Échec : %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Forcer l'actualisation du proxy ?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Trouvé : {} chaînes"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Générez un fichier .m3u pour :"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Générer des fichiers .m3u (Ok pour Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Générez des fichiers .m3u et enregistrez-les sur le périphérique %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Générer des fichiers .m3u et les enregistrer sur le périphérique %s ?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Générer des fichiers .m3u pour TOUS %d pays ?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Masquer/Afficher"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Remarques importantes :"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "État IPv6 du réseau local (activé/désactivé)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Clavier"
 
 msgid "Last channel update: %s"
 msgstr "Dernière m-à-j des chaînes: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Licence:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Licence : CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Lien dans le menu principal"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Inférieur = moins d'interruption mais plus de rafraîchissements"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "Fichier M3U généré avec succès !"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "Génération M3U terminée !"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "Erreur de génération M3U : %s"
 
 msgid "Movie Services Reference"
 msgstr "Référence des services"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "La nouvelle version {version} est disponible."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Aucune connexion Internet détectée. Veuillez vérifier votre réseau."
 
 #, fuzzy
 msgid "No channels found"
 msgstr "Aucune chaîne trouvée dans la recherche !"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Aucune chaîne trouvée pour '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Aucune chaîne trouvée pour : %s"
 
 msgid "No channels found in search!!!"
 msgstr "Aucune chaîne trouvée dans la recherche !"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Aucune chaîne valide pour : %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Maintenant %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Un seul pays spécifique"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Veuillez essayer une autre chaîne."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Position des bouquets Vavoo dans la liste principale"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Appuyez sur le bouton TEXTE pour taper, RETOUR ARRIÈRE pour supprimer"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Proxy désactivé"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proxy activé"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Proxy désactivé"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Le proxy est désactivé. Veuillez d'abord activer le proxy. -- Configuration du menu --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Le proxy est désactivé. Veuillez l'activer dans la configuration."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Le proxy ne fonctionne pas. Veuillez d'abord démarrer le proxy."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Proxy non actif. Impossible de générer le fichier M3U."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Le proxy ne répond pas après"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Redémarrage du proxy... Veuillez patienter"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Le jeton proxy a été actualisé avec succès"
 
 msgid "Really close without saving settings?"
 msgstr "Vraiment fermer sans enregistrer les paramètres ?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Recommandé : 5 à 8 minutes"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Flux d'actualisation (minutes) :"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Actualiser le flux toutes les X minutes (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Recharger Bouqet"
 
 msgid "Remove"
 msgstr "Retirer"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Supprimer TOUS les bouquets Vavoo ?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Redémarrage"
 
 msgid "SELECT YOUR CHOICE"
 msgstr "SÉLECTIONNEZ VOTRE CHOIX"
@@ -379,10 +379,10 @@ msgid "Save"
 msgstr "Sauvegarder"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Enregistré dans : %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Enregistré dans : %s"
 
 msgid "Schedule type:"
 msgstr "Type d'horaire :"
@@ -395,7 +395,7 @@ msgid "Search"
 msgstr "Rechercher"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Canaux de recherche :"
 
 #, fuzzy
 msgid "Search..."
@@ -406,83 +406,83 @@ msgid "Search:"
 msgstr "Rechercher"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Sélectionnez l'arrière-plan"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Sélectionnez les polices"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Sélectionnez le mode d'exportation M3U :"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Sélectionnez le pays pour exporter M3U :"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Serveur pour le joueur utilisé"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Serveur pour joueur."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Afficher toutes les chaînes : {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Espace"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Flux terminé. Trop de problèmes de connexion."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Caractéristiques techniques :"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Cela actualisera le jeton d'authentification."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Cela supprimera :"
 
 msgid "Time to start update:"
 msgstr "Il est temps de commencer la mise à jour :"
 
 msgid "Top"
-msgstr ""
+msgstr "Haut"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Nombre total de chaînes : %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "MAJUSCULE"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Mise à jour abandonnée !"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Mettez-moi à jour"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Intervalle de mise à jour (minutes) :"
 
 msgid "Vavoo Stream Live"
 msgstr "Vavoo Diffusion en direct"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Informations"
 
 #, fuzzy
 msgid "Vavoo Stream Live Plugin"
 msgstr "Vavoo Diffusion en direct"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Bouquets Vavoo supprimés avec succès !"
 
 msgid "Version:"
 msgstr ""
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "En attente de procuration..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Vous pouvez le démarrer depuis le menu ou en appuyant sur le bouton TEXTE."
 
 msgid "fixed time"
 msgstr "heure fixe"
@@ -491,10 +491,10 @@ msgid "interval"
 msgstr "intervalle"
 
 msgid "lowercase"
-msgstr ""
+msgstr "minuscule"
 
 msgid "seconds"
-msgstr ""
+msgstr "secondes"
 
 #, fuzzy
 #~ msgid "At an interval of hours or at a fixed time"

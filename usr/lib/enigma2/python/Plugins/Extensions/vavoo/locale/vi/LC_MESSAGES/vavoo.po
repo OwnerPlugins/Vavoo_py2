@@ -11,472 +11,472 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d kênh)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d kênh)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s tập tin đã bị xóa)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Tự động làm mới mã thông báo cứ sau 9 phút"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Tạo bó hoa tự động"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Hạng mục bó hoa"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Nghiêm cấm sử dụng thương mại"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Cộng đồng: Linuxsat-support.com, Diễn đàn Corvoboys"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Bó hoa đựng"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Bó hoa đồng quê"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Chỉ dành cho sử dụng cá nhân"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Chỉ nội dung miễn phí"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Đồ họa: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- Phát trực tiếp HTTP"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Hệ thống proxy tích hợp"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Không có máy chủ lưu trữ trực tiếp"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Việc phân phối lại phải duy trì sự ghi nhận"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Số liên lạc dịch vụ: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Luồng từ các nguồn công cộng"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- Định dạng TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Hỗ trợ kỹ thuật: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Cập nhật bó hoa tự động đang hoạt động"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Đang hoạt động hoặc không hoạt động lan Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Tất cả các quốc gia (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Vào một khoảng thời gian hoặc thời gian cố định"
 
 msgid "Author:"
-msgstr ""
+msgstr "Tác giả:"
 
 msgid "Back"
-msgstr ""
+msgstr "Mặt sau"
 
 msgid "Backspace"
-msgstr ""
+msgstr "Phím lùi"
 
 msgid "Bottom"
-msgstr ""
+msgstr "Đáy"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Đã tạo bó hoa '%(name)s' thành công!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Vị trí bó hoa trong danh sách"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Lỗi tạo bó hoa: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Bó hoa được tổ chức lại thành công!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Hủy bỏ"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Hủy thực hiện?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Trường hợp: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Nhật ký thay đổi: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Kênh: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Đang kiểm tra proxy..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Xóa tất cả"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Đã lưu cấu hình thành công!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Định cấu hình phông chữ."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Định cấu hình hình nền chính."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Định cấu hình vào một thời điểm cố định"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Định cấu hình khoảng thời gian kể từ bây giờ"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Cấu hình dịch vụ Tham khảo Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Xin chúc mừng! Bạn đã có phiên bản mới nhất..."
 
 msgid "Console"
-msgstr ""
+msgstr "Bảng điều khiển"
 
 msgid "Countries"
-msgstr ""
+msgstr "Quốc gia"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Quốc gia: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Quốc gia: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Tín dụng:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Chế độ xem mặc định"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Chế độ xem mặc định khi mở plugin"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Bạn có muốn xuất bó hoa này không?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Bạn có muốn cài đặt nó ngay bây giờ không?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Bạn có muốn cài đặt bản cập nhật ( %s ) ngay bây giờ không?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Ví dụ: tiếng Ả Rập hoặc ngôn ngữ khác."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Kích hoạt hoặc vô hiệu hóa proxy."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Nhập văn bản để tìm kiếm..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Lỗi bắt đầu kênh"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Lỗi: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ra"
 
 msgid "Export"
-msgstr ""
+msgstr "Xuất khẩu"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Không làm mới được mã thông báo proxy"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Không thể làm mới proxy:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Không thành công: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Buộc làm mới proxy?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Đã tìm thấy: {} kênh"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Tạo tệp .m3u cho:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Tạo tệp .m3u (Ok cho Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Tạo tệp .m3u và lưu vào thiết bị %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Tạo tệp .m3u và lưu vào thiết bị %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Tạo tệp .m3u cho TẤT CẢ các quốc gia %d?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Ẩn/Hiển thị"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Lưu ý quan trọng:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 Bang Lan (Bật/Tắt)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Bàn phím"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Cập nhật kênh cuối cùng: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Giấy phép:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Giấy phép: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Liên kết trong Menu chính"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Thấp hơn = ít bị gián đoạn hơn nhưng được làm mới nhiều hơn"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "Tệp M3U được tạo thành công!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "Thế hệ M3U đã hoàn thành!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "Lỗi tạo M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Tham khảo dịch vụ phim"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Đã có phiên bản mới {version}."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Không có kết nối Internet được phát hiện. Vui lòng kiểm tra mạng của bạn."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Không tìm thấy kênh nào"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Không tìm thấy kênh nào cho '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Không tìm thấy kênh nào cho: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Không tìm thấy kênh nào trong tìm kiếm!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Không có kênh hợp lệ cho: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Bây giờ %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Chỉ có một quốc gia cụ thể"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Vui lòng thử kênh khác."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Vị trí của bó hoa Vavoo trong danh sách chính"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Nhấn nút TEXT để gõ, BACKSPACE để xóa"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Proxy bị vô hiệu hóa"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Đã bật proxy"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Đã tắt proxy"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Proxy bị vô hiệu hóa. Vui lòng bật proxy trước. -- Cấu hình menu --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Proxy bị vô hiệu hóa. Vui lòng kích hoạt nó trong cấu hình."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Proxy không chạy. Vui lòng khởi động proxy trước."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Proxy không hoạt động. Không thể tạo tệp M3U."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Proxy không phản hồi sau"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Đang khởi động lại proxy... Vui lòng đợi"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Mã thông báo proxy được làm mới thành công"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Thực sự đóng mà không lưu cài đặt?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Khuyến nghị: 5-8 phút"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Làm mới luồng (phút):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Làm mới luồng X phút một lần (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Tải lại bó hoa"
 
 msgid "Remove"
-msgstr ""
+msgstr "Di dời"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Xóa TẤT CẢ bó hoa Vavoo?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Khởi động lại"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "CHỌN LỰA CHỌN CỦA BẠN"
 
 msgid "Save"
-msgstr ""
+msgstr "Cứu"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Đã lưu trong: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Đã lưu trong: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Loại lịch trình:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Cập nhật danh sách theo lịch trình:"
 
 msgid "Search"
-msgstr ""
+msgstr "Tìm kiếm"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Tìm kiếm kênh:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Tìm kiếm..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Tìm kiếm:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Chọn nền"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Chọn phông chữ"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Chọn chế độ xuất M3U:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Chọn quốc gia xuất M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Máy chủ dành cho người chơi được sử dụng"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Máy chủ cho người chơi."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Hiển thị tất cả các kênh: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Không gian"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Luồng đã kết thúc. Quá nhiều vấn đề kết nối."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Tính năng kỹ thuật:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Điều này sẽ làm mới mã thông báo xác thực."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Điều này sẽ loại bỏ:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Thời gian bắt đầu cập nhật:"
 
 msgid "Top"
-msgstr ""
+msgstr "Đứng đầu"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Tổng số kênh: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "CHỮ HOA"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Cập nhật bị hủy bỏ!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Cập nhật cho tôi"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Khoảng thời gian cập nhật (phút):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Vavoo Stream trực tiếp"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Thông tin"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Plugin trực tiếp Vavoo Stream"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Bó hoa Vavoo đã được gỡ bỏ thành công!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Phiên bản:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Đang chờ proxy..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Bạn có thể bắt đầu nó từ menu hoặc bằng cách nhấn nút TEXT."
 
 msgid "fixed time"
-msgstr ""
+msgstr "thời gian cố định"
 
 msgid "interval"
-msgstr ""
+msgstr "khoảng thời gian"
 
 msgid "lowercase"
-msgstr ""
+msgstr "chữ thường"
 
 msgid "seconds"
-msgstr ""
+msgstr "giây"

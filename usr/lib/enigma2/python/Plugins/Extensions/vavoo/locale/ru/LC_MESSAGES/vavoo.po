@@ -127,7 +127,7 @@ msgid "Channels: %d"
 msgstr "Каналы: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Проверка прокси..."
 
 msgid "Clear All"
 msgstr "Очистить все"
@@ -179,7 +179,7 @@ msgid "Do you want to export this bouquet?"
 msgstr "Вы хотите экспортировать этот букет?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Хотите установить его сейчас?"
 "Доступна новая версия %s\n"
 "\n"
 "Журнал изменений: %s\n"
@@ -193,7 +193,7 @@ msgid "Eg: Arabic or other language."
 msgstr "Например: арабский или другой язык."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Включить или отключить прокси."
 
 msgid "Enter text to search..."
 msgstr "Введите текст для поиска..."
@@ -211,16 +211,16 @@ msgid "Export"
 msgstr "Экспорт"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Не удалось обновить токен прокси."
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Не удалось обновить прокси:"
 
 msgid "Failed: %(failed)d"
 msgstr "Не удалось: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Принудительно обновить прокси?"
 
 msgid "Found: {} channels"
 msgstr "Найдено {} каналов"
@@ -283,7 +283,7 @@ msgid "New version {version} is available."
 msgstr "Доступна новая версия {version}."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Подключение к Интернету не обнаружено. Пожалуйста, проверьте вашу сеть."
 
 msgid "No channels found"
 msgstr "Не найдено каналлов"
@@ -316,35 +316,35 @@ msgid "Press TEXT button to type, BACKSPACE to delete"
 msgstr "Нажмите кнопку ТЕКСТ для ввода текста, BACKSPACE для удаления"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Прокси отключен"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Прокси включен"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Прокси отключен"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Прокси отключен. Пожалуйста, сначала включите прокси. -- Конфигурация меню --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Прокси отключен. Пожалуйста, включите его в конфигурации."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Прокси не работает. Пожалуйста, сначала запустите прокси."
 
 msgid "Proxy not active. Unable to generate M3U file."
 msgstr "Прокси не активен. Не удалось сгенерировать файл M3U."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Прокси не отвечает после"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Перезапуск прокси... Пожалуйста, подождите"
 
 #, fuzzy
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Прокси-токен успешно обновлен."
 "Букеты Vavoo успешно удалены!\n"
 "(Удалено %s файлов)"
 
@@ -434,7 +434,7 @@ msgid "Technical Features:"
 msgstr "Технические характеристики:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Это обновит токен аутентификации."
 
 msgid "This will remove:"
 msgstr "Это удалит:"
@@ -470,7 +470,7 @@ msgid "Vavoo Stream Live Plugin"
 msgstr "Плагин Vavoo Stream Live"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Букеты Vavoo успешно удалены!"
 "Букеты Vavoo успешно удалены!\n"
 "(Удалено %s файлов)"
 
@@ -478,10 +478,10 @@ msgid "Version:"
 msgstr "Версия:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Жду прокси..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Запустить его можно из меню или нажав кнопку ТЕКСТ."
 
 msgid "fixed time"
 msgstr "установленный срок"
@@ -493,7 +493,7 @@ msgid "lowercase"
 msgstr "строчные буквы"
 
 msgid "seconds"
-msgstr ""
+msgstr "секунды"
 
 #, fuzzy
 #~ msgid "At an interval of hours or at a fixed time"

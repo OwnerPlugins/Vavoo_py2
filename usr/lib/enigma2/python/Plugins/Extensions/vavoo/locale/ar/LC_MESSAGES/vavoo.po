@@ -20,190 +20,190 @@ msgstr ""
 "X-Poedit-SearchPath-5: vUtils.py\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d القنوات)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d قناة)؟"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(تم حذف %s من الملفات)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- التحديث التلقائي للرمز كل 9 دقائق"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- توليد باقة تلقائية"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- باقات الفئة"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- الاستخدام التجاري ممنوع منعا باتا"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- المجتمع: Linuxsat-support.com، منتدى Corvoboys"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- باقات الحاويات"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- باقات البلد"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- للاستخدام الشخصي فقط"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- محتوى مجاني فقط"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- الرسومات: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- البث المباشر عبر HTTP"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- نظام بروكسي متكامل"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- لا يوجد استضافة خادم مباشر"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- إعادة التوزيع يجب أن تحافظ على الإسناد"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- مراجع الخدمة: 4097، 5001، 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- تيارات من المصادر العامة"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- صيغ TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- الدعم الفني: Qu4k3، @KiddaC، @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "تحديث الباقة التلقائي النشط"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "نشط أو معطل lan Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "كافة البلدان (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "في ساعات فاصلة أو وقت محدد"
 
 msgid "Author:"
-msgstr ""
+msgstr "مؤلف:"
 
 msgid "Back"
 msgstr "رجوع"
 
 msgid "Backspace"
-msgstr ""
+msgstr "مسافة للخلف"
 
 msgid "Bottom"
-msgstr ""
+msgstr "قاع"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "تم إنشاء الباقة '%(name)s' بنجاح!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "موقف باقة في القائمة"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "خطأ في إنشاء الباقة: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "تم إعادة تنظيم الباقات بنجاح!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "يلغي"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "إلغاء التنفيذ؟"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "قضية: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "سجل التغيير: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "القنوات: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "جارٍ التحقق من الوكيل..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "مسح الكل"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "تم حفظ التكوين بنجاح!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "تكوين الخطوط."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "تكوين صورة الخلفية الرئيسية."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "تكوين في وقت محدد"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "تكوين دقائق الفاصل الزمني من الآن"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "تكوين الخدمة المرجعية Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "تهاني! لديك بالفعل الإصدار الأخير ..."
 
 msgid "Console"
-msgstr ""
+msgstr "وحدة التحكم"
 
 msgid "Countries"
-msgstr ""
+msgstr "بلدان"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "البلدان: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "البلد: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "الاعتمادات:"
 
 msgid "Default View"
-msgstr ""
+msgstr "العرض الافتراضي"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "العرض الافتراضي عند فتح البرنامج المساعد"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "هل تريد تصدير هذه الباقة؟"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "هل تريد تثبيته الآن؟"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "هل تريد تثبيت التحديث ( %s ) الآن؟"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "على سبيل المثال: اللغة العربية أو لغة أخرى."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "تمكين أو تعطيل الوكيل."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "أدخل النص للبحث..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "خطأ في بدء القناة"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "خطأ: %s"
 
 msgid "Exit"
 msgstr "خروج"
@@ -212,281 +212,281 @@ msgid "Export"
 msgstr "تصدير "
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "فشل تحديث رمز الوكيل"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "فشل تحديث الوكيل:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "فشل: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "فرض تحديث الوكيل؟"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "تم العثور على: {} قناة"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "قم بإنشاء ملف .m3u لـ:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "إنشاء ملفات .m3u (موافق لـ Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "أنشئ ملفات .m3u واحفظها على الجهاز %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "هل تريد إنشاء ملفات .m3u وحفظها على الجهاز %s؟"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "هل تريد إنشاء ملفات .m3u لجميع %d دولة؟"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "إخفاء/إظهار"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "ملاحظات هامة:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "حالة IPv6 للشبكة المحلية (تشغيل/إيقاف)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "لوحة المفاتيح"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "آخر تحديث للقناة: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "رخصة:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "الترخيص: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "الرابط في القائمة الرئيسية"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "أقل = انقطاع أقل ولكن تحديثات أكثر"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "تم إنشاء ملف M3U بنجاح!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "اكتمل جيل M3U!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "خطأ في إنشاء M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "مرجع خدمات الأفلام"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "الإصدار الجديد {version} متاح."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "لم يتم اكتشاف اتصال بالإنترنت. يرجى التحقق من الشبكة الخاصة بك."
 
 msgid "No channels found"
-msgstr ""
+msgstr "لم يتم العثور على قنوات"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "لم يتم العثور على قنوات لـ "%(name)s""
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "لم يتم العثور على قنوات لـ: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "لم يتم العثور على قنوات في البحث!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "لا توجد قنوات صالحة لـ: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "الآن %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "دولة واحدة فقط محددة"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "يرجى تجربة قناة أخرى."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "موقع باقات Vavoo في القائمة الرئيسية"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "اضغط على زر TEXT للكتابة، وBACKSPACE للحذف"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "الوكيل معطل"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "تم تمكين الوكيل"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "تم تعطيل الوكيل"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "تم تعطيل الوكيل. الرجاء تعيين الوكيل على أولاً. - تكوين القائمة -"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "تم تعطيل الوكيل. يرجى تمكينه في التكوين."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "الوكيل لا يعمل. الرجاء تشغيل الوكيل أولاً."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "الوكيل غير نشط. غير قادر على إنشاء ملف M3U."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "الوكيل لا يستجيب بعد"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "تتم إعادة تشغيل الوكيل... الرجاء الانتظار"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "تم تحديث رمز الوكيل بنجاح"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "إغلاق حقا دون حفظ الإعدادات؟"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "الموصى بها: 5-8 دقائق"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "تحديث الدفق (بالدقائق):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "قم بتحديث البث كل X دقيقة (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "إعادة تحميل باقة"
 
 msgid "Remove"
 msgstr "حذف "
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "إزالة جميع باقات Vavoo؟"
 
 msgid "Restart"
-msgstr ""
+msgstr "إعادة تشغيل"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "حدد اختيارك"
 
 msgid "Save"
-msgstr ""
+msgstr "يحفظ"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "تم الحفظ في: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "تم الحفظ في: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "نوع الجدول الزمني:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "تحديث القائمة المجدولة:"
 
 msgid "Search"
-msgstr ""
+msgstr "يبحث"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "قنوات البحث:"
 
 msgid "Search..."
-msgstr ""
+msgstr "يبحث..."
 
 msgid "Search:"
-msgstr ""
+msgstr "يبحث:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "حدد الخلفية"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "حدد الخطوط"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "حدد وضع التصدير M3U:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "حدد الدولة لتصدير M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "خادم للاعب المستخدم"
 
 msgid "Server for player."
-msgstr ""
+msgstr "خادم للاعب."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "عرض كافة القنوات: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "فضاء"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "انتهى البث. الكثير من مشاكل الاتصال."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "الميزات التقنية:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "سيؤدي هذا إلى تحديث رمز المصادقة."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "سيؤدي هذا إلى إزالة:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "الوقت لبدء التحديث:"
 
 msgid "Top"
-msgstr ""
+msgstr "قمة"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "إجمالي القنوات: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "أحرف كبيرة"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "تم إحباط التحديث!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "قم بتحديثي"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "الفاصل الزمني للتحديث (بالدقائق):"
 
 msgid "Vavoo Stream Live"
 msgstr "مشاهده مباشر فافو"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo ستريم لايف - معلومات"
 
 #, fuzzy
 msgid "Vavoo Stream Live Plugin"
 msgstr "مشاهده مباشر فافو"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "تمت إزالة باقات Vavoo بنجاح!"
 
 msgid "Version:"
-msgstr ""
+msgstr "إصدار:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "في انتظار الوكيل..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "يمكنك تشغيله من القائمة أو بالضغط على زر TEXT."
 
 msgid "fixed time"
-msgstr ""
+msgstr "وقت محدد"
 
 msgid "interval"
-msgstr ""
+msgstr "فاصلة"
 
 msgid "lowercase"
-msgstr ""
+msgstr "أحرف صغيرة"
 
 msgid "seconds"
-msgstr ""
+msgstr "ثواني"

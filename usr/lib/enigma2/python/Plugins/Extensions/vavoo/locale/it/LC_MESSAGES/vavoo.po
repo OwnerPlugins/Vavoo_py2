@@ -53,7 +53,7 @@ msgid "- Graphics: @oktus"
 msgstr "- Grafica: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- Streaming live HTTP"
 
 msgid "- Integrated proxy system"
 msgstr "- Sistema proxy integrato"
@@ -65,13 +65,13 @@ msgid "- Redistribution must maintain attribution"
 msgstr "- La ridistribuzione deve mantenere l'attribuzione"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Riferimenti di servizio: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
 msgstr "-- Flussi da fonti pubbliche"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- Formati TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
 msgstr "- Supporto tecnico: Qu4k3, @KiddaC, @giorbak"
@@ -155,7 +155,7 @@ msgid "Congrats! You already have the latest version..."
 msgstr "Congratulazioni! Hai già l'ultima versione..."
 
 msgid "Console"
-msgstr ""
+msgstr "Consolle"
 
 msgid "Countries"
 msgstr "Paesi"
@@ -452,7 +452,7 @@ msgid "Update interval (minutes):"
 msgstr "Intervallo di aggiornamento (minuti):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Vavoo streaming in diretta"
 
 msgid "Vavoo Stream Live - Information"
 msgstr "Vavoo Stream Live - Informazioni"

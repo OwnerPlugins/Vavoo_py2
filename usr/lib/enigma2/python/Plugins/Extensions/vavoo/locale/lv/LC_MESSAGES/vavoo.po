@@ -11,472 +11,472 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d kanāli)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d kanāli)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s faili izdzēsti)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Automātiska marķiera atsvaidzināšana ik pēc 9 minūtēm"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Automātiska pušķu ģenerēšana"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Kategoriju pušķi"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Komerciāla lietošana ir stingri aizliegta"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Kopiena: Linuxsat-support.com, Corvoboys forums"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- konteineru pušķi"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Lauku pušķi"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Tikai personiskai lietošanai"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Tikai bezmaksas saturs"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Grafika: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- HTTP tiešraides straumēšana"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Integrēta starpniekservera sistēma"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Nav tiešas servera mitināšanas"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Pārdalīšanai ir jāsaglabā attiecināšana"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Servisa uzziņas: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Straumes no publiskiem avotiem"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- TS/M3U8 formāti"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Tehniskais atbalsts: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Aktīvā automātiskā pušķu atjaunināšana"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Aktīva vai neaktīva lan Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Visas valstis (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Ar stundu intervālu vai noteiktu laiku"
 
 msgid "Author:"
-msgstr ""
+msgstr "Autors:"
 
 msgid "Back"
-msgstr ""
+msgstr "Atpakaļ"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "Apakšā"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Pušķis '%(name)s' ir veiksmīgi izveidots!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Pušķa pozīcija sarakstā"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Pušķa izveides kļūda: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Pušķi veiksmīgi reorganizēti!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Atcelt"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Vai atcelt izpildi?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Lieta: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Izmaiņu žurnāls: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Kanāli: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Notiek starpniekservera pārbaude..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Notīrīt visu"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Konfigurācija veiksmīgi saglabāta!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Konfigurēt fontus."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Konfigurējiet galveno fona attēlu."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Konfigurējiet noteiktā laikā"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Konfigurējiet intervālu minūtes no šī brīža"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Konfigurēt pakalpojumu Atsauce Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Apsveicam! Jums jau ir jaunākā versija..."
 
 msgid "Console"
-msgstr ""
+msgstr "Konsole"
 
 msgid "Countries"
-msgstr ""
+msgstr "valstis"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Valstis: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Valsts: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Kredīti:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Noklusējuma skats"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Noklusējuma skats, atverot spraudni"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Vai vēlaties eksportēt šo pušķi?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Vai vēlaties to instalēt tūlīt?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Vai vēlaties instalēt atjauninājumu ( %s ) tūlīt?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Piemēram: arābu vai cita valoda."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Iespējot vai atspējot starpniekserveri."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Ievadiet tekstu, lai meklētu..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Kļūda, startējot kanālu"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Kļūda: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Iziet"
 
 msgid "Export"
-msgstr ""
+msgstr "Eksportēt"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Neizdevās atsvaidzināt starpniekservera pilnvaru"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Neizdevās atsvaidzināt starpniekserveri:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Neizdevās: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Vai piespiedu kārtā atsvaidzināt starpniekserveri?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Atrasti: {} kanāli"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Ģenerēt .m3u failu:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr ".m3u failu ģenerēšana (Ok for Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Ģenerējiet .m3u failus un saglabājiet tos ierīcē %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Vai ģenerēt .m3u failus un saglabāt ierīcē %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Vai ģenerēt .m3u failus VISĀM %d valstīm?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Paslēpt/rādīt"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Svarīgas piezīmes:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "IPv6 State Of Lan (ieslēgts/izslēgts)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastatūra"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Pēdējais kanāla atjauninājums: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Licence:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Licence: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Saite galvenajā izvēlnē"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Zemāks = mazāk pārtraukumu, bet vairāk atsvaidzināšanas"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "M3U fails veiksmīgi ģenerēts!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "M3U paaudze pabeigta!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "M3U ģenerēšanas kļūda: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Filmu pakalpojumu uzziņa"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Ir pieejama jauna versija {version}."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Nav atrasts interneta savienojums. Lūdzu, pārbaudiet savu tīklu."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Nav atrasts neviens kanāls"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Vaicājumam “%(name)s” nav atrasts neviens kanāls"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Nav atrasts neviens kanāls priekš: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Meklējot nav atrasts neviens kanāls!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Nav derīgu kanālu: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Tagad %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Tikai viena konkrēta valsts"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Lūdzu, izmēģiniet citu kanālu."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Vavoo pušķu pozīcija galvenajā sarakstā"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Lai rakstītu, nospiediet pogu TEKSTS, lai dzēstu, nospiediet taustiņu BACKSPACE"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Starpniekserveris ir atspējots"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Starpniekserveris ir iespējots"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Starpniekserveris ir atspējots"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Starpniekserveris ir atspējots. Lūdzu, vispirms iestatiet starpniekserveri. -- Izvēlnes konfigurācija --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Starpniekserveris ir atspējots. Lūdzu, iespējojiet to konfigurācijā."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Starpniekserveris nedarbojas. Lūdzu, vispirms palaidiet starpniekserveri."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Starpniekserveris nav aktīvs. Nevar ģenerēt M3U failu."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Starpniekserveris nereaģē pēc tam"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Notiek starpniekservera restartēšana... Lūdzu, uzgaidiet"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Starpniekservera pilnvara ir veiksmīgi atsvaidzināta"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Vai tiešām aizvērt, nesaglabājot iestatījumus?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Ieteicams: 5-8 minūtes"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Atsvaidzināt straumi (minūtēs):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Atsvaidzināt straumi ik pēc X minūtēm (1–15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Pārlādēt pušķi"
 
 msgid "Remove"
-msgstr ""
+msgstr "Noņemt"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Vai noņemt VISUS Vavoo pušķus?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Restartēt"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "IZVĒLIES SAVU IZVĒLI"
 
 msgid "Save"
-msgstr ""
+msgstr "Saglabāt"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Saglabāts: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Saglabāts: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Grafika veids:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Plānotais saraksta atjauninājums:"
 
 msgid "Search"
-msgstr ""
+msgstr "Meklēt"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Meklēt kanālus:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Meklēt..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Meklēt:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Atlasiet Fons"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Atlasiet Fonti"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Izvēlieties M3U eksporta režīmu:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Izvēlieties valsti M3U eksportēšanai:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Izmantots serveris atskaņotājam"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Serveris spēlētājam."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Tiek rādīti visi kanāli: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Kosmoss"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Straume beigusies. Pārāk daudz savienojuma problēmu."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Tehniskās īpašības:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Tas atsvaidzinās autentifikācijas pilnvaru."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Tas noņems:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Laiks sākt atjaunināšanu:"
 
 msgid "Top"
-msgstr ""
+msgstr "Augšā"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Kopējais kanālu skaits: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "LIELAIS RAKSTS"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Atjaunināšana pārtraukta!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Atjauniniet mani"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Atjaunināšanas intervāls (minūtes):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Vavoo straume tiešraidē"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live — informācija"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Vavoo Stream tiešraides spraudnis"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo pušķi veiksmīgi noņemti!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Versija:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Gaida starpniekserveri..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "To var sākt no izvēlnes vai nospiežot pogu TEXT."
 
 msgid "fixed time"
-msgstr ""
+msgstr "fiksēts laiks"
 
 msgid "interval"
-msgstr ""
+msgstr "intervāls"
 
 msgid "lowercase"
-msgstr ""
+msgstr "mazie burti"
 
 msgid "seconds"
-msgstr ""
+msgstr "sekundes"

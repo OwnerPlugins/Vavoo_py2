@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d ચેનલ્સ)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d ચેનલો)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s ફાઇલો કાઢી નાખી)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- દર 9 મિનિટે ઓટો ટોકન રિફ્રેશ કરો"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- સ્વચાલિત કલગી જનરેશન"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- શ્રેણી bouquets"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- વાણિજ્યિક ઉપયોગ સખત પ્રતિબંધિત છે"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- સમુદાય: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- કન્ટેનર bouquets"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- દેશ bouquets"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- માત્ર અંગત ઉપયોગ માટે"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- ફક્ત મફત સામગ્રી"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- ગ્રાફિક્સ: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- HTTP લાઇવ સ્ટ્રીમિંગ"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- સંકલિત પ્રોક્સી સિસ્ટમ"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- કોઈ ડાયરેક્ટ સર્વર હોસ્ટિંગ નથી"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- પુનઃવિતરણ એ એટ્રિબ્યુશન જાળવી રાખવું જોઈએ"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- સેવા સંદર્ભો: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- જાહેર સ્ત્રોતોમાંથી સ્ટ્રીમ્સ"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- TS/M3U8 ફોર્મેટ"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- ટેકનિકલ સપોર્ટ: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "સક્રિય સ્વચાલિત કલગી અપડેટ"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "સક્રિય અથવા નિષ્ક્રિય લેન Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "બધા દેશો (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "અંતરાલ કલાકો અથવા નિયત સમયે"
 
 msgid "Author:"
-msgstr ""
+msgstr "લેખક:"
 
 msgid "Back"
-msgstr ""
+msgstr "પાછળ"
 
 msgid "Backspace"
-msgstr ""
+msgstr "બેકસ્પેસ"
 
 msgid "Bottom"
-msgstr ""
+msgstr "તળિયે"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "કલગી '%(name)s' સફળતાપૂર્વક બનાવવામાં આવી!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "યાદીમાં કલગીની સ્થિતિ"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "કલગી બનાવવાની ભૂલ: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Bouquets સફળતાપૂર્વક પુનઃસંગઠિત!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "રદ કરો"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "અમલ રદ કરીએ?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "કેસ: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "ચેન્જલોગ: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "ચેનલ્સ: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "પ્રોક્સી તપાસી રહ્યું છે..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "બધા સાફ કરો"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "રૂપરેખાંકન સફળતાપૂર્વક સાચવ્યું!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "ફોન્ટ્સ ગોઠવો."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "મુખ્ય પૃષ્ઠભૂમિ છબી ગોઠવો."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "નિશ્ચિત સમયે રૂપરેખાંકિત કરો"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "હવેથી અંતરાલ મિનિટ ગોઠવો"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "સેવા સંદર્ભ Iptv-Gstreamer-Exteplayer3 ગોઠવો"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "અભિનંદન! તમારી પાસે પહેલેથી જ નવીનતમ સંસ્કરણ છે..."
 
 msgid "Console"
-msgstr ""
+msgstr "કન્સોલ"
 
 msgid "Countries"
-msgstr ""
+msgstr "દેશો"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "દેશો: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "દેશ: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "ક્રેડિટ્સ:"
 
 msgid "Default View"
-msgstr ""
+msgstr "ડિફૉલ્ટ વ્યૂ"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "પ્લગઇન ખોલતી વખતે ડિફૉલ્ટ દૃશ્ય"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "શું તમે આ કલગીની નિકાસ કરવા માંગો છો?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "શું તમે તેને હમણાં ઇન્સ્ટોલ કરવા માંગો છો?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "શું તમે હમણાં અપડેટ (%s) ઇન્સ્ટોલ કરવા માંગો છો?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "દા.ત: અરબી અથવા અન્ય ભાષા."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "પ્રોક્સીને સક્ષમ અથવા અક્ષમ કરો."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "શોધવા માટે ટેક્સ્ટ દાખલ કરો..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "ચેનલ શરૂ કરવામાં ભૂલ"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "ભૂલ: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "બહાર નીકળો"
 
 msgid "Export"
-msgstr ""
+msgstr "નિકાસ કરો"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "પ્રોક્સી ટોકન રિફ્રેશ કરવામાં નિષ્ફળ"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "પ્રોક્સીને રિફ્રેશ કરવામાં નિષ્ફળ:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "નિષ્ફળ: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "પ્રોક્સી રિફ્રેશ કરવાની ફરજ પાડીએ?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "મળી: {} ચેનલો"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "આ માટે .m3u ફાઇલ જનરેટ કરો:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr ".m3u ફાઇલો જનરેટ કરો (Exec માટે ઓકે)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr ".m3u ફાઇલો બનાવો અને ઉપકરણ %s પર સાચવો."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr ".m3u ફાઇલો જનરેટ કરીને ઉપકરણ %s પર સાચવીએ?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "બધા %d દેશો માટે .m3u ફાઇલો જનરેટ કરીએ?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "છુપાવો/બતાવો"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "મહત્વપૂર્ણ નોંધો:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 સ્ટેટ ઑફ લેન (ચાલુ/બંધ)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "કીબોર્ડ"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "છેલ્લું ચૅનલ અપડેટ: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "લાઇસન્સ:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "લાઇસન્સ: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "મુખ્ય મેનુમાં લિંક"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "લોઅર = ઓછો વિક્ષેપ પરંતુ વધુ તાજગી"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "M3U ફાઇલ સફળતાપૂર્વક જનરેટ થઈ!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "M3U જનરેશન પૂર્ણ થયું!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "M3U જનરેશન ભૂલ: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "મૂવી સેવાઓ સંદર્ભ"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "નવું સંસ્કરણ {version} ઉપલબ્ધ છે."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "કોઈ ઇન્ટરનેટ કનેક્શન મળ્યું નથી. કૃપા કરીને તમારું નેટવર્ક તપાસો."
 
 msgid "No channels found"
-msgstr ""
+msgstr "કોઈ ચેનલો મળી નથી"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "'%(name)s' માટે કોઈ ચેનલો મળી નથી"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "આ માટે કોઈ ચેનલ્સ મળી નથી: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "શોધમાં કોઈ ચેનલ મળી નથી!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "આ માટે કોઈ માન્ય ચેનલ્સ નથી: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "હવે %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "માત્ર એક ચોક્કસ દેશ"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "કૃપા કરીને બીજી ચેનલ અજમાવો."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "મુખ્ય યાદીમાં વાવુ બુકેટ્સનું સ્થાન"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "ટાઇપ કરવા માટે TEXT બટન દબાવો, કાઢી નાખવા માટે BACKSPACE દબાવો"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "પ્રોક્સી અક્ષમ"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "પ્રોક્સી સક્ષમ"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "પ્રોક્સી અક્ષમ છે"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "પ્રોક્સી અક્ષમ છે. કૃપા કરીને પહેલા પ્રોક્સી ચાલુ કરો. -- મેનુ રૂપરેખા --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "પ્રોક્સી અક્ષમ છે. કૃપા કરીને તેને રૂપરેખાંકનમાં સક્ષમ કરો."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "પ્રોક્સી ચાલી રહી નથી. કૃપા કરીને પહેલા પ્રોક્સી શરૂ કરો."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "પ્રોક્સી સક્રિય નથી. M3U ફાઇલ જનરેટ કરવામાં અસમર્થ."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "પ્રોક્સી પછી જવાબ આપતો નથી"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "પ્રોક્સી પુનઃપ્રારંભ કરી રહ્યું છે... કૃપા કરીને રાહ જુઓ"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "પ્રોક્સી ટોકન સફળતાપૂર્વક રિફ્રેશ થયું"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "સેટિંગ્સ સાચવ્યા વિના ખરેખર બંધ કરીએ?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "ભલામણ કરેલ: 5-8 મિનિટ"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "સ્ટ્રીમ રિફ્રેશ કરો (મિનિટ):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "દર X મિનિટે સ્ટ્રીમ રિફ્રેશ કરો (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "કલગી ફરીથી લોડ કરો"
 
 msgid "Remove"
-msgstr ""
+msgstr "દૂર કરો"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "બધા વાવુ કલગી દૂર કરીએ?"
 
 msgid "Restart"
-msgstr ""
+msgstr "પુનઃપ્રારંભ કરો"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "તમારી પસંદગી પસંદ કરો"
 
 msgid "Save"
-msgstr ""
+msgstr "સાચવો"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "આમાં સાચવેલ: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "આમાં સાચવેલ: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "શેડ્યૂલ પ્રકાર:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "સુનિશ્ચિત સૂચિ અપડેટ:"
 
 msgid "Search"
-msgstr ""
+msgstr "શોધો"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "ચેનલો શોધો:"
 
 msgid "Search..."
-msgstr ""
+msgstr "શોધો..."
 
 msgid "Search:"
-msgstr ""
+msgstr "શોધો:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "પૃષ્ઠભૂમિ પસંદ કરો"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "ફોન્ટ્સ પસંદ કરો"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "M3U નિકાસ મોડ પસંદ કરો:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "M3U નિકાસ કરવા માટે દેશ પસંદ કરો:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "પ્લેયર માટે સર્વર વપરાયેલ"
 
 msgid "Server for player."
-msgstr ""
+msgstr "પ્લેયર માટે સર્વર."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "બધી ચેનલો બતાવી રહ્યું છે: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "અવકાશ"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "સ્ટ્રીમ સમાપ્ત. ઘણી બધી કનેક્શન સમસ્યાઓ."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "તકનીકી સુવિધાઓ:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "આ પ્રમાણીકરણ ટોકનને તાજું કરશે."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "આ દૂર કરશે:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "અપડેટ શરૂ કરવાનો સમય:"
 
 msgid "Top"
-msgstr ""
+msgstr "ટોપ"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "કુલ ચેનલ્સ: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "અપરકેસ"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "અપડેટ રદ કર્યું!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "મને અપડેટ કરો"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "અપડેટ અંતરાલ (મિનિટ):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "વાવુ સ્ટ્રીમ લાઈવ"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "વાવુ સ્ટ્રીમ લાઈવ - માહિતી"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "વાવુ સ્ટ્રીમ લાઈવ પ્લગઈન"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo bouquets સફળતાપૂર્વક દૂર!"
 
 msgid "Version:"
-msgstr ""
+msgstr "સંસ્કરણ:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "પ્રોક્સીની રાહ જોઈ રહ્યાં છીએ..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "તમે તેને મેનુમાંથી અથવા TEXT બટન દબાવીને શરૂ કરી શકો છો."
 
 msgid "fixed time"
-msgstr ""
+msgstr "નિશ્ચિત સમય"
 
 msgid "interval"
-msgstr ""
+msgstr "અંતરાલ"
 
 msgid "lowercase"
-msgstr ""
+msgstr "લોઅરકેસ"
 
 msgid "seconds"
-msgstr ""
+msgstr "સેકન્ડ"

@@ -11,472 +11,472 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d canals)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d canals)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s fitxers suprimits)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Actualització automàtica del testimoni cada 9 minuts"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Generació automàtica de rams"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Categoria rams"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Queda totalment prohibit l'ús comercial"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Comunitat: Linuxsat-support.com, Fòrum Corvoboys"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Rams de contenidors"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Rams de camp"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Només per a ús personal"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Només contingut gratuït"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Gràfics: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- Transmissió en directe HTTP"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Sistema proxy integrat"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- No hi ha allotjament directe del servidor"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- La redistribució ha de mantenir l'atribució"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Referències de servei: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Transmissions de fonts públiques"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- Formats TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Suport tècnic: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Actualització automàtica activa del ram"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Lan actiu o inactiu Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Tots els països (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "A intervals hores o hora fixa"
 
 msgid "Author:"
-msgstr ""
+msgstr "Autor:"
 
 msgid "Back"
-msgstr ""
+msgstr "Enrere"
 
 msgid "Backspace"
-msgstr ""
+msgstr "Retrocés"
 
 msgid "Bottom"
-msgstr ""
+msgstr "A baix"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "El ram '%(name)s' s'ha creat correctament!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Posició del ram a la llista"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Error de creació del ram: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Els rams s'han reorganitzat amb èxit!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel·la"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Cancel·lar l'execució?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Cas: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Registre de canvis: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Canals: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "S'està comprovant el proxy..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Esborra-ho tot"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "La configuració s'ha desat correctament!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Configura els tipus de lletra."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Configura la imatge de fons principal."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Configurar a una hora fixa"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Configureu els minuts d'interval a partir d'ara"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Configuració del servei Referència Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Felicitats! Ja tens la darrera versió..."
 
 msgid "Console"
-msgstr ""
+msgstr "Consola"
 
 msgid "Countries"
-msgstr ""
+msgstr "Països"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Països: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "País: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Crèdits:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Vista per defecte"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Visualització per defecte en obrir el connector"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Vols exportar aquest ram?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Vols instal·lar-lo ara?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Voleu instal·lar l'actualització ( %s ) ara?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Ex: àrab o una altra llengua."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Activa o desactiva el proxy."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Introduïu text per cercar..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "S'ha produït un error en iniciar el canal"
 
 msgid "Error: %s"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Sortida"
 
 msgid "Export"
-msgstr ""
+msgstr "Exporta"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "No s'ha pogut actualitzar el testimoni intermediari"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "No s'ha pogut actualitzar el servidor intermediari:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Error: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Voleu l'actualització del servidor intermediari?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "S'han trobat: {} canals"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Genera un fitxer .m3u per a:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Genera fitxers .m3u (d'acord per a Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Genereu fitxers .m3u i deseu-los al dispositiu %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Voleu generar fitxers .m3u i desar-los al dispositiu %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Voleu generar fitxers .m3u per a TOTS els %d països?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Amaga/Mostra"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Notes importants:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Estat de LAN IPv6 (activat/desactivat)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Teclat"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Última actualització del canal: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Llicència:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Llicència: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Enllaç al menú principal"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Menor = menys interrupció però més actualitzacions"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "Fitxer M3U generat correctament!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "S'ha completat la generació M3U!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "Error de generació M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Referència de serveis de pel·lícules"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "La nova versió {version} està disponible."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "No s'ha detectat cap connexió a Internet. Comproveu la vostra xarxa."
 
 msgid "No channels found"
-msgstr ""
+msgstr "No s'han trobat canals"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "No s'han trobat canals per a "%(name)s""
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "No s'han trobat canals per a: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "No s'han trobat canals a la cerca!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "No hi ha canals vàlids per a: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Ara %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Només un país concret"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Si us plau, proveu amb un altre canal."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Posició dels rams de Vavoo a la llista principal"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Premeu el botó TEXT per escriure, BACKSPACE per suprimir"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Proxy desactivat"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proxy habilitat"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Proxy desactivat"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "El proxy està desactivat. Si us plau, activeu el proxy primer. -- Configuració del menú --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "El proxy està desactivat. Si us plau, activeu-lo a la configuració."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "El servidor intermediari no s'està executant. Inicieu primer el proxy."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Proxy no actiu. No es pot generar el fitxer M3U."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "El proxy no respon després"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "S'està reiniciant el servidor intermediari... Espereu"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "El testimoni de proxy s'ha actualitzat correctament"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Tanqueu realment sense desar la configuració?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Recomanat: 5-8 minuts"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Actualitza el flux (minuts):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Actualitza el flux cada X minuts (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Torna a carregar Bouqet"
 
 msgid "Remove"
-msgstr ""
+msgstr "Eliminar"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Eliminar TOTS els rams de Vavoo?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Reinicieu"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "SELECCIONA LA TEVA Elecció"
 
 msgid "Save"
-msgstr ""
+msgstr "Desa"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Desat a: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Desat a: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Tipus d'horari:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Actualització de la llista programada:"
 
 msgid "Search"
-msgstr ""
+msgstr "Cerca"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Canals de cerca:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Cerca..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Cerca:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Seleccioneu Fons"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Seleccioneu Fonts"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Seleccioneu el mode d'exportació M3U:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Seleccioneu el país per exportar M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Servidor per al jugador utilitzat"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Servidor per al jugador."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Mostrant tots els canals: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Espai"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "El flux s'ha acabat. Hi ha massa problemes de connexió."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Característiques tècniques:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Això actualitzarà el testimoni d'autenticació."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Això eliminarà:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Hora de començar l'actualització:"
 
 msgid "Top"
-msgstr ""
+msgstr "A dalt"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Total de canals: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "MAJÚSCULA"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Actualització avortada!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Actualitza'm"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Interval d'actualització (minuts):"
 
 msgid "Vavoo Stream Live"
 msgstr ""
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Informació"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Connector de Vavoo Stream Live"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Els rams de Vavoo s'han eliminat correctament!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Versió:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "S'està esperant el proxy..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Podeu iniciar-lo des del menú o prement el botó TEXT."
 
 msgid "fixed time"
-msgstr ""
+msgstr "temps fix"
 
 msgid "interval"
 msgstr ""
 
 msgid "lowercase"
-msgstr ""
+msgstr "minúscula"
 
 msgid "seconds"
-msgstr ""
+msgstr "segons"

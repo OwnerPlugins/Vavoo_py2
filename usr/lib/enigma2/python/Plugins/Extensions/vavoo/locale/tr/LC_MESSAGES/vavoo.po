@@ -15,135 +15,135 @@ msgstr ""
 "X-Poedit-SearchPath-1: bouquet_manager.py\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d kanalları)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d kanal)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s dosya silindi)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Otomatik belirteç her 9 dakikada bir yenilenir"
 
 #, fuzzy
 msgid "- Automatic bouquet generation"
 msgstr "Aktif Otomatik Buket Güncelleme"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Kategori buketleri"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Ticari kullanım kesinlikle yasaktır"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Topluluk: Linuxsat-support.com, Corvoboys Forumu"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Konteyner buketleri"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Ülke buketleri"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Yalnızca kişisel kullanım içindir"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Yalnızca ücretsiz içerik"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Grafikler: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- HTTP Canlı Yayını"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Entegre proxy sistemi"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Doğrudan sunucu barındırma yok"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Yeniden dağıtım, ilişkilendirmeyi sürdürmelidir"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Servis referansları: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Kamu kaynaklarından akışlar"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- TS/M3U8 formatları"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Teknik destek: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
 msgstr "Aktif Otomatik Buket Güncelleme"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Aktif veya Devre Dışı lan Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Tüm ülkeler (%d)"
 
 #, fuzzy
 msgid "At an interval hours or fixed time"
 msgstr "Saatler aralığında veya sabit bir zamanda"
 
 msgid "Author:"
-msgstr ""
+msgstr "Yazar:"
 
 msgid "Back"
 msgstr "Geri"
 
 msgid "Backspace"
-msgstr ""
+msgstr "Geri tuşu"
 
 msgid "Bottom"
-msgstr ""
+msgstr "Alt"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "'%(name)s' buketi başarıyla oluşturuldu!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Listedeki Buket Konumu"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Buket oluşturma hatası: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Buketler başarıyla yeniden düzenlendi!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "İptal etmek"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Yürütme iptal edilsin mi?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Dava: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Değişiklik günlüğü: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Kanallar: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Proxy kontrol ediliyor..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Tümünü Temizle"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Yapılandırma başarıyla kaydedildi!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Yazı Tiplerini Yapılandırın."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Ana Arka Plan Görüntüsünü Yapılandırın."
 
 msgid "Configure at a fixed time"
 msgstr "Sabit bir zamanda yapılandırın"
@@ -156,52 +156,52 @@ msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
 msgstr "Hizmeti yapılandırma Referansı Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Tebrikler! Zaten en son sürüme sahipsiniz..."
 
 msgid "Console"
-msgstr ""
+msgstr "Konsol"
 
 msgid "Countries"
-msgstr ""
+msgstr "Ülkeler"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Ülkeler: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Ülke: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Kredi:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Varsayılan Görünüm"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Eklentiyi açarken varsayılan görünüm"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Bu buketi dışa aktarmak istiyor musunuz?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Şimdi yüklemek istiyor musunuz?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Güncellemeyi ( %s ) şimdi yüklemek istiyor musunuz?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Örneğin: Arapça veya başka bir dil."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Proxy'yi etkinleştirin veya devre dışı bırakın."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Aranacak metni girin..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Kanal başlatılırken hata oluştu"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Hata: %s"
 
 msgid "Exit"
 msgstr "Çıkış"
@@ -210,165 +210,165 @@ msgid "Export"
 msgstr "Çıkart"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Proxy jetonu yenilenemedi"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Proxy yenilenemedi:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Başarısız: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Proxy yenilemeyi zorla?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Bulunan: {} kanal"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Şunun için .m3u dosyası oluşturun:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr ".m3u dosyaları oluşturun (Exec için uygun)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr ".m3u dosyaları oluşturun ve %s cihazına kaydedin."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr ".m3u dosyaları oluşturulsun ve %s cihazına kaydedilsin mi?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "TÜM %d ülke için .m3u dosyaları oluşturulsun mu?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Gizle/Göster"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Önemli Notlar:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 Lan Durumu (Açık/Kapalı)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Klavye"
 
 msgid "Last channel update: %s"
 msgstr "Son kanal güncellemesi: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Lisans:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Lisans: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
 msgstr "Ana Menüdeki Bağlantı"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Daha düşük = daha az kesinti ancak daha fazla yenileme"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "M3U dosyası başarıyla oluşturuldu!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "M3U nesli tamamlandı!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "M3U oluşturma hatası: %s"
 
 msgid "Movie Services Reference"
 msgstr "Film Hizmetleri Referansı"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Yeni sürüm {version} mevcut."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "İnternet bağlantısı algılanmadı. Lütfen ağınızı kontrol edin."
 
 #, fuzzy
 msgid "No channels found"
 msgstr "Aramada kanal bulunamadı!!!"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "'%(name)s' için kanal bulunamadı"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Şunun için kanal bulunamadı: %s"
 
 msgid "No channels found in search!!!"
 msgstr "Aramada kanal bulunamadı!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Şunun için geçerli kanal yok: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Şimdi %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Yalnızca belirli bir ülke"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Lütfen başka bir kanalı deneyin."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Vavoo buketlerinin ana listedeki konumu"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Yazmak için TEXT tuşuna, silmek için BACKSPACE tuşuna basın"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Proxy Devre Dışı"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proxy Etkin"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Proxy devre dışı bırakıldı"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Proxy devre dışı bırakıldı. Lütfen önce Proxy'yi Açık olarak ayarlayın. -- Menü Yapılandırması --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Proxy devre dışı bırakıldı. Lütfen yapılandırmada etkinleştirin."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Proxy çalışmıyor. Lütfen önce proxy'yi başlatın."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Proxy etkin değil. M3U dosyası oluşturulamıyor."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Proxy sonra yanıt vermiyor"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Proxy yeniden başlatılıyor... Lütfen bekleyin"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Proxy jetonu başarıyla yenilendi"
 
 msgid "Really close without saving settings?"
 msgstr "Ayarları kaydetmeden gerçekten kapatılsın mı?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Önerilen: 5-8 dakika"
 
 #, fuzzy
 msgid "Refresh stream (minutes):"
 msgstr "Güncelleme aralığı (dakika):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Akışı her X dakikada bir yenileyin (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Buketi Yeniden Yükle"
 
 msgid "Remove"
 msgstr "Kaldır"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "TÜM Vavoo buketleri kaldırılsın mı?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Tekrar başlat"
 
 msgid "SELECT YOUR CHOICE"
 msgstr "SEÇİMİNİZ"
@@ -377,10 +377,10 @@ msgid "Save"
 msgstr "Kaydet"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Kaydedildiği yer: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Kaydedildiği yer: %s"
 
 msgid "Schedule type:"
 msgstr "Zamanlama türü:"
@@ -393,7 +393,7 @@ msgid "Search"
 msgstr "Arama"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Kanalları Ara:"
 
 #, fuzzy
 msgid "Search..."
@@ -404,55 +404,55 @@ msgid "Search:"
 msgstr "Arama"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Arka Planı Seçin"
 
 msgid "Select Fonts"
 msgstr "Yazı Tiplerini Seçin"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "M3U dışa aktarma modunu seçin:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "M3U'nun dışa aktarılacağı ülkeyi seçin:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Kullanılan Oyuncu Sunucusu"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Oyuncu için sunucu."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Tüm kanallar gösteriliyor: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Uzay"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Akış sona erdi. Çok fazla bağlantı sorunu var."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Teknik Özellikler:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Bu, kimlik doğrulama belirtecini yenileyecektir."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Bu şunları kaldıracaktır:"
 
 msgid "Time to start update:"
 msgstr "Güncellemeye başlama zamanı:"
 
 msgid "Top"
-msgstr ""
+msgstr "Tepe"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Toplam kanallar: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "BÜYÜK HARF"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Güncelleme İptal Edildi!"
 
 msgid "Update Me"
 msgstr "Beni Güncelle"
@@ -464,23 +464,23 @@ msgid "Vavoo Stream Live"
 msgstr "Vavoo Stream Live"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Canlı Yayını - Bilgi"
 
 #, fuzzy
 msgid "Vavoo Stream Live Plugin"
 msgstr "Vavoo Stream Live"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo buketleri başarıyla kaldırıldı!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Sürüm:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Proxy bekleniyor..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Menüden veya TEXT tuşuna basarak başlatabilirsiniz."
 
 msgid "fixed time"
 msgstr "sabit zaman"
@@ -489,10 +489,10 @@ msgid "interval"
 msgstr "aralık"
 
 msgid "lowercase"
-msgstr ""
+msgstr "küçük harf"
 
 msgid "seconds"
-msgstr ""
+msgstr "saniye"
 
 #, fuzzy
 #~ msgid "At an interval of hours or at a fixed time"

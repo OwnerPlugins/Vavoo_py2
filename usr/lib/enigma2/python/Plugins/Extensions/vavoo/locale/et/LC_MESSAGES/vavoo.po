@@ -11,472 +11,472 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d kanalit)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d kanalit)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s faili kustutatud)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- žetoonide automaatne värskendamine iga 9 minuti järel"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Automaatne kimpude genereerimine"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Kategooria kimbud"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Kaubanduslik kasutamine on rangelt keelatud"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Kogukond: Linuxsat-support.com, Corvoboysi foorum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- konteinerkimbud"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- maakimbud"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Ainult isiklikuks kasutamiseks"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Ainult tasuta sisu"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Graafika: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- HTTP reaalajas voogesitus"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Integreeritud puhverserveri süsteem"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Serveri otsehostimine puudub"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Ümberjagamine peab säilitama omistamise"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Teenuse viited: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- voogesitus avalikest allikatest"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- TS/M3U8 vormingud"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Tehniline tugi: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Aktiivne automaatne kimpude värskendus"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Aktiivne või mitteaktiivne LAN Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Kõik riigid (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Tunni või kindla aja tagant"
 
 msgid "Author:"
-msgstr ""
+msgstr "Autor:"
 
 msgid "Back"
-msgstr ""
+msgstr "Tagasi"
 
 msgid "Backspace"
-msgstr ""
+msgstr "Tagasilükkeklahv"
 
 msgid "Bottom"
-msgstr ""
+msgstr "Altpoolt"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Kimp '%(name)s' on edukalt loodud!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Kimbu asukoht loendis"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Viga kimbu loomisel: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Kimbud edukalt ümber korraldatud!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Tühista"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Kas tühistada täitmine?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Juhtum: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Muudatuste logi: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Kanalid: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Puhverserveri kontrollimine..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Kustuta kõik"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Seadistuse salvestamine õnnestus!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Fontide seadistamine."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Peamise taustapildi seadistamine."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Seadistage kindlal ajal"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Seadistage intervall minutid nüüdsest"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Konfigureerige teenus Viide Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Õnnitlused! Teil on juba uusim versioon..."
 
 msgid "Console"
-msgstr ""
+msgstr "konsool"
 
 msgid "Countries"
-msgstr ""
+msgstr "Riigid"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Riigid: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Riik: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Autorid:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Vaikevaade"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Vaikevaade pistikprogrammi avamisel"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Kas soovite selle kimbu eksportida?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Kas soovite selle kohe installida?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Kas soovite värskenduse ( %s ) kohe installida?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Nt: araabia või muu keel."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Puhverserveri lubamine või keelamine."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Sisestage otsimiseks tekst..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Viga kanali käivitamisel"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Viga: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Välju"
 
 msgid "Export"
-msgstr ""
+msgstr "Ekspordi"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Puhverserveri märgi värskendamine ebaõnnestus"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Puhverserveri värskendamine ebaõnnestus:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Ebaõnnestunud: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Kas sundida puhverserveri värskendamist?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Leitud: {} kanalit"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "M3u-faili loomine:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "M3u-failide genereerimine (Ok for Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Looge .m3u-failid ja salvestage need seadmesse %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Kas luua .m3u-failid ja salvestada need seadmesse %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Kas luua .m3u-failid KÕIGI %d riigi jaoks?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Peida/Kuva"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Olulised märkused:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "IPv6 osariik (sees/väljas)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Klaviatuur"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Viimane kanali värskendus: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Litsents:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Litsents: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Link põhimenüüs"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Madalam = vähem katkestusi, kuid rohkem värskendusi"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "M3U faili genereerimine õnnestus!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "M3U põlvkond valmis!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "M3U genereerimise viga: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Filmiteenuste viide"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Uus versioon {version} on saadaval."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Interneti-ühendust ei tuvastatud. Kontrollige oma võrku."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Ühtegi kanalit ei leitud"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Päringule '%(name)s' ei leitud ühtegi kanalit"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Ühtegi kanalit ei leitud: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Otsingus ei leitud ühtegi kanalit!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Puuduvad kehtivad kanalid: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Nüüd %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Ainult üks konkreetne riik"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Proovige teist kanalit."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Vavoo kimpude asukoht põhinimekirjas"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Sisestamiseks vajutage nuppu TEXT, kustutamiseks TAGARUUMI"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Puhverserver on keelatud"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Puhverserver lubatud"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Puhverserver on keelatud"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Puhverserver on keelatud. Seadke esmalt puhverserver sisse. -- Menüü konfiguratsioon --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Puhverserver on keelatud. Palun lubage see konfiguratsioonis."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Puhverserver ei tööta. Palun käivitage esmalt puhverserver."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Puhverserver pole aktiivne. M3U-faili ei saa luua."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Puhverserver ei vasta pärast seda"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Puhverserveri taaskäivitamine... Palun oodake"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Puhverserveri märgi värskendamine õnnestus"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Kas tõesti sulgeda seadeid salvestamata?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Soovitatav: 5-8 minutit"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Värskenda voogu (minutites):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Värskenda voogu iga X minuti järel (1–15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Laadi Bouqet uuesti"
 
 msgid "Remove"
-msgstr ""
+msgstr "Eemalda"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Kas eemaldada KÕIK Vavoo kimbud?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Taaskäivitage"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "VALI OMA VALIK"
 
 msgid "Save"
-msgstr ""
+msgstr "Salvesta"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Salvestatud: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Salvestatud: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Ajakava tüüp:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Ajastatud loendi värskendus:"
 
 msgid "Search"
-msgstr ""
+msgstr "Otsi"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Otsi kanaleid:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Otsi..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Otsi:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Valige Taust"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Valige Fonts"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Valige M3U ekspordirežiim:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Valige riik M3U eksportimiseks:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Kasutatud server mängija jaoks"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Server mängija jaoks."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Kuvatakse kõik kanalid: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Kosmos"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Voog lõppes. Liiga palju ühenduse probleeme."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Tehnilised omadused:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "See värskendab autentimisluba."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "See eemaldab:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Aeg värskendada:"
 
 msgid "Top"
-msgstr ""
+msgstr "Üles"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Kanaleid kokku: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "SUURTÄHED"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Värskendus katkestatud!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Värskenda mind"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Värskendusintervall (minutid):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Vavoo otseülekanne"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live – teave"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Vavoo Streami reaalajas pistikprogramm"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo kimbud edukalt eemaldatud!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Versioon:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Puhverserveri ootamine..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Saate selle käivitada menüüst või vajutades nuppu TEXT."
 
 msgid "fixed time"
-msgstr ""
+msgstr "fikseeritud aeg"
 
 msgid "interval"
-msgstr ""
+msgstr "intervall"
 
 msgid "lowercase"
-msgstr ""
+msgstr "väiketähtedega"
 
 msgid "seconds"
-msgstr ""
+msgstr "sekundit"

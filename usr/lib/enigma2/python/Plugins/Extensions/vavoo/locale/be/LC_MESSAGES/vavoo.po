@@ -11,472 +11,472 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d каналаў)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d каналаў)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s файлаў выдалена)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Аўтаматычнае абнаўленне токенаў кожныя 9 хвілін"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Аўтаматычнае стварэнне букета"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Катэгорыя букетаў"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Камерцыйнае выкарыстанне строга забаронена"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Супольнасць: Linuxsat-support.com, форум Corvoboys"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- тарныя букеты"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Вясковыя букеты"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Толькі для асабістага карыстання"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Толькі бясплатны кантэнт"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Графіка: @oktus"
 
 msgid "- HTTP Live Streaming"
 msgstr ""
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Інтэграваная сістэма проксі"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Няма прамога размяшчэння сервера"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Пераразмеркаванне павінна падтрымліваць атрыбуцыю"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Сэрвісныя даведкі: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Патокі з публічных крыніц"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- Фарматы TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Тэхнічная падтрымка: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Актыўнае аўтаматычнае абнаўленне букета"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Актыўная або адключаная лакальная сетка Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Усе краіны (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "У інтэрвал гадзін або фіксаваны час"
 
 msgid "Author:"
-msgstr ""
+msgstr "Аўтар:"
 
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "Знізу"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Букет "%(name)s" паспяхова створаны!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Пазіцыя букета ў спісе"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Памылка стварэння букета: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Букеты рэарганізаваны паспяхова!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Адмяніць"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Адмяніць выкананне?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Справа: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Журнал змяненняў: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Каналы: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Праверка проксі..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Ачысціць усе"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Канфігурацыя паспяхова захавана!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Наладзіць шрыфты."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Наладзьце асноўны фонавы малюнак."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Налада ў фіксаваны час"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Наладзьце інтэрвал у хвілінах"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Даведка па канфігурацыі службы Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Віншую! У вас ужо ёсць апошняя версія..."
 
 msgid "Console"
-msgstr ""
+msgstr "Кансоль"
 
 msgid "Countries"
-msgstr ""
+msgstr "краіны"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Краіны: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Краіна: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "крэдыты:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Выгляд па змаўчанні"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Выгляд па змаўчанні пры адкрыцці плагіна"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Вы хочаце экспартаваць гэты букет?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Вы хочаце ўсталяваць яго зараз?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Вы хочаце ўсталяваць абнаўленне ( %s ) зараз?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Напрыклад: арабская ці іншая мова."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Уключыць або выключыць проксі."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Увядзіце тэкст для пошуку..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Памылка запуску канала"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Памылка: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Выхад"
 
 msgid "Export"
-msgstr ""
+msgstr "Экспарт"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Не ўдалося абнавіць токен проксі"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Не ўдалося абнавіць проксі:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Збой: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Прымусова абнавіць проксі?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Знойдзена: {} каналаў"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Стварыце файл .m3u для:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Стварэнне файлаў .m3u (Добра для Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Стварыце файлы .m3u і захавайце на прыладзе %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Стварыць файлы .m3u і захаваць на прыладзе %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Стварыць файлы .m3u для ЎСІХ %d краін?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Схаваць/паказаць"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Важныя заўвагі:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 State Of Lan (Укл./Выкл.)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Клавіятура"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Апошняе абнаўленне канала: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Ліцэнзія:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Ліцэнзія: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Спасылка ў галоўным меню"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Ніжэй = менш перапынкаў, але больш абнаўленняў"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "Файл M3U створаны паспяхова!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "Пакаленне M3U завершана!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "Памылка стварэння M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Даведка па паслугах кіно"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Даступная новая версія {version}."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Інтэрнэт-злучэнне не выяўлена. Праверце сваю сетку."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Каналы не знойдзены"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Не знойдзена каналаў для "%(name)s""
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Не знойдзены каналы для: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "У пошуку каналы не знойдзены!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Няма сапраўдных каналаў для: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Зараз %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Толькі адна канкрэтная краіна"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Паспрабуйце іншы канал."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Месца букетаў Vavoo у асноўным спісе"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Націсніце кнопку TEXT для ўводу, BACKSPACE для выдалення"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Проксі адключаны"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Проксі ўключаны"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Проксі адключаны"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Проксі адключаны. Спачатку ўключыце проксі. -- Канфігурацыя меню --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Проксі адключаны. Калі ласка, уключыце гэта ў канфігурацыі."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Проксі не працуе. Спачатку запусціце проксі."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Проксі не актыўны. Немагчыма стварыць файл M3U."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Проксі не адказвае пасля"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Перазапуск проксі... Пачакайце"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Проксі-токен паспяхова абноўлены"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Сапраўды закрыць без захавання налад?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Рэкамендуецца: 5-8 хвілін"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Абнавіць паток (хвіліны):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Абнаўляць паток кожныя X хвілін (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Перазагрузіць Букет"
 
 msgid "Remove"
-msgstr ""
+msgstr "Выдаліць"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Выдаліць УСЕ букеты Vavoo?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Перазапуск"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "ВЫБЕРЫ СВОЙ ВЫБАР"
 
 msgid "Save"
-msgstr ""
+msgstr "Захаваць"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Захавана ў: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Захавана ў: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Тып раскладу:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Запланаванае абнаўленне спісу:"
 
 msgid "Search"
-msgstr ""
+msgstr "Пошук"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Шукаць каналы:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Пошук..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Пошук:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Выберыце Фон"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Абярыце Шрыфты"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Выберыце рэжым экспарту M3U:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Выберыце краіну для экспарту M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Выкарыстоўваецца сервер для гульца"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Сервер для гульца."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Паказваюцца ўсе каналы: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Космас"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Трансляцыя скончана. Занадта шмат праблем з падключэннем."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Тэхнічныя асаблівасці:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Гэта дазволіць абнавіць маркер аўтэнтыфікацыі."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Гэта выдаліць:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Час пачаць абнаўленне:"
 
 msgid "Top"
-msgstr ""
+msgstr "Топ"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Усяго каналаў: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "ВЯЛІКАЯ ЛІТАРА"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Абнаўленне спынена!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Абнавіце мяне"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Інтэрвал абнаўлення (хвіліны):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Жывая трансляцыя Vavoo"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - інфармацыя"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Убудова Vavoo Stream Live"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Букеты Vavoo выдалены паспяхова!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Версія:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Чаканне проксі..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Вы можаце запусціць яго з меню або націснуўшы кнопку ТЭКСТ."
 
 msgid "fixed time"
-msgstr ""
+msgstr "фіксаваны час"
 
 msgid "interval"
-msgstr ""
+msgstr "інтэрвал"
 
 msgid "lowercase"
-msgstr ""
+msgstr "малой літары"
 
 msgid "seconds"
-msgstr ""
+msgstr "секунд"

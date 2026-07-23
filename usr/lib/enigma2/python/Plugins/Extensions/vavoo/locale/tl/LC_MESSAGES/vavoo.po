@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d channel)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d channel)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s file ang tinanggal)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Auto token refresh bawat 9 minuto"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Awtomatikong pagbuo ng palumpon"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Mga bouquet ng kategorya"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Mahigpit na ipinagbabawal ang komersyal na paggamit"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Komunidad: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Mga bouquet ng lalagyan"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Mga bouquet ng bansa"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Para sa personal na paggamit lamang"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Libreng nilalaman lamang"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Mga graphic: @oktus"
 
 msgid "- HTTP Live Streaming"
 msgstr ""
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Pinagsamang proxy system"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Walang direktang pagho-host ng server"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Dapat mapanatili ng muling pamamahagi ang pagpapatungkol"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Mga sanggunian sa serbisyo: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Mga stream mula sa mga pampublikong mapagkukunan"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- Mga format ng TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Teknikal na suporta: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Aktibong Awtomatikong Bouquet Update"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Aktibo o Hindi aktibo lan IPv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Lahat ng bansa (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Sa isang pagitan ng oras o nakapirming oras"
 
 msgid "Author:"
-msgstr ""
+msgstr "May-akda:"
 
 msgid "Back"
-msgstr ""
+msgstr "Bumalik"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "Ibaba"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Matagumpay na nagawa ang bouquet '%(name)s'!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Posisyon ng Bouquet sa Listahan"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Error sa paggawa ng bouquet: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Matagumpay na naayos muli ang mga bouquet!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Kanselahin"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Kanselahin ang pagpapatupad?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Kaso: {}"
 
 msgid "Changelog: {changelog}"
 msgstr ""
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Mga Channel: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Sinusuri ang proxy..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "I-clear ang Lahat"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Matagumpay na na-save ang configuration!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "I-configure ang Mga Font."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "I-configure ang Pangunahing Larawan sa Background."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "I-configure sa isang nakapirming oras"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "I-configure ang pagitan ng mga minuto mula ngayon"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "I-configure ang Reference ng serbisyo Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Congrats! Mayroon ka nang pinakabagong bersyon..."
 
 msgid "Console"
 msgstr ""
 
 msgid "Countries"
-msgstr ""
+msgstr "Mga bansa"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Mga Bansa: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Bansa: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Mga kredito:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Default na View"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Default na view kapag binubuksan ang plugin"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Gusto mo bang i-export ang bouquet na ito?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Gusto mo bang i-install ito ngayon?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Gusto mo bang mag-install ng update ( %s ) ngayon?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Hal: Arabic o iba pang wika."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Paganahin o huwag paganahin ang proxy."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Maglagay ng text na hahanapin..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Error sa pagsisimula ng channel"
 
 msgid "Error: %s"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Lumabas"
 
 msgid "Export"
-msgstr ""
+msgstr "I-export"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Nabigong i-refresh ang proxy token"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Nabigong i-refresh ang proxy:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Nabigo: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Pilitin ang pag-refresh ng proxy?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Natagpuan: {} mga channel"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Bumuo ng .m3u file para sa:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Bumuo ng mga .m3u file (Ok para sa Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Bumuo ng mga .m3u na file at i-save sa device na %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Bumuo ng mga .m3u file at i-save sa device %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Bumuo ng mga .m3u na file para sa LAHAT ng %d na bansa?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Itago/Ipakita"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Mahahalagang Paalala:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 State Of Lan (Naka-on/Naka-off)"
 
 msgid "Keyboard"
 msgstr ""
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Huling pag-update ng channel: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Lisensya:"
 
 msgid "License: CC BY-NC-SA 4.0"
 msgstr ""
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Link sa Main Menu"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Mas mababa = mas kaunting pagkaantala ngunit mas maraming pag-refresh"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "Matagumpay na nabuo ang M3U file!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "Nakumpleto ang henerasyon ng M3U!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "Error sa pagbuo ng M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Sanggunian sa Mga Serbisyo ng Pelikula"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Available ang bagong bersyon {version}."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Walang natukoy na koneksyon sa Internet. Pakisuri ang iyong network."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Walang nakitang mga channel"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Walang nakitang mga channel para sa '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Walang nakitang mga channel para sa: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Walang nakitang mga channel sa paghahanap!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Walang wastong channel para sa: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Ngayon %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Isang partikular na bansa lamang"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Mangyaring sumubok ng ibang channel."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Posisyon ng mga bouquet ng Vavoo sa pangunahing listahan"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Pindutin ang TEXT button para mag-type, BACKSPACE para tanggalin"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Naka-disable ang Proxy"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Naka-enable ang Proxy"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Hindi pinagana ang proxy"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Naka-disable ang proxy. Paki-set muna ang Proxy. -- Menu Config --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Naka-disable ang proxy. Mangyaring paganahin ito sa pagsasaayos."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Hindi tumatakbo ang proxy. Mangyaring simulan muna ang proxy."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Hindi aktibo ang proxy. Hindi makabuo ng M3U file."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Hindi sumasagot ang proxy pagkatapos"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Nagre-restart ang proxy... Mangyaring maghintay"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Matagumpay na na-refresh ang proxy token"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Talagang malapit nang hindi nagse-save ng mga setting?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Inirerekomenda: 5-8 minuto"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "I-refresh ang stream (minuto):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "I-refresh ang stream bawat X minuto (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "I-reload ang Bouquet"
 
 msgid "Remove"
-msgstr ""
+msgstr "Alisin"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Alisin ang LAHAT ng mga bouquet ng Vavoo?"
 
 msgid "Restart"
-msgstr ""
+msgstr "I-restart"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "PUMILI NG IYONG PAGPILI"
 
 msgid "Save"
-msgstr ""
+msgstr "I-save"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Naka-save sa: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Na-save sa: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Uri ng iskedyul:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Naka-iskedyul na Update sa Listahan:"
 
 msgid "Search"
-msgstr ""
+msgstr "Maghanap"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Maghanap ng Mga Channel:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Hanapin..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Maghanap:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Piliin ang Background"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Piliin ang Mga Font"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Piliin ang M3U export mode:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Pumili ng bansa upang i-export ang M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Server para sa Player na Ginamit"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Server para sa manlalaro."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Ipinapakita ang lahat ng channel: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "kalawakan"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Natapos ang stream. Masyadong maraming isyu sa koneksyon."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Mga Teknikal na Tampok:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Ire-refresh nito ang token ng pagpapatunay."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Aalisin nito ang:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Oras para simulan ang pag-update:"
 
 msgid "Top"
-msgstr ""
+msgstr "Nangunguna"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Kabuuang mga channel: %(total_channels)d"
 
 msgid "UPPERCASE"
 msgstr ""
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Na-abort ang Update!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "I-update Ako"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "I-update ang pagitan (minuto):"
 
 msgid "Vavoo Stream Live"
 msgstr ""
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Impormasyon"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Vavoo Stream Live na Plugin"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Matagumpay na naalis ang mga bouquet ng Vavoo!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Bersyon:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Naghihintay ng proxy..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Maaari mo itong simulan mula sa menu o sa pamamagitan ng pagpindot sa pindutan ng TEXT."
 
 msgid "fixed time"
-msgstr ""
+msgstr "takdang oras"
 
 msgid "interval"
-msgstr ""
+msgstr "pagitan"
 
 msgid "lowercase"
-msgstr ""
+msgstr "maliit na titik"
 
 msgid "seconds"
-msgstr ""
+msgstr "segundo"

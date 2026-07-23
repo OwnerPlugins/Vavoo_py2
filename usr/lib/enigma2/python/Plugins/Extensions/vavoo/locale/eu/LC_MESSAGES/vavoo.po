@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d kanalak)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d kanal)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s fitxategi ezabatu dira)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Token-a automatikoki freskatu 9 minutuz behin"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Sorta sorta automatikoa"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Kategoria sortak"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Erabilera komertziala guztiz debekatuta dago"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Komunitatea: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Edukiontzi sortak"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Herriko sortak"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Erabilera pertsonalerako soilik"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Doako edukia soilik"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Grafikoak: @oktus"
 
 msgid "- HTTP Live Streaming"
 msgstr ""
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Proxy sistema integratua"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Ez dago zerbitzari zuzeneko hostinga"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Birbanaketak atribuzioari eutsi behar dio"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Zerbitzu-erreferentziak: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Iturri publikoetatik datozen korronteak"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- TS/M3U8 formatuak"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Laguntza teknikoa: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Bouquet eguneratze automatiko aktiboa"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Lan aktiboa edo desaktiboa Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Herrialde guztiak (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Ordu tarte batean edo ordu finko batean"
 
 msgid "Author:"
-msgstr ""
+msgstr "Egilea:"
 
 msgid "Back"
-msgstr ""
+msgstr "Itzuli"
 
 msgid "Backspace"
-msgstr ""
+msgstr "Atzera atzera"
 
 msgid "Bottom"
-msgstr ""
+msgstr "Behean"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr ""%(name)s" sorta behar bezala sortu da!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Sortaren posizioa Zerrendan"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Sortak sortzeko errorea: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Sortak ongi berrantolatu dira!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Utzi"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Exekuzioa bertan behera utzi?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Kasua: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Aldaketen erregistroa: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Kanalak: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Proxya egiaztatzen..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Garbitu guztiak"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Konfigurazioa behar bezala gorde da!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Letra-tipoak konfiguratu."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Konfiguratu atzeko planoko irudi nagusia."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Konfiguratu ordutegi finko batean"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Konfiguratu hemendik minutuko tartea"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Konfiguratu zerbitzua Erreferentzia Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Zorionak! Dagoeneko duzu azken bertsioa..."
 
 msgid "Console"
-msgstr ""
+msgstr "Kontsola"
 
 msgid "Countries"
-msgstr ""
+msgstr "Herrialdeak"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Herrialdeak: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Herrialdea: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Kredituak:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Ikuspegi lehenetsia"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Ikuspegi lehenetsia plugina irekitzean"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Sorta hau esportatu nahi duzu?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Orain instalatu nahi duzu?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Eguneraketa ( %s ) instalatu nahi duzu orain?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Adib.: arabiera edo beste hizkuntza bat."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Gaitu edo desgaitu proxy."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Idatzi testua bilatzeko..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Errore bat gertatu da kanala abiatzean"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Errorea: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Irten"
 
 msgid "Export"
-msgstr ""
+msgstr "Esportatu"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Ezin izan da freskatu proxy tokena"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Ezin izan da freskatu proxy:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Huts egin du: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Proxy freskatzea behartu?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Aurkitu: {} kanal"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Sortu .m3u fitxategia honetarako:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Sortu .m3u fitxategiak (Ondo dago Execentzat)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Sortu .m3u fitxategiak eta gorde %s gailuan."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr ".m3u fitxategiak sortu eta %s gailuan gorde?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "%d herrialde GUZTIETARentzako .m3u fitxategiak sortu?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Ezkutatu/Erakutsi"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Ohar garrantzitsuak:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 Lanaren egoera (aktibatuta/desaktibatuta)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Teklatua"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Kanalaren azken eguneratzea: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Lizentzia:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Lizentzia: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Esteka menu nagusian"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Baxuagoa = etenaldi gutxiago baina freskagarri gehiago"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "M3U fitxategia behar bezala sortu da!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "M3U belaunaldia amaitu da!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "M3U sortzearen errorea: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Film Zerbitzuen Erreferentzia"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "{version} bertsio berria dago eskuragarri."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Ez da Interneteko konexiorik hauteman. Mesedez, egiaztatu zure sarea."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Ez da kanalik aurkitu"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Ez da kanalik aurkitu "%(name)s"-rentzat"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Ez da kanalik aurkitu: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Ez da kanalik aurkitu bilaketan!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Ez dago baliozko kanalik: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Orain %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Herrialde zehatz bakarra"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Mesedez, saiatu beste kanal bat."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Vavoo sorten posizioa zerrenda nagusian"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Sakatu TEXT botoia idazteko, BACKSPACE ezabatzeko"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Proxy desgaituta"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proxy gaituta"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Proxy desgaituta dago"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Proxy desgaituta dago. Mesedez, ezarri lehenik proxy. -- Menua konfigurazioa --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Proxy desgaituta dago. Mesedez, gaitu konfigurazioan."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Proxy ez dago martxan. Mesedez, hasi proxy-a lehenik."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Proxy ez dago aktibo. Ezin da M3U fitxategia sortu."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Proxyak ez du erantzun ondoren"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Proxy berrabiarazten... Itxaron mesedez"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Proxy tokena behar bezala freskatu da"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Benetan itxi ezarpenak gorde gabe?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Gomendatua: 5-8 minutu"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Freskatu korrontea (minutuak):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Freskatu korrontea X minuturo (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Berriz kargatu Bouqet"
 
 msgid "Remove"
-msgstr ""
+msgstr "Kendu"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Vavoo sorta GUZTIAK kendu?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Berrabiarazi"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "HAUTATU ZURE AUKERA"
 
 msgid "Save"
-msgstr ""
+msgstr "Gorde"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Hemen gordeta: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Hemen gordeta: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Ordutegi mota:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Zerrendaren eguneraketa programatua:"
 
 msgid "Search"
-msgstr ""
+msgstr "Bilatu"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Bilatu kanalak:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Bilatu..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Bilatu:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Hautatu Atzeko planoa"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Hautatu Letra-tipoak"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Hautatu M3U esportazio modua:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Hautatu M3U esportatzeko herrialdea:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Erabilitako jokalarientzako zerbitzaria"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Jokalarientzako zerbitzaria."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Kanal guztiak erakusten: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Espazioa"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Amaitu da korrontea. Konexio-arazo gehiegi."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Ezaugarri teknikoak:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Honek autentifikazio-tokena freskatuko du."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Honek kenduko du:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Eguneratzen hasteko ordua:"
 
 msgid "Top"
-msgstr ""
+msgstr "Goiena"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Kanalak guztira: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "MAIUSKULA"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Eguneratzea bertan behera utzi da!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Eguneratu nazazu"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Eguneratzeko tartea (minutuak):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Vavoo Stream Zuzenean"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Informazioa"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Vavoo Stream zuzeneko plugina"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo sortak behar bezala kendu dira!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Bertsioa:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Proxyaren zain..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Menutik edo TESTU botoia sakatuz has dezakezu."
 
 msgid "fixed time"
-msgstr ""
+msgstr "ordu finkoa"
 
 msgid "interval"
-msgstr ""
+msgstr "tartea"
 
 msgid "lowercase"
-msgstr ""
+msgstr "minuskula"
 
 msgid "seconds"
-msgstr ""
+msgstr "segundoak"

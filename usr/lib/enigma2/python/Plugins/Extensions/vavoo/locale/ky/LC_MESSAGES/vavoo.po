@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d каналдар)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d канал)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s файл жок кылынды)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Авто токен ар 9 мүнөт сайын жаңыланат"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Автоматтык букет түзүү"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Категориядагы букет"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Коммерциялык максатта колдонууга катуу тыюу салынат"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Коомчулук: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Контейнер букеттери"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Айыл гүлдестелери"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Жеке колдонуу үчүн гана"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Акысыз мазмун гана"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Графика: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- HTTP түз агымы"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Интеграцияланган прокси системасы"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Түз сервер хостинги жок"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Кайра бөлүштүрүүдө атрибуция сакталышы керек"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Кызматтык маалымдамалар: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Коомдук булактардан алынган агымдар"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- TS/M3U8 форматтары"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Техникалык колдоо: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Активдүү автоматтык букет жаңыртуу"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Активдүү же Disactive lan Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Бардык өлкөлөр (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Аралык сааттарда же белгиленген убакытта"
 
 msgid "Author:"
 msgstr ""
 
 msgid "Back"
-msgstr ""
+msgstr "Артка"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "Төмөнкү"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "'%(name)s' букет ийгиликтүү түзүлдү!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Тизмедеги букеттин абалы"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Букет түзүү катасы: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Букет ийгиликтүү кайра уюштурулду!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Жокко чыгаруу"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Аткаруу жокко чыгарылсынбы?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Иш: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Өзгөртүү журналы: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Каналдар: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Прокси текшерилүүдө..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Баарын тазалоо"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Конфигурация ийгиликтүү сакталды!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Ариптерди конфигурациялоо."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Негизги фон сүрөтүн конфигурациялоо."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Белгиленген убакта конфигурациялоо"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Азыртан баштап интервал мүнөттөрүн конфигурациялаңыз"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Iptv-Gstreamer-Exteplayer3 шилтемесин конфигурациялаңыз"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Куттуктайбыз! Сизде мурунтан эле акыркы версия бар..."
 
 msgid "Console"
 msgstr ""
 
 msgid "Countries"
-msgstr ""
+msgstr "Өлкөлөр"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Өлкөлөр: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Өлкө: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Кредиттер:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Демейки көрүнүш"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Плагинди ачууда демейки көрүнүш"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Бул букетти экспорттоону каалайсызбы?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Аны азыр орноткуңуз келеби?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Жаңыртууну ( %s ) азыр орноткуңуз келеби?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Мисалы: араб же башка тил."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Проксиди иштетүү же өчүрүү."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Издөө үчүн текстти киргизиңиз..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Каналды баштоодо ката кетти"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Ката: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Чыгыңыз"
 
 msgid "Export"
-msgstr ""
+msgstr "Экспорт"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Прокси токен жаңыртылган жок"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Прокси жаңыртылган жок:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Ишке ашкан жок: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Прокси жаңыртууга мажбурлообу?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Табылды: {} канал"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr ".m3u файлын түзүү:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr ".m3u файлдарын түзүү (Exec үчүн макул)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr ".m3u файлдарын түзүп, %s түзмөгүнө сактаңыз."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr ".m3u файлдарын түзүп, %s түзмөгүнө сакталсынбы?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "БАРДЫК %d өлкө үчүн .m3u файлдары түзүлсүнбү?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Жашыруу/Көрсөтүү"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Маанилүү эскертүүлөр:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 Лан абалы (күйгүзүү/өчүрүү)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Баскычтоп"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Акыркы канал жаңыртылышы: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Лицензия:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Лицензия: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Негизги менюдагы шилтеме"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Төмөнкү = азыраак үзгүлтүккө учуратуу, бирок көбүрөөк жаңыртуу"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "M3U файлы ийгиликтүү түзүлдү!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "M3U мууну аяктады!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "M3U түзүү катасы: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Кино кызматтарынын маалымдамасы"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Жаңы версия {version} жеткиликтүү."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Интернет байланышы табылган жок. Тармагыңызды текшериңиз."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Каналдар табылган жок"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "'%(name)s' үчүн каналдар табылган жок"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Төмөнкү үчүн эч кандай канал табылган жок: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Издөөдө эч кандай канал табылган жок!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Төмөнкү үчүн жарактуу каналдар жок: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Азыр %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Бир гана конкреттүү өлкө"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Башка каналды байкап көрүңүз."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Негизги тизмедеги Vavoo букеттеринин орду"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Терүү үчүн TEXT баскычын, жок кылуу үчүн BACKSPACE баскычын басыңыз"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Прокси өчүрүлгөн"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Прокси иштетилген"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Прокси өчүрүлгөн"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Прокси өчүрүлгөн. Сураныч, адегенде прокси күйгүзүңүз. -- Меню конфигурациялоо --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Прокси өчүрүлгөн. Сураныч, аны конфигурацияда иштетиңиз."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Прокси иштебей жатат. Сураныч, адегенде проксиди баштаңыз."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Прокси активдүү эмес. M3U файлын түзүү мүмкүн эмес."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Прокси кийин жооп бербейт"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Прокси кайра иштетилүүдө... Күтө туруңуз"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Прокси энбелгиси ийгиликтүү жаңырды"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Жөндөөлөрдү сактабастан чын эле жабылабы?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Сунушталган: 5-8 мүнөт"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Агымды жаңыртуу (мүнөт):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Агымды ар X мүнөт сайын жаңыртуу (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Букетти кайра жүктөө"
 
 msgid "Remove"
-msgstr ""
+msgstr "Алып салуу"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "БАРДЫК Vavoo гүлдестелери өчүрүлсүнбү?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Кайра баштоо"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "ТАНДООҢУЗДУ ТАНДАЙТ"
 
 msgid "Save"
-msgstr ""
+msgstr "Сактоо"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Сакталган: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Сакталган: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Графиктин түрү:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Пландалган тизмени жаңыртуу:"
 
 msgid "Search"
-msgstr ""
+msgstr "Издөө"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Каналдарды издөө:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Издөө..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Издөө:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Фонду тандаңыз"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Ариптерди тандаңыз"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "M3U экспорттоо режимин тандоо:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "M3U экспорттоо үчүн өлкөнү тандаңыз:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Колдонулган оюнчу үчүн сервер"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Оюнчу үчүн сервер."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Бардык каналдар көрсөтүлүүдө: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Космос"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Агым аяктады. Туташуу маселеси өтө көп."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Техникалык өзгөчөлүктөрү:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Бул аутентификация токенин жаңылайт."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Бул алып салат:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Жаңыртууну баштоого убакыт:"
 
 msgid "Top"
-msgstr ""
+msgstr "Жогорку"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Жалпы каналдар: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "ЖОГОРКУ РЕФЕР"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Жаңыртуу токтотулду!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Мени жаңыртуу"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Жаңыртуу аралыгы (мүнөт):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Vavoo түз агымы"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Маалымат"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Vavoo Stream Live плагини"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo букеттери ийгиликтүү алынып салынды!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Версия:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Прокси күтүлүүдө..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Сиз аны менюдан же TEXT баскычын басуу менен баштасаңыз болот."
 
 msgid "fixed time"
-msgstr ""
+msgstr "белгиленген убакыт"
 
 msgid "interval"
-msgstr ""
+msgstr "интервал"
 
 msgid "lowercase"
-msgstr ""
+msgstr "кичине тамга"
 
 msgid "seconds"
-msgstr ""
+msgstr "секунд"

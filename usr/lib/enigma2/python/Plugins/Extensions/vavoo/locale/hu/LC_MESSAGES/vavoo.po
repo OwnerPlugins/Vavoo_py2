@@ -127,7 +127,7 @@ msgid "Channels: %d"
 msgstr "Csatornák: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Proxy ellenőrzése..."
 
 msgid "Clear All"
 msgstr "Összes törlése"
@@ -179,7 +179,7 @@ msgid "Do you want to export this bouquet?"
 msgstr "Exportálni szeretné ezt a csokrot?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Most szeretné telepíteni?"
 "Új verzió (%s) elérhető\n"
 "\n"
 "Változásnapló: %s\n"
@@ -193,7 +193,7 @@ msgid "Eg: Arabic or other language."
 msgstr "Pl.: arab vagy más nyelv."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Proxy engedélyezése vagy letiltása."
 
 msgid "Enter text to search..."
 msgstr "Írjon be szöveget a kereséshez..."
@@ -211,16 +211,16 @@ msgid "Export"
 msgstr "Exportálás"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Nem sikerült frissíteni a proxy tokent"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Nem sikerült frissíteni a proxyt:"
 
 msgid "Failed: %(failed)d"
 msgstr "Sikertelen: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Kényszeríti a proxy frissítését?"
 
 msgid "Found: {} channels"
 msgstr "{} csatorna található"
@@ -283,7 +283,7 @@ msgid "New version {version} is available."
 msgstr "Új verzió ({version}) érhető el."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Nem észlelhető internetkapcsolat. Kérjük, ellenőrizze a hálózatát."
 
 msgid "No channels found"
 msgstr "Nem található csatorna a következőhöz: {}"
@@ -316,35 +316,35 @@ msgid "Press TEXT button to type, BACKSPACE to delete"
 msgstr "Nyomja meg a TEXT gombot a gépeléshez, a BACKSPACE gombot a törléshez"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Proxy letiltva"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proxy engedélyezve"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Proxy letiltva"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "A proxy le van tiltva. Kérjük, először állítsa be a proxyt. -- Menü konfiguráció --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "A proxy le van tiltva. Kérjük, engedélyezze a konfigurációban."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "A proxy nem fut. Először indítsa el a proxyt."
 
 msgid "Proxy not active. Unable to generate M3U file."
 msgstr "A proxy nem aktív. Nem sikerült létrehozni az M3U fájlt."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "A proxy nem válaszol ezután"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Proxy újraindítása... Kérjük, várjon"
 
 #, fuzzy
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "A proxy token sikeresen frissítve"
 "Vavoo csokrok sikeresen eltávolítva!\n"
 "\n"
 "(%s fájl törölve)"
@@ -435,7 +435,7 @@ msgid "Technical Features:"
 msgstr "Műszaki jellemzők:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Ez frissíti a hitelesítési tokent."
 
 msgid "This will remove:"
 msgstr "Ez eltávolítja a következőket:"
@@ -471,7 +471,7 @@ msgid "Vavoo Stream Live Plugin"
 msgstr "Vavoo élő közvetítés bővítmény"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo csokrok sikeresen eltávolítva!"
 "Vavoo csokrok sikeresen eltávolítva!\n"
 "\n"
 "(%s fájl törölve)"
@@ -480,10 +480,10 @@ msgid "Version:"
 msgstr "Verzió:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Várakozás a proxyra..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "A menüből vagy a TEXT gomb megnyomásával indíthatja el."
 
 msgid "fixed time"
 msgstr "megbeszélt időpont"
@@ -495,7 +495,7 @@ msgid "lowercase"
 msgstr "kisbetűk"
 
 msgid "seconds"
-msgstr ""
+msgstr "másodpercig"
 
 #, fuzzy
 #~ msgid "At an interval of hours or at a fixed time"

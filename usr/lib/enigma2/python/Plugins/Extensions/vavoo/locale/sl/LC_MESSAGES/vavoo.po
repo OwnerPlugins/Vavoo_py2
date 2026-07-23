@@ -11,472 +11,472 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d kanalov)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d kanalov)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s datotek izbrisanih)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Samodejno osveževanje žetonov vsakih 9 minut"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Samodejno ustvarjanje šopkov"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Kategorija šopki"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Komercialna uporaba je strogo prepovedana"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Skupnost: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Posoda za šopke"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Podeželski šopki"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Samo za osebno uporabo"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Samo brezplačne vsebine"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Grafika: @oktus"
 
 msgid "- HTTP Live Streaming"
 msgstr ""
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Integriran proxy sistem"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Brez neposrednega gostovanja strežnika"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Prerazporeditev mora ohranjati pripisovanje"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Reference storitev: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Tokovi iz javnih virov"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- Formati TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Tehnična podpora: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Aktivna samodejna posodobitev šopka"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Aktiven ali onemogočen lan Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Vse države (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "V intervalih ur ali določenem času"
 
 msgid "Author:"
-msgstr ""
+msgstr "Avtor:"
 
 msgid "Back"
-msgstr ""
+msgstr "Nazaj"
 
 msgid "Backspace"
-msgstr ""
+msgstr "vračalka"
 
 msgid "Bottom"
-msgstr ""
+msgstr "Spodaj"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Šopek '%(name)s' je uspešno ustvarjen!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Položaj šopka na seznamu"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Napaka pri ustvarjanju šopka: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Šopki uspešno reorganizirani!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Prekliči"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Preklic izvršitve?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Zadeva: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Dnevnik sprememb: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Kanali: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Preverjanje proxyja ..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Počisti vse"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Konfiguracija uspešno shranjena!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Konfigurirajte pisave."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Konfigurirajte glavno sliko ozadja."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Konfigurirajte ob določenem času"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Konfigurirajte intervalne minute od zdaj"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Referenca za konfiguracijo storitve Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "čestitke Najnovejšo različico že imate..."
 
 msgid "Console"
-msgstr ""
+msgstr "Konzola"
 
 msgid "Countries"
-msgstr ""
+msgstr "Države"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Države: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Država: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Zasluge:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Privzeti pogled"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Privzeti pogled ob odpiranju vtičnika"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Ali želite izvoziti ta šopek?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Ali ga želite namestiti zdaj?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Ali želite zdaj namestiti posodobitev ( %s )?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Npr.: arabščina ali drug jezik."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Omogoči ali onemogoči proxy."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Vnesite besedilo za iskanje ..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Napaka pri zagonu kanala"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Napaka: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Izhod"
 
 msgid "Export"
-msgstr ""
+msgstr "Izvozi"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Osvežitev proxy žetona ni uspela"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Proxyja ni bilo mogoče osvežiti:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Neuspešno: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Želite prisilno osvežiti proxy?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Najdeno: {} kanalov"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Ustvari datoteko .m3u za:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Ustvari datoteke .m3u (V redu za Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Ustvarite datoteke .m3u in jih shranite v napravo %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Ustvarite datoteke .m3u in jih shranite v napravo %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Ustvariti datoteke .m3u za VSEh %d držav?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Skrij/prikaži"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Pomembne opombe:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 State Of Lan (Vklop/Izklop)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tipkovnica"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Zadnja posodobitev kanala: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Licenca:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Licenca: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Povezava v glavnem meniju"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Nižje = manj prekinitev, vendar več osvežitev"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "Datoteka M3U je bila uspešno ustvarjena!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "Generacija M3U končana!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "Napaka pri generiranju M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Referenca filmskih storitev"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Na voljo je nova različica {version}."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Ni internetne povezave. Preverite svoje omrežje."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Ni kanalov"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Ni kanalov za '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Ni kanalov za: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Pri iskanju ni bilo mogoče najti nobenega kanala!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Ni veljavnih kanalov za: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Zdaj %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Samo ena določena država"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Poskusite z drugim kanalom."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Položaj šopkov Vavoo na glavnem seznamu"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Pritisnite gumb TEXT za tipkanje, BACKSPACE za brisanje"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Proxy onemogočen"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proxy omogočen"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Proxy onemogočen"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Proxy je onemogočen. Najprej nastavite proxy. -- Konfiguracija menija --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Proxy je onemogočen. Omogočite ga v konfiguraciji."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Proxy se ne izvaja. Najprej zaženite proxy."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Proxy ni aktiven. Ni mogoče ustvariti datoteke M3U."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Proxy se po tem ne odziva"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Ponovni zagon proxyja ... Počakajte"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Proxy žeton je bil uspešno osvežen"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Ali res zaprete brez shranjevanja nastavitev?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Priporočeno: 5-8 minut"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Osveži tok (minute):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Osveži tok vsakih X minut (1–15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Ponovno naloži šopek"
 
 msgid "Remove"
-msgstr ""
+msgstr "Odstrani"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Odstraniti VSE šopke Vavoo?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Znova zaženite"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "IZBERITE SVOJO IZBIRO"
 
 msgid "Save"
-msgstr ""
+msgstr "Shrani"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Shranjeno v: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Shranjeno v: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Vrsta urnika:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Načrtovana posodobitev seznama:"
 
 msgid "Search"
-msgstr ""
+msgstr "Iskanje"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Iskanje kanalov:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Iskanje ..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Iskanje:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Izberite Ozadje"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Izberite Pisave"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Izberite način izvoza M3U:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Izberite državo za izvoz M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Uporabljen strežnik za igralca"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Server za igralca."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Prikaz vseh kanalov: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Vesolje"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Tok se je končal. Preveč težav s povezavo."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Tehnične lastnosti:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "To bo osvežilo žeton za preverjanje pristnosti."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "S tem boste odstranili:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Čas za začetek posodobitve:"
 
 msgid "Top"
-msgstr ""
+msgstr "Vrh"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Skupno število kanalov: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "VELIKE ČRKE"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Posodobitev prekinjena!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Posodobi me"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Interval posodabljanja (minute):"
 
 msgid "Vavoo Stream Live"
 msgstr ""
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Informacije"
 
 msgid "Vavoo Stream Live Plugin"
 msgstr ""
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo šopki uspešno odstranjeni!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Različica:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Čakanje na proxy ..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Zaženete ga lahko iz menija ali s pritiskom na gumb TEXT."
 
 msgid "fixed time"
-msgstr ""
+msgstr "določen čas"
 
 msgid "interval"
 msgstr ""
 
 msgid "lowercase"
-msgstr ""
+msgstr "male črke"
 
 msgid "seconds"
-msgstr ""
+msgstr "sekund"

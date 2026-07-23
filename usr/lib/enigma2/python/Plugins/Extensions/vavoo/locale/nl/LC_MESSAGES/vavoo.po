@@ -11,472 +11,472 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d kanalen)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d kanalen)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s bestanden verwijderd)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Automatische tokenvernieuwing elke 9 minuten"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Automatische boeketgeneratie"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Categorie boeketten"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Commercieel gebruik is ten strengste verboden"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Gemeenschap: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Containerboeketten"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Landelijke boeketten"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "-Alleen voor persoonlijk gebruik"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Alleen gratis inhoud"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Grafisch: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- HTTP-livestreaming"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Geïntegreerd proxysysteem"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Geen directe serverhosting"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Bij herverdeling moet de attributie behouden blijven"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Servicereferenties: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Streams uit openbare bronnen"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- TS/M3U8-formaten"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Technische ondersteuning: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Actieve automatische boeketupdate"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Actief of gedeactiveerd LAN IPv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Alle landen (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Met een interval van uren of een vast tijdstip"
 
 msgid "Author:"
-msgstr ""
+msgstr "Auteur:"
 
 msgid "Back"
-msgstr ""
+msgstr "Rug"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "Onderkant"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Boeket '%(name)s' is succesvol aangemaakt!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Boeketpositie in lijst"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Fout bij het maken van een boeket: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Boeketten succesvol gereorganiseerd!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Annuleren"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Uitvoering annuleren?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Geval: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Wijzigingslog: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Kanalen: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Proxy controleren..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Alles wissen"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Configuratie succesvol opgeslagen!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Configureer lettertypen."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Configureer de hoofdachtergrondafbeelding."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Configureer op een vast tijdstip"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Configureer intervalminuten vanaf nu"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Service configureren Referentie Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Gefeliciteerd! Je beschikt al over de nieuwste versie..."
 
 msgid "Console"
-msgstr ""
+msgstr "Troosten"
 
 msgid "Countries"
-msgstr ""
+msgstr "Landen"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Landen: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Land: %s"
 
 msgid "Credits:"
 msgstr ""
 
 msgid "Default View"
-msgstr ""
+msgstr "Standaardweergave"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Standaardweergave bij het openen van de plug-in"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Wilt u dit boeket exporteren?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Wil je het nu installeren?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Wilt u update ( %s ) nu installeren?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Bijv.: Arabisch of een andere taal."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Proxy in- of uitschakelen."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Voer tekst in om te zoeken..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Fout bij starten van kanaal"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Fout: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Uitgang"
 
 msgid "Export"
-msgstr ""
+msgstr "Exporteren"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Kan het proxytoken niet vernieuwen"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Kan de proxy niet vernieuwen:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Mislukt: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Proxyvernieuwing forceren?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Gevonden: {} kanalen"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Genereer een .m3u-bestand voor:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Genereer .m3u-bestanden (ok voor Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Genereer .m3u-bestanden en sla deze op op apparaat %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr ".m3u-bestanden genereren en opslaan op apparaat %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr ".m3u-bestanden genereren voor ALLE %d landen?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Verbergen/Tonen"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Belangrijke opmerkingen:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "IPv6-status van LAN (aan/uit)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Toetsenbord"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Laatste kanaalupdate: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Licentie:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Licentie: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Link in het hoofdmenu"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Lager = minder onderbreking maar meer vernieuwingen"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "M3U-bestand succesvol gegenereerd!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "M3U-generatie voltooid!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "M3U-generatiefout: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Referentie voor filmservices"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Nieuwe versie {version} is beschikbaar."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Geen internetverbinding gedetecteerd. Controleer uw netwerk."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Geen kanalen gevonden"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Geen kanalen gevonden voor '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Geen kanalen gevonden voor: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Geen kanalen gevonden in zoekopdracht!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Geen geldige kanalen voor: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Nu %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Slechts één specifiek land"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Probeer een ander kanaal."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Positie van Vavoo-boeketten in de hoofdlijst"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Druk op de TEXT-knop om te typen, op BACKSPACE om te verwijderen"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Proxy uitgeschakeld"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proxy ingeschakeld"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Proxy uitgeschakeld"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Proxy is uitgeschakeld. Stel eerst Proxy in. -- Menuconfiguratie --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Proxy is uitgeschakeld. Schakel dit in de configuratie in."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Proxy is niet actief. Start eerst de proxy."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Proxy niet actief. Kan M3U-bestand niet genereren."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Proxy reageert niet meer"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Proxy wordt opnieuw opgestart... Een ogenblik geduld"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Proxytoken is vernieuwd"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Echt afsluiten zonder instellingen op te slaan?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Aanbevolen: 5-8 minuten"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Stream vernieuwen (minuten):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Vernieuw de stream elke X minuten (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Boeket opnieuw laden"
 
 msgid "Remove"
-msgstr ""
+msgstr "Verwijderen"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "ALLE Vavoo-boeketten verwijderen?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Opnieuw opstarten"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "SELECTEER UW KEUZE"
 
 msgid "Save"
-msgstr ""
+msgstr "Redden"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Opgeslagen in: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Opgeslagen in: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Schematype:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Geplande lijstupdate:"
 
 msgid "Search"
-msgstr ""
+msgstr "Zoekopdracht"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Kanalen zoeken:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Zoekopdracht..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Zoekopdracht:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Selecteer Achtergrond"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Selecteer Lettertypen"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Selecteer M3U-exportmodus:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Selecteer land om M3U te exporteren:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Server voor gebruikte speler"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Server voor speler."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Alle kanalen weergeven: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Ruimte"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Stroom beëindigd. Te veel verbindingsproblemen."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Technische kenmerken:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Hierdoor wordt het authenticatietoken vernieuwd."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Hierdoor wordt het volgende verwijderd:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Tijd om te beginnen met updaten:"
 
 msgid "Top"
-msgstr ""
+msgstr "Bovenkant"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Totaal aantal kanalen: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "HOOFDLETTERS"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Update afgebroken!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Update mij"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Update-interval (minuten):"
 
 msgid "Vavoo Stream Live"
 msgstr ""
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Informatie"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Vavoo Stream Live-plug-in"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo boeketten succesvol verwijderd!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Versie:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Wachten op proxy..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "U kunt het starten vanuit het menu of door op de TEXT-knop te drukken."
 
 msgid "fixed time"
-msgstr ""
+msgstr "vaste tijd"
 
 msgid "interval"
 msgstr ""
 
 msgid "lowercase"
-msgstr ""
+msgstr "kleine letters"
 
 msgid "seconds"
-msgstr ""
+msgstr "seconden"

@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d saluran)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d saluran)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s fail dipadamkan)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Muat semula token automatik setiap 9 minit"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Penjanaan sejambak automatik"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Kategori jambangan"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Penggunaan komersial adalah dilarang sama sekali"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Komuniti: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Sejambak bekas"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Bunga desa"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Untuk kegunaan peribadi sahaja"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Kandungan percuma sahaja"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Grafik: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- Penstriman Langsung HTTP"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Sistem proksi bersepadu"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Tiada pengehosan pelayan langsung"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Pengagihan semula mesti mengekalkan atribusi"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Rujukan perkhidmatan: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Strim daripada sumber awam"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- Format TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Sokongan teknikal: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Kemas Kini Bouquet Automatik Aktif"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Aktif atau Tidak aktif lan Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Semua negara (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Pada selang jam atau masa tetap"
 
 msgid "Author:"
-msgstr ""
+msgstr "Pengarang:"
 
 msgid "Back"
-msgstr ""
+msgstr "belakang"
 
 msgid "Backspace"
-msgstr ""
+msgstr "Ruang belakang"
 
 msgid "Bottom"
-msgstr ""
+msgstr "Bawah"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Sejambak '%(name)s' berjaya dibuat!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Kedudukan Bouquet dalam Senarai"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Ralat penciptaan sejambak: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Sejambak berjaya disusun semula!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Batal"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Batalkan pelaksanaan?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Kes: {}"
 
 msgid "Changelog: {changelog}"
 msgstr ""
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Saluran: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Menyemak proksi..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Kosongkan Semua"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Konfigurasi berjaya disimpan!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Konfigurasikan Fon."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Konfigurasi Imej Latar Belakang Utama."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Konfigurasikan pada masa yang tetap"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Konfigurasikan selang minit dari sekarang"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Konfigurasi Rujukan perkhidmatan Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "tahniah! Anda sudah mempunyai versi terkini..."
 
 msgid "Console"
-msgstr ""
+msgstr "Konsol"
 
 msgid "Countries"
-msgstr ""
+msgstr "negara"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Negara: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Negara: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Kredit:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Paparan Lalai"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Paparan lalai apabila membuka pemalam"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Adakah anda mahu mengeksport sejambak ini?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Adakah anda mahu memasangnya sekarang?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Adakah anda mahu memasang kemas kini ( %s ) sekarang?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Cth: Arab atau bahasa lain."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Dayakan atau lumpuhkan proksi."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Masukkan teks untuk mencari..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Ralat memulakan saluran"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Ralat: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Keluar"
 
 msgid "Export"
-msgstr ""
+msgstr "Eksport"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Gagal memuat semula token proksi"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Gagal memuat semula proksi:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Gagal: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Paksa muat semula proksi?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Ditemui: {} saluran"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Hasilkan fail .m3u untuk:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Hasilkan fail .m3u (Ok untuk Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Hasilkan fail .m3u dan simpan pada peranti %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Hasilkan fail .m3u dan simpan pada peranti %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Hasilkan fail .m3u untuk SEMUA %d negara?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Sembunyi/Tunjukkan"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Nota Penting:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Keadaan Ipv6 Lan (Hidup/Mati)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "papan kekunci"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Kemas kini saluran terakhir: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Lesen:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Lesen: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Pautan dalam Menu Utama"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Lebih rendah = kurang gangguan tetapi lebih banyak menyegarkan"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "Fail M3U berjaya dijana!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "Penjanaan M3U selesai!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "Ralat penjanaan M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Rujukan Perkhidmatan Filem"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Versi baharu {version} tersedia."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Tiada sambungan Internet dikesan. Sila semak rangkaian anda."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Tiada saluran ditemui"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Tiada saluran ditemui untuk '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Tiada saluran ditemui untuk: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Tiada saluran ditemui dalam carian!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Tiada saluran yang sah untuk: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Sekarang %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Hanya satu negara tertentu"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Sila cuba saluran lain."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Kedudukan sejambak Vavoo dalam senarai utama"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Tekan butang TEKS untuk menaip, BACKSPACE untuk memadam"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Proksi Dilumpuhkan"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proksi Didayakan"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Proksi dilumpuhkan"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Proksi dilumpuhkan. Sila Tetapkan Proksi Mula-mula. -- Konfigurasi Menu --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Proksi dilumpuhkan. Sila dayakannya dalam konfigurasi."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Proksi tidak berjalan. Sila mulakan proksi dahulu."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Proksi tidak aktif. Tidak dapat menjana fail M3U."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Proksi tidak bertindak balas selepas itu"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Proksi dimulakan semula... Sila tunggu"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Token proksi berjaya dimuat semula"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Benar-benar tutup tanpa menyimpan tetapan?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Disyorkan: 5-8 minit"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Muat semula strim (minit):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Muat semula strim setiap X minit (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Muat semula Bouquet"
 
 msgid "Remove"
-msgstr ""
+msgstr "Alih keluar"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Keluarkan SEMUA jambangan Vavoo?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Mulakan semula"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "PILIH PILIHAN ANDA"
 
 msgid "Save"
-msgstr ""
+msgstr "Jimat"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Disimpan dalam: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Disimpan dalam: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Jenis jadual:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Kemas Kini Senarai Berjadual:"
 
 msgid "Search"
-msgstr ""
+msgstr "Cari"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Cari Saluran:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Cari..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Cari:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Pilih Latar Belakang"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Pilih Font"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Pilih mod eksport M3U:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Pilih negara untuk mengeksport M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Pelayan untuk Pemain Digunakan"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Pelayan untuk pemain."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Menunjukkan semua saluran: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Angkasa"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Strim tamat. Terlalu banyak masalah sambungan."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Ciri-ciri teknikal:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Ini akan menyegarkan semula token pengesahan."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Ini akan mengalih keluar:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Masa untuk memulakan kemas kini:"
 
 msgid "Top"
-msgstr ""
+msgstr "Atas"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Jumlah saluran: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "HURUF BESAR"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Kemas Kini Dibatalkan!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Kemas kini Saya"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Selang kemas kini (minit):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Siaran Langsung Vavoo"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Maklumat"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Pemalam Langsung Vavoo Stream"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Sejambak Vavoo berjaya dikeluarkan!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Versi:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Menunggu proksi..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Anda boleh memulakannya dari menu atau dengan menekan butang TEKS."
 
 msgid "fixed time"
-msgstr ""
+msgstr "masa tetap"
 
 msgid "interval"
-msgstr ""
+msgstr "selang waktu"
 
 msgid "lowercase"
-msgstr ""
+msgstr "huruf kecil"
 
 msgid "seconds"
-msgstr ""
+msgstr "detik"

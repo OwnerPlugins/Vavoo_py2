@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d kanale)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d kanale)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s skedarë u fshinë)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Rifreskim automatik i shenjës çdo 9 minuta"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Gjenerimi automatik i buqetave"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Buqeta të kategorisë"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Përdorimi komercial është rreptësisht i ndaluar"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Komuniteti: Linuxsat-support.com, Forumi Corvoboys"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Buqeta me kontejnerë"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Buqeta fshatare"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Vetëm për përdorim personal"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Vetëm përmbajtje falas"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Grafika: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- Transmetim i drejtpërdrejtë HTTP"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Sistemi proxy i integruar"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Nuk ka pritje direkte të serverit"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Rishpërndarja duhet të ruajë atributin"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Referencat e shërbimit: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Transmetime nga burime publike"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- Formatet TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Mbështetje teknike: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Përditësimi automatik i buqetës"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Aktiv ose çaktivizuar lan Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Të gjitha vendet (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Në një interval orë ose kohë të caktuar"
 
 msgid "Author:"
-msgstr ""
+msgstr "Autori:"
 
 msgid "Back"
-msgstr ""
+msgstr "Mbrapa"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "Poshtë"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Buqeta '%(name)s' u krijua me sukses!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Pozicioni i buqetës në listë"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Gabim në krijimin e buqetës: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Buqetat u riorganizuan me sukses!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Anulo"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Të anulohet ekzekutimi?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Rasti: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Ndryshimet: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Kanalet: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Po kontrollon përfaqësuesin..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Pastro të gjitha"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Konfigurimi u ruajt me sukses!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Konfiguro Fontet."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Konfiguro imazhin kryesor të sfondit."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Konfiguro në një kohë të caktuar"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Konfiguro minutat e intervalit nga tani"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Konfiguro referencën e shërbimit Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "urime! Ju tashmë keni versionin më të fundit..."
 
 msgid "Console"
-msgstr ""
+msgstr "Konsol"
 
 msgid "Countries"
-msgstr ""
+msgstr "shtetet"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Shtetet: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Vendi: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Kredite:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Pamja e parazgjedhur"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Pamja e parazgjedhur kur hapni shtesën"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Dëshiron ta eksportosh këtë buqetë?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Dëshiron ta instalosh tani?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Dëshiron të instalosh përditësimin ( %s ) tani?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "P.sh.: arabisht ose gjuhë tjetër."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Aktivizo ose çaktivizo proxy."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Fut tekstin për të kërkuar..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Gabim në nisjen e kanalit"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Gabim: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Dilni"
 
 msgid "Export"
-msgstr ""
+msgstr "Eksporto"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Rifreskimi i kodit të përfaqësuesit dështoi"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Rifreskimi i përfaqësuesit dështoi:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Dështoi: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Të detyrohet rifreskimi i përfaqësuesit?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "U gjetën: {} kanale"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Krijo skedar .m3u për:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Gjeneroni skedarë .m3u (Ok për Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Gjeneroni skedarë .m3u dhe ruani në pajisjen %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Të gjenerohen skedarë .m3u dhe të ruhen në pajisjen %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Të gjenerohen skedarë .m3u për të GJITHA %d vendet?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Fsheh/Shfaq"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Shënime të rëndësishme:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Gjendja e rrjetit IPv6 (Ndezur/Fikur)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastierë"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Përditësimi i fundit i kanalit: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Licenca:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Licenca: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Lidhja në menunë kryesore"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Më e ulët = më pak ndërprerje por më shumë rifreskim"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "Skedari M3U u krijua me sukses!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "Gjenerata M3U përfundoi!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "Gabim gjenerimi M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Referenca e Shërbimeve të Filmit"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Versioni i ri {version} është i disponueshëm."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Nuk u zbulua asnjë lidhje interneti. Ju lutemi kontrolloni rrjetin tuaj."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Nuk u gjet asnjë kanal"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Nuk u gjetën kanale për '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Nuk u gjetën kanale për: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Nuk u gjet asnjë kanal në kërkim!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Nuk ka kanale të vlefshme për: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Tani %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Vetëm një vend specifik"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Ju lutemi provoni një kanal tjetër."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Pozicioni i buqetave Vavoo në listën kryesore"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Shtypni butonin TEXT për të shkruar, BACKSPACE për ta fshirë"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Proxy është i çaktivizuar"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proxy i aktivizuar"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Proxy është i çaktivizuar"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Proxy është i çaktivizuar. Ju lutemi, fillimisht konfiguroni përfaqësuesin. -- Konfigurimi i menysë --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Proxy është i çaktivizuar. Ju lutemi aktivizoni atë në konfigurim."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Proxy nuk po funksionon. Ju lutemi nisni së pari përfaqësuesin."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Proxy jo aktiv. Skedari M3U nuk mund të gjenerohet."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Përfaqësuesi nuk përgjigjet më pas"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Proxy po riniset... Ju lutemi prisni"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Shenja e përfaqësuesit u rifreskua me sukses"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Vërtetë mbyllet pa ruajtur cilësimet?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Rekomandohet: 5-8 minuta"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Rifresko transmetimin (minuta):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Rifresko transmetimin çdo X minuta (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Rifresko Bouqet"
 
 msgid "Remove"
-msgstr ""
+msgstr "Hiq"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Të hiqen TË GJITHA buqetat Vavoo?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Rinis"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "ZGJIDHNI ZGJEDHJEN TUAJ"
 
 msgid "Save"
-msgstr ""
+msgstr "Ruaj"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Ruajtur në: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Ruajtur në: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Lloji i orarit:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Përditësimi i planifikuar i listës:"
 
 msgid "Search"
-msgstr ""
+msgstr "Kërko"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Kërko kanale:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Kërko..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Kërko:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Zgjidhni Sfondin"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Zgjidhni Fontet"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Zgjidhni modalitetin e eksportit M3U:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Zgjidh shtetin për të eksportuar M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Serveri i përdorur për lojtarin"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Server për lojtarin."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Duke shfaqur të gjitha kanalet: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Hapësirë"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Transmetimi përfundoi. Shumë probleme lidhjeje."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Karakteristikat teknike:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Kjo do të rifreskojë kodin e vërtetimit."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Kjo do të heqë:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Koha për të filluar përditësimin:"
 
 msgid "Top"
 msgstr ""
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Totali i kanaleve: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "SHQIPËRI TË MIRË"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Përditësimi u ndërpre!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Përditëso Mua"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Intervali i përditësimit (minuta):"
 
 msgid "Vavoo Stream Live"
 msgstr ""
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Informacion"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Shtojca e drejtpërdrejtë e Vavoo Stream"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Buqeta Vavoo u hoqën me sukses!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Versioni:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Në pritje të përfaqësuesit..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Mund ta nisni nga menyja ose duke shtypur butonin TEXT."
 
 msgid "fixed time"
-msgstr ""
+msgstr "kohë fikse"
 
 msgid "interval"
-msgstr ""
+msgstr "intervali"
 
 msgid "lowercase"
-msgstr ""
+msgstr "shkronja të vogla"
 
 msgid "seconds"
-msgstr ""
+msgstr "sekonda"

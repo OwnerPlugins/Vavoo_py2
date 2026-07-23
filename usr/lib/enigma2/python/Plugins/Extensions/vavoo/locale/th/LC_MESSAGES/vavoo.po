@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d ช่อง)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d ช่อง)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(ลบ %s ไฟล์แล้ว)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- รีเฟรชโทเค็นอัตโนมัติทุกๆ 9 นาที"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- การสร้างช่อดอกไม้อัตโนมัติ"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- หมวดหมู่ช่อดอกไม้"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- ห้ามใช้ในเชิงพาณิชย์โดยเด็ดขาด"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- ชุมชน: Linuxsat-support.com, ฟอรัม Corvoboys"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- ภาชนะใส่ช่อดอกไม้"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- ช่อดอกไม้ประเทศ"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- สำหรับการใช้งานส่วนตัวเท่านั้น"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- เนื้อหาฟรีเท่านั้น"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- กราฟิก: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- HTTP สตรีมมิ่งสด"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- ระบบพร็อกซีแบบรวม"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- ไม่มีการโฮสต์เซิร์ฟเวอร์โดยตรง"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- การแจกจ่ายซ้ำต้องคงไว้ซึ่งการระบุแหล่งที่มา"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- การอ้างอิงบริการ: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- สตรีมจากแหล่งสาธารณะ"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- รูปแบบ TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- การสนับสนุนทางเทคนิค: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "ใช้งานการอัปเดตช่อดอกไม้อัตโนมัติ"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "ใช้งานหรือปิดใช้งาน lan Ipv6"
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "ทุกประเทศ (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "ตามช่วงเวลาหรือเวลาที่กำหนด"
 
 msgid "Author:"
-msgstr ""
+msgstr "ผู้เขียน:"
 
 msgid "Back"
-msgstr ""
+msgstr "กลับ"
 
 msgid "Backspace"
-msgstr ""
+msgstr "แบ็คสเปซ"
 
 msgid "Bottom"
-msgstr ""
+msgstr "ด้านล่าง"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "สร้างช่อดอกไม้ '%(name)s' สำเร็จแล้ว!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "ตำแหน่งช่อดอกไม้ในรายการ"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "ข้อผิดพลาดในการสร้างช่อดอกไม้: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "จัดระเบียบช่อดอกไม้ใหม่ได้สำเร็จ!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "ยกเลิก"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "ยกเลิกการดำเนินการใช่ไหม"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "กรณี: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "บันทึกการเปลี่ยนแปลง: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "ช่อง: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "กำลังตรวจสอบพร็อกซี..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "ล้างทั้งหมด"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "บันทึกการกำหนดค่าสำเร็จแล้ว!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "กำหนดค่าแบบอักษร"
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "กำหนดค่าภาพพื้นหลังหลัก"
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "กำหนดค่าในเวลาที่กำหนด"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "กำหนดค่าช่วงเวลานาทีต่อจากนี้"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "กำหนดค่าบริการอ้างอิง Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "ยินดีด้วย! คุณมีเวอร์ชันล่าสุดแล้ว..."
 
 msgid "Console"
-msgstr ""
+msgstr "คอนโซล"
 
 msgid "Countries"
-msgstr ""
+msgstr "ประเทศ"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "ประเทศ: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "ประเทศ: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "เครดิต:"
 
 msgid "Default View"
-msgstr ""
+msgstr "มุมมองเริ่มต้น"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "มุมมองเริ่มต้นเมื่อเปิดปลั๊กอิน"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "คุณต้องการส่งออกช่อดอกไม้นี้หรือไม่?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "คุณต้องการติดตั้งตอนนี้หรือไม่?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "คุณต้องการติดตั้งการอัปเดต ( %s ) ตอนนี้หรือไม่?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "เช่น ภาษาอาหรับหรือภาษาอื่นๆ"
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "เปิดหรือปิดใช้งานพร็อกซี"
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "ป้อนข้อความเพื่อค้นหา..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการเริ่มช่อง"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "ข้อผิดพลาด: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "ออก"
 
 msgid "Export"
-msgstr ""
+msgstr "ส่งออก"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "รีเฟรชโทเค็นพร็อกซีไม่สำเร็จ"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "ไม่สามารถรีเฟรชพร็อกซีได้:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "ล้มเหลว: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "บังคับให้รีเฟรชพร็อกซีใช่ไหม"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "พบ: {} ช่อง"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "สร้างไฟล์ .m3u สำหรับ:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "สร้างไฟล์ .m3u (Ok for Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "สร้างไฟล์ .m3u และบันทึกลงในอุปกรณ์ %s"
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "สร้างไฟล์ .m3u และบันทึกลงในอุปกรณ์ %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "สร้างไฟล์ .m3u สำหรับ %d ประเทศทั้งหมดหรือไม่"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "ซ่อน/แสดง"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "หมายเหตุสำคัญ:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "สถานะ Ipv6 ของ Lan (เปิด/ปิด)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "คีย์บอร์ด"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "อัปเดตช่องล่าสุด: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "ใบอนุญาต:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "ใบอนุญาต: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "ลิงค์ในเมนูหลัก"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "ต่ำ = การหยุดชะงักน้อยลง แต่รีเฟรชมากขึ้น"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "สร้างไฟล์ M3U สำเร็จแล้ว!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "การสร้าง M3U เสร็จสมบูรณ์!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "ข้อผิดพลาดในการสร้าง M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "การอ้างอิงบริการภาพยนตร์"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "มีเวอร์ชันใหม่ {version} แล้ว"
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "ไม่พบการเชื่อมต่ออินเทอร์เน็ต โปรดตรวจสอบเครือข่ายของคุณ"
 
 msgid "No channels found"
-msgstr ""
+msgstr "ไม่พบช่อง"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "ไม่พบช่องสำหรับ '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "ไม่พบช่องสำหรับ: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "ไม่พบช่องในการค้นหา!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "ไม่มีช่องที่ถูกต้องสำหรับ: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "ตอนนี้ %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "เฉพาะประเทศเดียวเท่านั้น"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "โปรดลองช่องอื่น"
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "ตำแหน่งของช่อดอกไม้วาวูในรายการหลัก"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "กดปุ่ม TEXT เพื่อพิมพ์ BACKSPACE เพื่อลบ"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "พร็อกซีถูกปิดใช้งาน"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "เปิดใช้งานพร็อกซีแล้ว"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "พร็อกซีถูกปิดใช้งาน"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "พร็อกซีถูกปิดใช้งาน กรุณาตั้งค่า Proxy On ก่อน -- การกำหนดค่าเมนู --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "พร็อกซีถูกปิดใช้งาน โปรดเปิดใช้งานในการกำหนดค่า"
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "พร็อกซีไม่ทำงาน โปรดเริ่มพรอกซีก่อน"
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "พร็อกซีไม่ทำงาน ไม่สามารถสร้างไฟล์ M3U"
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "พร็อกซีไม่ตอบสนองหลังจากนั้น"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "กำลังรีสตาร์ทพร็อกซี... โปรดรอสักครู่"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "รีเฟรชโทเค็นพร็อกซีสำเร็จแล้ว"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "ปิดโดยไม่บันทึกการตั้งค่าจริงหรือ"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "แนะนำ: 5-8 นาที"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "รีเฟรชสตรีม (นาที):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "รีเฟรชสตรีมทุกๆ X นาที (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "โหลดช่อดอกไม้อีกครั้ง"
 
 msgid "Remove"
-msgstr ""
+msgstr "ลบ"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "ลบช่อดอกไม้ Vavoo ทั้งหมดหรือไม่"
 
 msgid "Restart"
-msgstr ""
+msgstr "รีสตาร์ท"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "เลือกตัวเลือกของคุณ"
 
 msgid "Save"
-msgstr ""
+msgstr "บันทึก"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "บันทึกใน: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "บันทึกใน: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "ประเภทกำหนดการ:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "การอัปเดตรายการตามกำหนดการ:"
 
 msgid "Search"
-msgstr ""
+msgstr "ค้นหา"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "ช่องค้นหา:"
 
 msgid "Search..."
-msgstr ""
+msgstr "ค้นหา..."
 
 msgid "Search:"
-msgstr ""
+msgstr "ค้นหา:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "เลือกพื้นหลัง"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "เลือกแบบอักษร"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "เลือกโหมดการส่งออก M3U:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "เลือกประเทศที่จะส่งออก M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "เซิร์ฟเวอร์สำหรับผู้เล่นที่ใช้"
 
 msgid "Server for player."
-msgstr ""
+msgstr "เซิร์ฟเวอร์สำหรับผู้เล่น"
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "แสดงทุกช่อง: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "ช่องว่าง"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "สตรีมสิ้นสุดแล้ว ปัญหาการเชื่อมต่อมากเกินไป"
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "คุณสมบัติทางเทคนิค:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "การดำเนินการนี้จะรีเฟรชโทเค็นการตรวจสอบสิทธิ์"
 
 msgid "This will remove:"
-msgstr ""
+msgstr "สิ่งนี้จะลบ:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "เวลาที่จะเริ่มอัปเดต:"
 
 msgid "Top"
-msgstr ""
+msgstr "สูงสุด"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "ช่องทั้งหมด: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "ตัวพิมพ์ใหญ่"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "การอัปเดตถูกยกเลิก!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "อัปเดตฉัน"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "ช่วงเวลาการอัพเดต (นาที):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Vavoo สตรีมสด"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo สตรีมสด - ข้อมูล"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "ปลั๊กอิน Vavoo Stream Live"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "ลบช่อดอกไม้ Vavoo สำเร็จแล้ว!"
 
 msgid "Version:"
-msgstr ""
+msgstr "เวอร์ชัน:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "กำลังรอพร็อกซี..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "คุณสามารถเริ่มจากเมนูหรือโดยการกดปุ่ม TEXT"
 
 msgid "fixed time"
-msgstr ""
+msgstr "เวลาคงที่"
 
 msgid "interval"
-msgstr ""
+msgstr "ช่วงเวลา"
 
 msgid "lowercase"
-msgstr ""
+msgstr "ตัวพิมพ์เล็ก"
 
 msgid "seconds"
-msgstr ""
+msgstr "วินาที"

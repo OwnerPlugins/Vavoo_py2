@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d rásir)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d rásir)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s skrám eytt)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Sjálfvirk tákn endurnýjun á 9 mínútna fresti"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Sjálfvirk vönd kynslóð"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Flokkur kransa"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Notkun í atvinnuskyni er stranglega bönnuð"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Samfélag: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Gámavöndlar"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Sveitavöndur"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Aðeins til einkanota"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Aðeins ókeypis efni"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Grafík: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- HTTP streymi í beinni"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Innbyggt umboðskerfi"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Engin bein netþjónshýsing"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Endurdreifing verður að viðhalda úthlutun"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Þjónustutilvísanir: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Straumar frá opinberum aðilum"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- TS/M3U8 snið"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Tæknileg aðstoð: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Virk sjálfvirk uppfærsla á vöndum"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Virkt eða óvirkt LAN Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Öll lönd (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Á klukkutíma millibili eða föstum tíma"
 
 msgid "Author:"
-msgstr ""
+msgstr "Höfundur:"
 
 msgid "Back"
-msgstr ""
+msgstr "Til baka"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "Neðst"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Vöndur '%(name)s' búinn til!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Vönd Staða í lista"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Villa við að búa til vönd: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Vöndum endurskipulagðir með góðum árangri!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Hætta við"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Hætta við framkvæmd?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Mál: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Breytingaskrá: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Rásir: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Athugar proxy..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Hreinsa allt"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Stilling vistuð!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Stilla leturgerðir."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Stilla aðalbakgrunnsmynd."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Stilla á ákveðnum tíma"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Stilltu bilmínútur héðan í frá"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Stilla þjónustu Tilvísun Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Til hamingju! Þú ert nú þegar með nýjustu útgáfuna..."
 
 msgid "Console"
-msgstr ""
+msgstr "Stjórnborð"
 
 msgid "Countries"
-msgstr ""
+msgstr "Lönd"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Lönd: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Land: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Inneign:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Sjálfgefin útsýni"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Sjálfgefið útsýni þegar viðbótin er opnuð"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Viltu flytja þennan blómvönd út?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Viltu setja það upp núna?"
 
 msgid "Do you want to install update ( %s ) now?"
 msgstr ""
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Td: Arabíska eða annað tungumál."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Virkja eða slökkva á proxy."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Sláðu inn texta til að leita..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Villa við að ræsa rás"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Villa: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Hætta"
 
 msgid "Export"
-msgstr ""
+msgstr "Útflutningur"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Mistókst að endurnýja proxy-lykilinn"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Mistókst að endurnýja umboð:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Mistókst: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Þvinga umboðsuppfærslu?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Fann: {} rásir"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Búðu til .m3u skrá fyrir:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Búðu til .m3u skrár (Í lagi fyrir Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Búðu til .m3u skrár og vistaðu í tæki %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Búa til .m3u skrár og vista í tæki %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Búa til .m3u skrár fyrir ÖLL %d lönd?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Fela/Sýna"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Mikilvægar athugasemdir:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 ástand LAN (kveikt/slökkt)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Lyklaborð"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Síðasta uppfærsla á rás: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Leyfi:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Leyfi: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Tengill í aðalvalmynd"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Lægra = minni truflun en meira hressandi"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "M3U skrá búin til!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "M3U kynslóð lokið!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "M3U kynslóðarvilla: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Tilvísun í kvikmyndaþjónustu"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Ný útgáfa {version} er fáanleg."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Engin internettenging fannst. Vinsamlegast athugaðu netið þitt."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Engar rásir fundust"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Engar rásir fundust fyrir '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Engar rásir fundust fyrir: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Engar rásir fundust í leit!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Engar gildar rásir fyrir: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Nú %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Aðeins eitt ákveðið land"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Vinsamlegast reyndu aðra rás."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Staða Vavoo kransa á aðallistanum"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Ýttu á TEXT hnappinn til að slá inn, BACKSPACE til að eyða"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Umboð óvirkt"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proxy virkt"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Umboð óvirkt"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Umboð er óvirkt. Vinsamlegast stilltu proxy á fyrst. -- Valmyndarstillingar --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Umboð er óvirkt. Vinsamlegast virkjaðu það í uppsetningunni."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Proxy er ekki í gangi. Vinsamlegast ræstu umboðið fyrst."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Umboð ekki virkt. Ekki tókst að búa til M3U skrá."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Umboðsmaður svarar ekki á eftir"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Proxy endurræsir... Vinsamlegast bíddu"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Umboðslykill endurnýjaður"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Virkilega loka án þess að vista stillingar?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Ráðlagt: 5-8 mínútur"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Endurnýja straum (mínútur):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Endurnýjaðu straum á X mínútna fresti (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Endurhlaða Bouqet"
 
 msgid "Remove"
-msgstr ""
+msgstr "Fjarlægja"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Fjarlægja ALLA Vavoo kransa?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Endurræstu"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "VELDU ÞITT VAL"
 
 msgid "Save"
-msgstr ""
+msgstr "Vista"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Vistað í: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Vistað í: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Dagskrá gerð:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Áætluð uppfærsla á lista:"
 
 msgid "Search"
-msgstr ""
+msgstr "Leita"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Leita að rásum:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Leita..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Leita:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Veldu Bakgrunnur"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Veldu leturgerðir"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Veldu M3U útflutningsham:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Veldu land til að flytja út M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Miðlari fyrir spilara notaður"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Server fyrir spilara."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Sýnir allar rásir: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Rými"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Straumi lauk. Of mörg tengingarvandamál."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Tæknilegir eiginleikar:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Þetta mun endurnýja auðkenningartáknið."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Þetta mun fjarlægja:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Tími til að hefja uppfærslu:"
 
 msgid "Top"
-msgstr ""
+msgstr "Efst"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Heildarrásir: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "Hástafir"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Uppfærsla hætt!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Uppfærðu mig"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Uppfærslubil (mínútur):"
 
 msgid "Vavoo Stream Live"
 msgstr ""
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Upplýsingar"
 
 msgid "Vavoo Stream Live Plugin"
 msgstr ""
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo kransar voru fjarlægðir með góðum árangri!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Útgáfa:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Bíður eftir proxy..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Þú getur ræst það úr valmyndinni eða með því að ýta á TEXT hnappinn."
 
 msgid "fixed time"
-msgstr ""
+msgstr "fastan tíma"
 
 msgid "interval"
-msgstr ""
+msgstr "millibili"
 
 msgid "lowercase"
-msgstr ""
+msgstr "lágstafir"
 
 msgid "seconds"
-msgstr ""
+msgstr "sekúndur"

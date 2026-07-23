@@ -10,115 +10,115 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d sianeli)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d sianel)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s ffeil wedi'u dileu)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Adnewyddu tocyn awtomatig bob 9 munud"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Cynhyrchu tusw awtomatig"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Categori tuswau"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Gwaherddir defnydd masnachol yn llym"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Cymuned: Linuxsat-support.com, Fforwm Corvoboys"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Tuswau cynhwysydd"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Tuswau gwlad"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- At ddefnydd personol yn unig"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Cynnwys am ddim yn unig"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Graffeg: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- Ffrydio Byw HTTP"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- System ddirprwy integredig"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Dim hosting gweinydd uniongyrchol"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Rhaid i ailddosbarthu gynnal priodoliad"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Cyfeirnodau gwasanaeth: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Ffrydiau o ffynonellau cyhoeddus"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- Fformatau TS / M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Cefnogaeth dechnegol: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Diweddariad Bouquet Awtomatig Actif"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Lan Actif neu Anweithredol Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Pob gwlad (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Ar adegau egwyl neu amser penodol"
 
 msgid "Author:"
-msgstr ""
+msgstr "Awdur:"
 
 msgid "Back"
-msgstr ""
+msgstr "Yn ol"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "Gwaelod"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Bouquet '%(name)s' wedi ei greu yn llwyddiannus!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Safle Bouquet yn y Rhestr"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Gwall creu tusw: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Tuswau wedi'u had-drefnu'n llwyddiannus!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Canslo"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Canslo gweithrediad?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Achos: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Log newid: {changelog}"
 
 msgid "Channels: %d"
 msgstr ""
@@ -127,355 +127,355 @@ msgid "Checking proxy..."
 msgstr ""
 
 msgid "Clear All"
-msgstr ""
+msgstr "Clirio Pawb"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Cadwyd y ffurfwedd yn llwyddiannus!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Ffurfweddu Ffontiau."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Ffurfweddu Prif Ddelwedd Gefndir."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Ffurfweddu ar amser penodol"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Ffurfweddu munudau egwyl o nawr"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Ffurfweddu gwasanaeth Cyfeirnod Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Llongyfarchiadau! Mae gennych y fersiwn diweddaraf yn barod..."
 
 msgid "Console"
-msgstr ""
+msgstr "Consol"
 
 msgid "Countries"
-msgstr ""
+msgstr "Gwledydd"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Gwledydd: _PYPH_0__/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Gwlad: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Credydau:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Golwg ddiofyn"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Gwedd ddiofyn wrth agor yr ategyn"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Ydych chi am allforio'r tusw hwn?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Ydych chi am ei osod nawr?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Ydych chi am osod diweddariad ( %s ) nawr?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Ee: Arabeg neu iaith arall."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Galluogi neu analluogi dirprwy."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Rhowch destun i chwilio..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Gwall wrth gychwyn y sianel"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Gwall: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ymadael"
 
 msgid "Export"
-msgstr ""
+msgstr "Allforio"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Wedi methu ag adnewyddu tocyn dirprwy"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Wedi methu ag adnewyddu dirprwy:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Wedi methu: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Gorfodi adnewyddu dirprwy?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Wedi dod o hyd: {} sianeli"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Cynhyrchu ffeil .m3u ar gyfer:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Cynhyrchu ffeiliau .m3u (Ok for Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Cynhyrchu ffeiliau .m3u a chadw i ddyfais %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Cynhyrchu ffeiliau .m3u a chadw i ddyfais %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Cynhyrchu ffeiliau .m3u ar gyfer POB gwlad %d?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Cuddio/Dangos"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Nodiadau Pwysig:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 Cyflwr Lan (ymlaen/i ffwrdd)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Bysellfwrdd"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Diweddariad sianel diwethaf: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Trwydded:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Trwydded: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Dolen yn y Brif Ddewislen"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Is = llai o ymyrraeth ond mwy o adnewyddu"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "Ffeil M3U wedi'i chynhyrchu'n llwyddiannus!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "Cenhedlaeth M3U wedi'i chwblhau!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "Gwall cenhedlaeth M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Cyfeirnod Gwasanaethau Ffilm"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Mae fersiwn newydd {version} ar gael."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Dim cysylltiad Rhyngrwyd wedi'i ganfod. Gwiriwch eich rhwydwaith."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Heb ganfod sianeli"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Heb ganfod sianeli ar gyfer '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Heb ganfod sianeli ar gyfer: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Dim sianeli wedi'u canfod wrth chwilio !!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Dim sianeli dilys ar gyfer: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Nawr %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Dim ond un wlad benodol"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Rhowch gynnig ar sianel arall."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Safle tuswau Vavoo yn y brif restr"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Pwyswch y botwm TESTUN i deipio, BACKSPACE i ddileu"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Dirprwy Anabl"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Wedi Galluogi drwy Ddirprwy"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Analluogwyd dirprwy"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Mae dirprwy wedi'i analluogi. Os gwelwch yn dda Gosod Dirprwy ymlaen yn gyntaf. -- Ffurfwedd Dewislen --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Mae dirprwy wedi'i analluogi. Galluogwch ef yn y ffurfweddiad."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Nid yw dirprwy yn rhedeg. Dechreuwch y dirprwy yn gyntaf."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Dirprwy ddim yn weithredol. Methu cynhyrchu ffeil M3U."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Dirprwy ddim yn ymateb ar ôl"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Dirprwy yn ailgychwyn... Arhoswch"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Tocyn dirprwy wedi'i adnewyddu'n llwyddiannus"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Cau iawn heb gadw gosodiadau?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Argymhellir: 5-8 munud"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Ffrwd adnewyddu (munudau):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Adnewyddu'r ffrwd bob X munud (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Ail-lwytho Bouqet"
 
 msgid "Remove"
-msgstr ""
+msgstr "Dileu"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Tynnu POB tusw Vavoo?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Ailgychwyn"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "DEWISWCH EICH DEWIS"
 
 msgid "Save"
-msgstr ""
+msgstr "Arbed"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Cadwyd yn: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Cadwyd yn: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Math o amserlen:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Diweddariad Rhestr Amserledig:"
 
 msgid "Search"
-msgstr ""
+msgstr "Chwiliwch"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Sianeli Chwilio:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Chwilio..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Chwilio:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Dewiswch Cefndir"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Dewiswch Ffontiau"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Dewiswch fodd allforio M3U:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Dewiswch wlad i allforio M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Gweinydd ar gyfer Chwaraewr a Ddefnyddir"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Gweinydd ar gyfer chwaraewr."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Yn dangos pob sianel: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Gofod"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Daeth y ffrwd i ben. Gormod o faterion cysylltiad."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Nodweddion Technegol:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Bydd hyn yn adnewyddu'r tocyn dilysu."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Bydd hyn yn dileu:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Amser i ddechrau diweddaru:"
 
 msgid "Top"
-msgstr ""
+msgstr "Brig"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Cyfanswm sianeli: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "UCHAF"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Diweddariad wedi'i Erthylu!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Diweddaru Fi"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Cyfnod diweddaru (munudau):"
 
 msgid "Vavoo Stream Live"
 msgstr ""
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Gwybodaeth"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Ategyn Vavoo Live Stream"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Tynnu tuswau Vavoo yn llwyddiannus!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Fersiwn:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Aros am ddirprwy..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Gallwch chi ei gychwyn o'r ddewislen neu drwy wasgu'r botwm TESTUN."
 
 msgid "fixed time"
-msgstr ""
+msgstr "amser sefydlog"
 
 msgid "interval"
-msgstr ""
+msgstr "cyfwng"
 
 msgid "lowercase"
-msgstr ""
+msgstr "llythrennau bach"
 
 msgid "seconds"
-msgstr ""
+msgstr "eiliadau"

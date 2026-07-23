@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d kanali)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d kanali)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s fajls imħassra)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Aġġornament awtomatiku tat-token kull 9 minuti"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Ġenerazzjoni awtomatika tal-bukketti"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Bukketti tal-kategorija"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- L-użu kummerċjali huwa strettament ipprojbit"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Komunità: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Bukketti tal-kontenituri"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Bukketti tal-pajjiż"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Għall-użu personali biss"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Kontenut b'xejn biss"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Grafika: @oktus"
 
 msgid "- HTTP Live Streaming"
 msgstr ""
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Sistema ta' prokura integrata"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Ebda server hosting dirett"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Ir-ridistribuzzjoni trid iżżomm l-attribuzzjoni"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Referenzi tas-servizz: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Flussi minn sorsi pubbliċi"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- Formati TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Appoġġ tekniku: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Aġġornament Attiv tal-Bukkett Awtomatiku"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Lan Attiva jew Disattiva Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Il-pajjiżi kollha (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "F'intervall sigħat jew ħin fiss"
 
 msgid "Author:"
-msgstr ""
+msgstr "Awtur:"
 
 msgid "Back"
-msgstr ""
+msgstr "Lura"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "Qiegħ"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Bukkett '%(name)s' maħluq b'suċċess!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Pożizzjoni tal-bukkett fil-Lista"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Żball fil-ħolqien tal-bukkett: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Bukketti riorganizzati b'suċċess!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Ikkanċella"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Ikkanċella l-eżekuzzjoni?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Każ: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "reġistru tal-bidliet: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Kanali: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Qed niċċekkja l-prokura..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Ċara Kollha"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Konfigurazzjoni salvata b'suċċess!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Ikkonfigura Fonts."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Ikkonfigura l-Immaġni Prinċipali ta' Sfond."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Ikkonfigura f'ħin fiss"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Ikkonfigura minuti intervall minn issa"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Ikkonfigura s-servizz Referenza Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Prosit! Diġà għandek l-aħħar verżjoni..."
 
 msgid "Console"
 msgstr ""
 
 msgid "Countries"
-msgstr ""
+msgstr "Pajjiżi"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Pajjiżi: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Pajjiż: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Krediti:"
 
 msgid "Default View"
-msgstr ""
+msgstr "View Default"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Veduta awtomatika meta tiftaħ il-plugin"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Trid tesporta dan il-bukkett?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Trid tinstallah issa?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Trid tinstalla l-aġġornament ( %s ) issa?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Eż.: Għarbi jew lingwa oħra."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Attiva jew tiddiżattiva proxy."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Daħħal it-test biex tfittex..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Żball fil-bidu tal-kanal"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Żball: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ħruġ"
 
 msgid "Export"
-msgstr ""
+msgstr "Esportazzjoni"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Naqas milli jġedded il-proxy token"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Naqas milli jġedded il-prokura:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Falla: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Forza l-aġġornament tal-prokura?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Misjuba: {} kanali"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Iġġenera fajl .m3u għal:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Iġġenera fajls .m3u (Ok għal Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Iġġenera fajls .m3u u ssejvja fuq it-tagħmir %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Iġġenera fajls .m3u u ssejvja fuq it-tagħmir %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Iġġenera fajls .m3u għal %d pajjiżi KOLLHA?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Aħbi/Uri"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Noti Importanti:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 State Of Lan (Mixgħul/Mitfi)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastiera"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "L-aħħar aġġornament tal-kanal: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Liċenzja:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Liċenzja: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Link fil-Menu Prinċipali"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Lower = inqas interruzzjoni iżda aktar aġġornamenti"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "Fajl M3U iġġenerat b'suċċess!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "Ġenerazzjoni M3U mitmuma!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "Żball tal-ġenerazzjoni M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Referenza għas-Servizzi tal-films"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Verżjoni ġdida {version} hija disponibbli."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Ebda konnessjoni tal-Internet misjuba. Jekk jogħġbok iċċekkja n-netwerk tiegħek."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Ma nstab l-ebda kanal"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Ma nstab l-ebda kanal għal '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Ma nstab l-ebda kanal għal: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "L-ebda kanal ma nstab fit-tfittxija!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Ebda kanali validi għal: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Issa %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Pajjiż speċifiku wieħed biss"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Jekk jogħġbok ipprova kanal ieħor."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Pożizzjoni tal-bukketti Vavoo fil-lista prinċipali"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Agħfas il-buttuna TEXT biex ittajpja, BACKSPACE biex tħassar"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Prokura Diżattivata"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proxy Ippermettiet"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Proxy diżattivat"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Il-prokura hija diżattivata. Jekk jogħġbok Issettja Proxy Fuq l-ewwel. -- Konfigurazzjoni tal-Menu --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Il-prokura hija diżattivata. Jekk jogħġbok ppermettiha fil-konfigurazzjoni."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Proxy mhux qed jaħdem. Jekk jogħġbok ibda l-prokura l-ewwel."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Prokura mhux attiva. Ma tistax tiġġenera fajl M3U."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Prokura ma tirrispondix wara"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Proxy jerġa' jibda... Jekk jogħġbok stenna"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Proxy token aggornat b'suċċess"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Tassew tagħlaq mingħajr ma tissejvja s-settings?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Rakkomandat: 5-8 minuti"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Aġġorna l-fluss (minuti):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Aġġorna l-fluss kull X minuti (1-15)"
 
 msgid "Reload Bouqet"
 msgstr ""
 
 msgid "Remove"
-msgstr ""
+msgstr "Neħħi"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Neħħi l-bukketti KOLLHA Vavoo?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Ibda mill-ġdid"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "AGĦŻEL L-GĦAŻLA TIEGĦEK"
 
 msgid "Save"
-msgstr ""
+msgstr "Ħlief"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Issejvjat fi: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Issejvjat fi: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Tip ta' Skeda:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Aġġornament tal-Lista Skedata:"
 
 msgid "Search"
-msgstr ""
+msgstr "Fittex"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Fittex Kanali:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Fittex..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Fittex:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Agħżel Sfond"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Agħżel Fonts"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Agħżel il-mod ta' esportazzjoni M3U:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Agħżel pajjiż biex tesporta M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Server għall-Plejer Użat"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Server għall-plejer."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Juri l-kanali kollha: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "L-ispazju"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Il-fluss intemm. Wisq kwistjonijiet ta' konnessjoni."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Karatteristiċi Tekniċi:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Dan se jġedded it-token tal-awtentikazzjoni."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Dan se jneħħi:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Ħin biex tibda l-aġġornament:"
 
 msgid "Top"
-msgstr ""
+msgstr "Fuq"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Total ta' kanali: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "MAJUSKU"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Aġġornament Abortat!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Aġġornani"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Intervall tal-aġġornament (minuti):"
 
 msgid "Vavoo Stream Live"
 msgstr ""
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Informazzjoni"
 
 msgid "Vavoo Stream Live Plugin"
 msgstr ""
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Il-bukketti Vavoo tneħħew b'suċċess!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Verżjoni:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Stennija għal prokura..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Tista' tibda mill-menu jew billi tagħfas il-buttuna TEXT."
 
 msgid "fixed time"
-msgstr ""
+msgstr "ħin fiss"
 
 msgid "interval"
-msgstr ""
+msgstr "intervall"
 
 msgid "lowercase"
-msgstr ""
+msgstr "minusura"
 
 msgid "seconds"
-msgstr ""
+msgstr "sekondi"

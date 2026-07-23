@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d کانال)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d کانال)؟"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s فایل حذف شد)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- نوسازی خودکار نشانه هر 9 دقیقه"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- تولید دسته گل به صورت خودکار"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- دسته گل"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- استفاده تجاری اکیدا ممنوع است"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- انجمن: Linuxsat-support.com، انجمن Corvoboys"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- دسته گل ظرف"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- دسته گل های کشور"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- فقط برای استفاده شخصی"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- فقط محتوای رایگان"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- گرافیک: @oktus"
 
 msgid "- HTTP Live Streaming"
 msgstr ""
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- سیستم پروکسی یکپارچه"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- بدون میزبانی مستقیم سرور"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- توزیع مجدد باید انتساب را حفظ کند"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- مراجع خدمات: 4097، 5001، 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- جریان از منابع عمومی"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- فرمت های TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- پشتیبانی فنی: Qu4k3، @KiddaC، @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "به روز رسانی خودکار دسته گل"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "فعال یا غیرفعال lan Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "همه کشورها (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "در یک ساعت فاصله یا زمان ثابت"
 
 msgid "Author:"
-msgstr ""
+msgstr "نویسنده:"
 
 msgid "Back"
-msgstr ""
+msgstr "برگشت"
 
 msgid "Backspace"
-msgstr ""
+msgstr "بک اسپیس"
 
 msgid "Bottom"
-msgstr ""
+msgstr "پایین"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "دسته گل "%(name)s" با موفقیت ایجاد شد!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "موقعیت دسته گل در لیست"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "خطای ایجاد دسته گل: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "دسته گل ها با موفقیت دوباره سازماندهی شدند!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "لغو کنید"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "لغو اجرا؟"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "مورد: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "تغییرات: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "کانال ها: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "در حال بررسی پروکسی..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "پاک کردن همه"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "پیکربندی با موفقیت ذخیره شد!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "پیکربندی فونت ها"
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "پیکربندی تصویر پس زمینه اصلی"
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "در یک زمان ثابت پیکربندی کنید"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "از هم اکنون فاصله زمانی را پیکربندی کنید"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "پیکربندی سرویس مرجع Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "تبریک میگم شما در حال حاضر آخرین نسخه را دارید ..."
 
 msgid "Console"
-msgstr ""
+msgstr "کنسول"
 
 msgid "Countries"
-msgstr ""
+msgstr "کشورها"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "کشورها: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "کشور: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "اعتبارات:"
 
 msgid "Default View"
-msgstr ""
+msgstr "نمای پیش فرض"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "نمای پیش فرض هنگام باز کردن افزونه"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "آیا می خواهید این دسته گل را صادر کنید؟"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "الان میخوای نصبش کنی؟"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "آیا می خواهید به روز رسانی ( %s ) را اکنون نصب کنید؟"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "به عنوان مثال: عربی یا زبان دیگر."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "فعال یا غیرفعال کردن پروکسی"
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "متن را برای جستجو وارد کنید..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "خطا در شروع کانال"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "خطا: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "خارج شوید"
 
 msgid "Export"
-msgstr ""
+msgstr "صادرات"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "بازخوانی نشانه پروکسی انجام نشد"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "پروکسی بازخوانی نشد:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "ناموفق: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "اجباری به‌روزرسانی پراکسی؟"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "پیدا شد: {} کانال"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "تولید فایل m3u برای:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "تولید فایل‌های .m3u (Ok برای Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "فایل‌های m3u را تولید کنید و در دستگاه %s ذخیره کنید."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "فایل‌های m3u. تولید و در دستگاه %s ذخیره شود؟"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "فایل‌های m3u. برای همه %d کشور ایجاد شود؟"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "پنهان کردن/نمایش"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "نکات مهم:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 State Of Lan (روشن/خاموش)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "صفحه کلید"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "آخرین به روز رسانی کانال: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "مجوز:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "مجوز: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "پیوند در منوی اصلی"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "کمتر = وقفه کمتر اما تازه کردن بیشتر"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "فایل M3U با موفقیت تولید شد!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "نسل M3U تکمیل شد!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "خطای تولید M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "مرجع خدمات فیلم"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "نسخه جدید {version} در دسترس است."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "هیچ اتصال اینترنتی شناسایی نشد. لطفا شبکه خود را بررسی کنید."
 
 msgid "No channels found"
-msgstr ""
+msgstr "کانالی پیدا نشد"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "هیچ کانالی برای "%(name)s" یافت نشد"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "هیچ کانالی برای: %s یافت نشد"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "هیچ کانالی در جستجو یافت نشد!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "هیچ کانال معتبری برای: %s وجود ندارد"
 
 msgid "Now %s"
-msgstr ""
+msgstr "اکنون %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "فقط یک کشور خاص"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "لطفا کانال دیگری را امتحان کنید."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "جایگاه دسته گل های Vavoo در لیست اصلی"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "دکمه TEXT را برای تایپ، BACKSPACE را برای حذف فشار دهید"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "پروکسی غیرفعال است"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "پروکسی فعال شد"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "پروکسی غیرفعال شد"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "پروکسی غیرفعال است لطفاً ابتدا پروکسی را روشن کنید. -- پیکربندی منو --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "پروکسی غیرفعال است لطفاً آن را در پیکربندی فعال کنید."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "پروکسی اجرا نمی شود. لطفاً ابتدا پروکسی را راه اندازی کنید."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "پروکسی فعال نیست امکان تولید فایل M3U وجود ندارد."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "پراکسی بعد از پاسخ دادن"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "پراکسی در حال راه اندازی مجدد... لطفاً صبر کنید"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "رمز پراکسی با موفقیت به روز شد"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "آیا واقعاً بدون ذخیره تنظیمات بسته می شود؟"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "توصیه می شود: 5-8 دقیقه"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "بازخوانی جریان (دقیقه):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "بازخوانی جریان هر X دقیقه (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "بارگیری مجدد Bouqet"
 
 msgid "Remove"
-msgstr ""
+msgstr "حذف کنید"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "همه دسته‌های Vavoo حذف شوند؟"
 
 msgid "Restart"
-msgstr ""
+msgstr "راه اندازی مجدد"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "انتخاب خود را انتخاب کنید"
 
 msgid "Save"
-msgstr ""
+msgstr "ذخیره کنید"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "ذخیره شده در: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "ذخیره شده در: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "نوع برنامه:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "به روز رسانی لیست برنامه ریزی شده:"
 
 msgid "Search"
-msgstr ""
+msgstr "جستجو کنید"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "جستجوی کانال ها:"
 
 msgid "Search..."
-msgstr ""
+msgstr "جستجو..."
 
 msgid "Search:"
-msgstr ""
+msgstr "جستجو:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "پس زمینه را انتخاب کنید"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "فونت ها را انتخاب کنید"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "حالت صادرات M3U را انتخاب کنید:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "انتخاب کشور برای صادرات M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "سرور برای پلیر استفاده شده است"
 
 msgid "Server for player."
-msgstr ""
+msgstr "سرور برای بازیکن"
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "نمایش همه کانال ها: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "فضا"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "استریم به پایان رسید. مشکلات اتصال بسیار زیاد است."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "ویژگی های فنی:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "با این کار کد احراز هویت تازه می شود."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "این حذف خواهد شد:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "زمان شروع به روز رسانی:"
 
 msgid "Top"
-msgstr ""
+msgstr "بالا"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "مجموع کانال ها: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "حروف بزرگ"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "به روز رسانی لغو شد!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "به روز رسانی من"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "فاصله زمانی به روز رسانی (دقیقه):"
 
 msgid "Vavoo Stream Live"
 msgstr ""
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - اطلاعات"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "افزونه Vavoo Stream Live"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "دسته‌های Vavoo با موفقیت حذف شدند!"
 
 msgid "Version:"
-msgstr ""
+msgstr "نسخه:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "در انتظار پروکسی..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "می توانید آن را از منو یا با فشار دادن دکمه TEXT شروع کنید."
 
 msgid "fixed time"
-msgstr ""
+msgstr "زمان ثابت"
 
 msgid "interval"
-msgstr ""
+msgstr "فاصله"
 
 msgid "lowercase"
-msgstr ""
+msgstr "حروف کوچک"
 
 msgid "seconds"
-msgstr ""
+msgstr "ثانیه"

@@ -11,442 +11,442 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d kanaler)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d kanaler)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s filer slettet)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Automatisk token-opdatering hvert 9. minut"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Automatisk buketgenerering"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Kategori buketter"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Kommerciel brug er strengt forbudt"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Fællesskab: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Beholderbuketter"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Landbuketter"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Kun til personlig brug"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Kun gratis indhold"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Grafik: @oktus"
 
 msgid "- HTTP Live Streaming"
 msgstr ""
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Integreret proxy system"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Ingen direkte serverhosting"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Omfordeling skal opretholde tilskrivning"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Servicereferencer: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Streams fra offentlige kilder"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- TS/M3U8 formater"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Teknisk support: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Aktiv automatisk buketopdatering"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Aktiv eller Disaktiv lan Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Alle lande (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Med et interval timer eller fast tid"
 
 msgid "Author:"
-msgstr ""
+msgstr "Forfatter:"
 
 msgid "Back"
-msgstr ""
+msgstr "Tilbage"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "Bund"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Buket '%(name)s' blev oprettet!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Buketposition i listen"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Fejl ved oprettelse af buket: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Buketter blev omorganiseret med succes!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Ophæve"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Vil du annullere udførelsen?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Sag: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Ændringslog: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Kanaler: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Kontrollerer proxy..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Ryd alle"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Konfigurationen blev gemt!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Konfigurer skrifttyper."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Konfigurer hovedbaggrundsbillede."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Konfigurer på et fast tidspunkt"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Konfigurer intervalminutter fra nu af"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Konfigurer servicereference Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Tillykke! Du har allerede den seneste version..."
 
 msgid "Console"
-msgstr ""
+msgstr "Konsol"
 
 msgid "Countries"
-msgstr ""
+msgstr "lande"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Lande: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Land: %s"
 
 msgid "Credits:"
 msgstr ""
 
 msgid "Default View"
-msgstr ""
+msgstr "Standardvisning"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Standardvisning ved åbning af plugin"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Vil du eksportere denne buket?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Vil du installere det nu?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Vil du installere opdatering ( %s ) nu?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Fx: arabisk eller andet sprog."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Aktiver eller deaktiver proxy."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Indtast tekst for at søge..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Fejl ved start af kanal"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Fejl: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Udgang"
 
 msgid "Export"
-msgstr ""
+msgstr "Eksportere"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Kunne ikke opdatere proxy-token"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Kunne ikke opdatere proxy:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Mislykkedes: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Tvinge proxy-opdatering?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Fundet: {} kanaler"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Generer .m3u-fil for:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Generer .m3u-filer (Ok for Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Generer .m3u-filer og gem på enheden %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Vil du generere .m3u-filer og gemme på enheden %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Vil du generere .m3u-filer for ALLE %d lande?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Skjul/Vis"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Vigtige bemærkninger:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 State Of Lan (Til/Fra)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastatur"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Sidste kanalopdatering: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Licens:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Licens: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Link i hovedmenuen"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Lavere = mindre afbrydelse, men mere genopfrisker"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "M3U-fil blev genereret med succes!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "M3U generation færdig!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "M3U-genereringsfejl: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Filmservicereference"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Ny version {version} er tilgængelig."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Ingen internetforbindelse fundet. Tjek venligst dit netværk."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Ingen kanaler fundet"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Ingen kanaler fundet for '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Ingen kanaler fundet for: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Ingen kanaler fundet i søgning!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Ingen gyldige kanaler for: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Nu %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Kun ét specifikt land"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Prøv venligst en anden kanal."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Placering af Vavoo buketter i hovedlisten"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Tryk på knappen TEKST for at skrive, BACKSPACE for at slette"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Proxy deaktiveret"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proxy aktiveret"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Proxy deaktiveret"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Proxy er deaktiveret. Indstil proxy først. -- Menukonfiguration --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Proxy er deaktiveret. Aktiver det i konfigurationen."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Proxy kører ikke. Start venligst proxy først."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Proxy ikke aktiv. Kan ikke generere M3U-fil."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Proxy svarer ikke efter"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Proxy genstarter... Vent venligst"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Proxytoken blev opdateret"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Virkelig lukke uden at gemme indstillinger?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Anbefalet: 5-8 minutter"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Opdater stream (minutter):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Opdater stream hvert X. minut (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Genindlæs Bouqet"
 
 msgid "Remove"
-msgstr ""
+msgstr "Fjerne"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Fjerne ALLE Vavoo buketter?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Genstart"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "VÆLG DIT VALG"
 
 msgid "Save"
-msgstr ""
+msgstr "Spare"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Gemt i: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Gemt i: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Skematype:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Planlagt listeopdatering:"
 
 msgid "Search"
-msgstr ""
+msgstr "Søge"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Søg efter kanaler:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Søge..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Søge:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Vælg Baggrund"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Vælg Skrifttyper"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Vælg M3U eksporttilstand:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Vælg land for at eksportere M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Server til spiller brugt"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Server til spiller."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Viser alle kanaler: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Plads"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Stream sluttede. For mange forbindelsesproblemer."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Tekniske egenskaber:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Dette vil opdatere godkendelsestokenet."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Dette vil fjerne:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Tid til at starte opdatering:"
 
 msgid "Top"
 msgstr ""
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Samlet antal kanaler: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "STORE BOGSTAVER"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Opdatering afbrudt!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Opdater mig"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Opdateringsinterval (minutter):"
 
 msgid "Vavoo Stream Live"
 msgstr ""
@@ -458,25 +458,25 @@ msgid "Vavoo Stream Live Plugin"
 msgstr ""
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo buketter fjernet med succes!"
 
 msgid "Version:"
 msgstr ""
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Venter på proxy..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Du kan starte den fra menuen eller ved at trykke på TEXT-knappen."
 
 msgid "fixed time"
-msgstr ""
+msgstr "fast tid"
 
 msgid "interval"
 msgstr ""
 
 msgid "lowercase"
-msgstr ""
+msgstr "små bogstaver"
 
 msgid "seconds"
-msgstr ""
+msgstr "sekunder"

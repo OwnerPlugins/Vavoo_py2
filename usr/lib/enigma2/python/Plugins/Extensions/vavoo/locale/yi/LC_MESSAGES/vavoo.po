@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d טשאַנאַלז)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(% ד טשאַנאַלז)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s טעקעס אויסגעמעקט)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- אַוטאָ דערפרישן טאָקען יעדער 9 מינוט"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- אָטאַמאַטיק בוקיי דור"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- קאַטעגאָריע באָוקייז"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- געשעפט נוצן איז שטרענג פּראָוכיבאַטאַד"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- קאַמיוניטי: Linuxsat-support.com, Corvoboys פאָרום"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- קאַנטיינער באָוקייז"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- לאַנד באָוקייז"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- בלויז פֿאַר פּערזענלעך נוצן"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- בלויז פריי אינהאַלט"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- גראַפיקס: @אָקטוס"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- הטטפּ לייוו סטרימינג"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- ינטעגראַטעד פּראַקסי סיסטעם"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- קיין דירעקט סערווער האָסטינג"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- רידיסטראַביושאַן מוזן טייַנען אַטריביושאַן"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- סערוויס באַווייַזן: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- סטרימז פון ציבור קוואלן"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- TS/M3U8 פֿאָרמאַטירונגען"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- טעכניש שטיצן: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "אַקטיוו אָטאַמאַטיק בוקיי דערהייַנטיקן"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "אַקטיוו אָדער דיסאַקטיוו פֿאַר IPv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "אַלע לענדער (%ד)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "אין אַ ינטערוואַל שעה אָדער פאַרפעסטיקט צייט"
 
 msgid "Author:"
-msgstr ""
+msgstr "מחבר:"
 
 msgid "Back"
-msgstr ""
+msgstr "צוריק"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "דנאָ"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "בוקיי '%(name)s' באשאפן הצלחה!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "בוקיי שטעלע אין רשימה"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "בוקיי שאַפונג טעות: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "באָוקייז ריאָרגאַנייזד הצלחה!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "באָטל מאַכן"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "באָטל מאַכן דורכפירונג?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "פאַל: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "טשאַנגעלאָג: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "טשאַנאַלז: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "טשעקן פראקסי..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "קלאָר אַלע"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "קאָנפיגוראַטיאָן געראטעוועט הצלחה!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "קאַנפיגיער פאַנץ."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "קאַנפיגיער הויפּט הינטערגרונט בילד."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "קאַנפיגיער אין אַ פאַרפעסטיקט צייט"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "קאַנפיגיער ינטערוואַל מינוט פון איצט"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "קאַנפיגיער דינסט רעפערענץ Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "מאַזל - טאָוו! איר האָט שוין די לעצטע ווערסיע ..."
 
 msgid "Console"
-msgstr ""
+msgstr "קאַנסאָול"
 
 msgid "Countries"
-msgstr ""
+msgstr "לענדער"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "לענדער: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "לאַנד: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "קרעדיט:"
 
 msgid "Default View"
-msgstr ""
+msgstr "פעליקייַט View"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "פעליקייַט מיינונג ווען עפן די פּלוגין"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "צי איר ווילן צו אַרויספירן דעם בוקיי?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "צי איר ווילן צו ינסטאַלירן עס איצט?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "צי איר ווילן צו ינסטאַלירן דערהייַנטיקן (%s) איצט?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "למשל: אַראַביש אָדער אנדערע שפּראַך."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "געבן אָדער דיסייבאַל פּראַקסי."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "אַרייַן טעקסט צו זוכן..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "טעות אָנהייב קאַנאַל"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "טעות: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "אַרויסגאַנג"
 
 msgid "Export"
-msgstr ""
+msgstr "עקספּאָרט"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "ניט געקענט דערפרישן פראקסי סימען"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "ניט געקענט דערפרישן פראקסי:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "ניט אַנדערש: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "צווינגען פראקסי דערפרישן?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "געפונען: {} טשאַנאַלז"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "דזשענערייט .מ3ו טעקע פֿאַר:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "דזשענערייט .m3u טעקעס (גוט פֿאַר עקסעק)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "דזשענערייט .מ3ו טעקעס און שפּאָרן אויף מיטל %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "דזשענערייט .מ3ו טעקעס און ראַטעווען צו מיטל %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "דזשענערייט .מ3ו טעקעס פֿאַר אַלע %d לענדער?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "באַהאַלטן / ווייַזן"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "וויכטיק הערות:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "IPv6 שטאַט פון לאַן (אויף / אַוועק)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "קלאַוויאַטור"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "לעצטע קאַנאַל דערהייַנטיקן: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "ליסענסע:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "ליסענסע: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "לינק אין די הויפּט מעניו"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "נידעריקער = ווייניקער יבעררייַס אָבער מער ריפרישיז"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "מ3ו טעקע דזשענערייטאַד הצלחה!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "M3U דור געענדיקט!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "M3U דור טעות: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "פֿילם באַדינונגס רעפערענץ"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "די נייַע ווערסיע {version} איז בארעכטיגט."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "קיין אינטערנעט פֿאַרבינדונג דיטעקטאַד. ביטע טשעק דיין נעץ."
 
 msgid "No channels found"
-msgstr ""
+msgstr "קיין טשאַנאַלז געפונען"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "קיין טשאַנאַלז געפונען פֿאַר '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "קיין טשאַנאַלז געפונען פֿאַר: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "קיין טשאַנאַלז געפֿונען אין זוכן !!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "קיין גילטיק טשאַנאַלז פֿאַר: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "איצט %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "בלויז איין ספּעציפיש לאַנד"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "ביטע פּרובירן אן אנדער קאַנאַל."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "שטעלע פון ​​וואַוואָ באָוקייז אין די הויפּט רשימה"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "דרוק טעקסט קנעפּל צו דרוקן, BACKSPACE צו ויסמעקן"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "פּראָקסי פאַרקריפּלט"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "פּראָקסי ענאַבלעד"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "פּראָקסי פאַרקריפּלט"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "פּראָקסי איז פאַרקריפּלט. ביטע שטעלן פּראָקסי אויף ערשטער. -- Menu Config --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "פּראָקסי איז פאַרקריפּלט. ביטע געבן עס אין די קאַנפיגיעריישאַן."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "פּראָקסי איז נישט פליסנדיק. ביטע אָנהייבן די פּראַקסי ערשטער."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "פּראָקסי איז נישט אַקטיוו. ניט געקענט צו דזשענערייט M3U טעקע."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "פּראָקסי ניט ריספּאַנדינג נאָך"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "פּראָקסי ריסטאַרטינג ... ביטע וואַרטן"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "פּראָקסי טאָקען דערקוויקט הצלחה"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "טאַקע נאָענט אָן שפּאָרן סעטטינגס?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "רעקאַמענדיד: 5-8 מינוט"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "דערפרישן סטרים (מינוט):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "דערפרישן סטרימינג יעדער X מינוט (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "רילאָוד בוקיי"
 
 msgid "Remove"
-msgstr ""
+msgstr "אַראָפּנעמען"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "אַראָפּנעמען אַלע וואַוואָו באָוקייז?"
 
 msgid "Restart"
-msgstr ""
+msgstr "ריסטאַרט"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "אויסקלייַבן דיין ברירה"
 
 msgid "Save"
-msgstr ""
+msgstr "היט"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "געראטעוועט אין: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "געראטעוועט אין: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "טיפּ פון פּלאַן:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "סקעדזשולד רשימה דערהייַנטיקן:"
 
 msgid "Search"
-msgstr ""
+msgstr "זוכן"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "זוכן טשאַנאַלז:"
 
 msgid "Search..."
-msgstr ""
+msgstr "זוך..."
 
 msgid "Search:"
-msgstr ""
+msgstr "זוכן:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "אויסקלייַבן הינטערגרונט"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "אויסקלייַבן פאַנץ"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "אויסקלייַבן M3U אַרויספירן מאָדע:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "אויסקלייַבן לאַנד צו אַרויספירן M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "סערווירער פֿאַר שפּילער געוויינט"
 
 msgid "Server for player."
-msgstr ""
+msgstr "סערווירער פֿאַר שפּילער."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "ווייַזן אַלע טשאַנאַלז: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "פּלאַץ"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "סטרים געענדיקט. צו פילע קשר ישוז."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "טעכניש פֿעיִקייטן:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "דאָס וועט דערפרישן די אָטענטאַקיישאַן טאָקען."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "דאָס וועט אַראָפּנעמען:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "צייט צו אָנהייבן דערהייַנטיקן:"
 
 msgid "Top"
 msgstr ""
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "גאַנץ טשאַנאַלז: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "קאַפּיטאַל"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "דערהייַנטיקן אַבאָרטיד!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "דערהייַנטיקן מיר"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "דערהייַנטיקן מעהאַלעך (מינוט):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Vavoo סטרים לייוו"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - אינפֿאָרמאַציע"
 
 msgid "Vavoo Stream Live Plugin"
 msgstr ""
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "וואַוואָ באָוקייז אַוועקגענומען הצלחה!"
 
 msgid "Version:"
-msgstr ""
+msgstr "ווערסיע:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "ווארטן אויף פראקסי..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "איר קענען אָנהייבן עס פֿון די מעניו אָדער דורך דרינגלעך די טעקסט קנעפּל."
 
 msgid "fixed time"
-msgstr ""
+msgstr "פאַרפעסטיקט צייַט"
 
 msgid "interval"
-msgstr ""
+msgstr "מעהאַלעך"
 
 msgid "lowercase"
-msgstr ""
+msgstr "קליין אותיות"
 
 msgid "seconds"
-msgstr ""
+msgstr "סעקונדעס"

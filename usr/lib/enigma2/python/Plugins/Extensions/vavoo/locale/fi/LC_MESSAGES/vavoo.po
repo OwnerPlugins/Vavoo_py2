@@ -11,472 +11,472 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d kanavaa)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d kanavaa)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(%s tiedostoa poistettu)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Token automaattinen päivitys 9 minuutin välein"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Automaattinen kimpun luominen"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Luokkakimput"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Kaupallinen käyttö on ehdottomasti kielletty"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Yhteisö: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Konttikimppuja"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Maalaiskimppuja"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Vain henkilökohtaiseen käyttöön"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Vain ilmainen sisältö"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Grafiikka: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- HTTP-suoratoisto"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Integroitu välityspalvelinjärjestelmä"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Ei suoraa palvelinisännöintiä"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Uudelleenjakelun on säilytettävä vaikuttavuus"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Palveluviitteet: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Striimit julkisista lähteistä"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- TS/M3U8-muodot"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Tekninen tuki: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Aktiivinen automaattinen kimpun päivitys"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Aktiivinen tai Disaktiivinen LAN Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Kaikki maat (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Tuntien välein tai kiinteään aikaan"
 
 msgid "Author:"
-msgstr ""
+msgstr "Tekijä:"
 
 msgid "Back"
-msgstr ""
+msgstr "Takaisin"
 
 msgid "Backspace"
-msgstr ""
+msgstr "Askelpalautin"
 
 msgid "Bottom"
-msgstr ""
+msgstr "Pohja"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "Kimppu '%(name)s' luotiin onnistuneesti!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Kukkakimpun sijainti luettelossa"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Kimpun luomisvirhe: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Kimppujen uudelleenjärjestely onnistui!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Peruuttaa"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Peruutetaanko suoritus?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Tapaus: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Muutosloki: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Kanavat: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Tarkistetaan välityspalvelinta..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Tyhjennä kaikki"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Määritykset tallennettu onnistuneesti!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Määritä kirjasimet."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Määritä päätaustakuva."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Määritä tiettyyn aikaan"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Määritä intervallin minuutit tästä hetkestä"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Määritä palvelu Viite Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Onnittelut! Sinulla on jo uusin versio..."
 
 msgid "Console"
-msgstr ""
+msgstr "Konsoli"
 
 msgid "Countries"
-msgstr ""
+msgstr "maat"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Maat: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Maa: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Tekijät:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Oletusnäkymä"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Oletusnäkymä lisäosaa avattaessa"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Haluatko viedä tämän kimpun?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Haluatko asentaa sen nyt?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Haluatko asentaa päivityksen ( %s ) nyt?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Esim: arabia tai muu kieli."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Ota välityspalvelin käyttöön tai poista se käytöstä."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Hae kirjoittamalla tekstiä..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Virhe käynnistettäessä kanavaa"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Virhe: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Poistu"
 
 msgid "Export"
-msgstr ""
+msgstr "Viedä"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Välityspalvelimen tunnuksen päivittäminen epäonnistui"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Välityspalvelimen päivittäminen epäonnistui:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Epäonnistui: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Pakottaako välityspalvelimen päivitys?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Löytyi: {} kanavaa"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Luo .m3u-tiedosto kohteelle:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Luo .m3u-tiedostoja (Ok for Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Luo .m3u-tiedostoja ja tallenna ne laitteeseen %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Luodaanko .m3u-tiedostoja ja tallennetaanko ne laitteelle %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Luodaanko .m3u-tiedostoja KAIKKIIN %d maahan?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Piilota/Näytä"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Tärkeitä huomautuksia:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "IPv6 State Of Lan (päällä/pois)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Näppäimistö"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Viimeisin kanavapäivitys: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Lisenssi:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Lisenssi: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Linkki päävalikossa"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Alempi = vähemmän keskeytyksiä, mutta enemmän päivityksiä"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "M3U-tiedoston luominen onnistui!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "M3U-sukupolvi valmis!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "M3U:n luontivirhe: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Elokuvapalveluiden viite"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Uusi versio {version} on saatavilla."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Internet-yhteyttä ei havaittu. Tarkista verkkosi."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Kanavia ei löytynyt"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Ei kanavia haulle '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Ei löytynyt kanavia haulle %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Haulla ei löytynyt kanavia!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Ei kelvollisia kanavia: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Nyt %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Vain yksi tietty maa"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Kokeile toista kanavaa."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Vavoo-kimppujen sijainti pääluettelossa"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Paina TEKSTI-painiketta kirjoittaaksesi ja ASKELPAINI poistaaksesi"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Välityspalvelin pois käytöstä"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Välityspalvelin käytössä"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Välityspalvelin pois käytöstä"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Välityspalvelin on poistettu käytöstä. Aseta välityspalvelin ensin päälle. -- Menu Config --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Välityspalvelin on poistettu käytöstä. Ota se käyttöön asetuksissa."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Välityspalvelin ei ole käynnissä. Käynnistä välityspalvelin ensin."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Välityspalvelin ei ole aktiivinen. M3U-tiedostoa ei voi luoda."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Välityspalvelin ei vastaa tämän jälkeen"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Välityspalvelinta käynnistetään uudelleen... Odota"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Välityspalvelimen tunnuksen päivitys onnistui"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Suljetko todella tallentamatta asetuksia?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Suositus: 5-8 minuuttia"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Päivitä stream (minuutteina):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Päivitä stream X minuutin välein (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Lataa Bouqet uudelleen"
 
 msgid "Remove"
-msgstr ""
+msgstr "Poistaa"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Poistetaanko KAIKKI Vavoo-kimput?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Käynnistä uudelleen"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "VALITSE VALINTASI"
 
 msgid "Save"
-msgstr ""
+msgstr "Tallentaa"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Tallennettu: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Tallennettu paikkaan: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Aikataulun tyyppi:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Aikataulutettu luettelopäivitys:"
 
 msgid "Search"
-msgstr ""
+msgstr "Haku"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Hae kanavia:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Haku..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Haku:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Valitse Tausta"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Valitse Fontit"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Valitse M3U-vientitila:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Valitse maa, johon M3U viedään:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Käytetty palvelin soittimelle"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Palvelin pelaajalle."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Näytetään kaikki kanavat: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Avaruus"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Striimi päättyi. Liikaa yhteysongelmia."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Tekniset ominaisuudet:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Tämä päivittää todennustunnuksen."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Tämä poistaa:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Aika aloittaa päivitys:"
 
 msgid "Top"
-msgstr ""
+msgstr "Yläosa"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Kanavia yhteensä: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "SUURI KIRJAIT"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Päivitys keskeytetty!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Päivitä minut"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Päivitysväli (minuutit):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Vavoo Stream Livenä"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - Tietoja"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Vavoo Stream Live -laajennus"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Vavoo-kimput poistettu onnistuneesti!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Versio:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Välityspalvelinta odotellessa..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Voit käynnistää sen valikosta tai painamalla TEKSTI-painiketta."
 
 msgid "fixed time"
-msgstr ""
+msgstr "kiinteä aika"
 
 msgid "interval"
-msgstr ""
+msgstr "intervalli"
 
 msgid "lowercase"
-msgstr ""
+msgstr "pienet kirjaimet"
 
 msgid "seconds"
-msgstr ""
+msgstr "sekuntia"

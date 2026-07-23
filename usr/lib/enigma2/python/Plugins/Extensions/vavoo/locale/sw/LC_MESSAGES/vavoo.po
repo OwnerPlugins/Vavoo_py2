@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d vituo)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(vituo %d)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(Faili %s zimefutwa)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- Sasisha ishara otomatiki kila dakika 9"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- Kizazi cha bouque kiotomatiki"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- Jamii bouquets"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- Matumizi ya kibiashara ni marufuku kabisa"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- Jumuiya: Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- Bouquets ya chombo"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- Bouquets ya nchi"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- Kwa matumizi ya kibinafsi tu"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- Maudhui ya bure pekee"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- Michoro: @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- Utiririshaji wa moja kwa moja wa HTTP"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- Mfumo wa wakala uliojumuishwa"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- Hakuna mwenyeji wa seva moja kwa moja"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- Ugawaji upya lazima udumishe sifa"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- Marejeleo ya huduma: 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- Mito kutoka kwa vyanzo vya umma"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- miundo ya TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- Usaidizi wa kiufundi: Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "Sasisho la Bouque ya Kiotomatiki inayotumika"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "Imetumika au Haitumiki kwenye Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "Nchi zote (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "Kwa saa za muda au wakati uliowekwa"
 
 msgid "Author:"
-msgstr ""
+msgstr "Mwandishi:"
 
 msgid "Back"
-msgstr ""
+msgstr "Nyuma"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "Chini"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "shada la '%(name)s' limeundwa!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "Nafasi ya Bouquet katika Orodha"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "Hitilafu ya kuunda shada: %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "Maua yamepangwa upya kwa mafanikio!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Ghairi"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Ungependa kughairi utekelezaji?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "Kesi: {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Mabadiliko: {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "Vituo: %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "Inakagua proksi..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "Futa Zote"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "Mipangilio imehifadhiwa!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "Sanidi Fonti."
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "Sanidi Picha Kuu ya Mandharinyuma."
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "Sanidi kwa wakati uliowekwa"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "Sanidi dakika za muda kutoka sasa"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "Sanidi Marejeleo ya huduma Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Hongera! Tayari una toleo jipya zaidi..."
 
 msgid "Console"
 msgstr ""
 
 msgid "Countries"
-msgstr ""
+msgstr "Nchi"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "Nchi: %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "Nchi: %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "Mikopo:"
 
 msgid "Default View"
-msgstr ""
+msgstr "Mwonekano Chaguomsingi"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "Mwonekano chaguo-msingi wakati wa kufungua programu-jalizi"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "Je, ungependa kusafirisha shada hili?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Je, ungependa kukisakinisha sasa?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "Je, ungependa kusakinisha sasisho ( %s ) sasa?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "Mfano: Kiarabu au lugha nyingine."
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "Washa au zima proksi."
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "Weka maandishi ili kutafuta..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "Hitilafu ya kuanzisha kituo"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "Hitilafu: %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "Utgång"
 
 msgid "Export"
-msgstr ""
+msgstr "Hamisha"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "Imeshindwa kuonyesha upya tokeni ya seva mbadala"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "Imeshindwa kuonyesha upya seva mbadala:"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "Imeshindwa: %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "Unataka kulazimisha kuonyesha upya seva mbadala?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "Imepatikana: vituo {}"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "Tengeneza faili ya .m3u ya:"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "Tengeneza faili za .m3u (Sawa kwa Utekelezaji)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "Tengeneza faili za .m3u na uhifadhi kwenye kifaa %s."
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "Je, ungependa kuzalisha faili za .m3u na uhifadhi kwenye kifaa %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "Je, ungependa kuzalisha faili za .m3u kwa nchi %d ZOTE?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "Ficha/Onyesha"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "Vidokezo Muhimu:"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 Jimbo la Lan (Imewashwa/Imezimwa)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Kibodi"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "Sasisho la mwisho la kituo: %s"
 
 msgid "License:"
-msgstr ""
+msgstr "Leseni:"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "Leseni: CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "Unganisha kwenye Menyu kuu"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "Chini = usumbufu kidogo lakini viburudisho zaidi"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "Faili ya M3U imezalishwa kwa ufanisi!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "Kizazi cha M3U kimekamilika!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "Hitilafu ya kutengeneza M3U: %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "Rejea ya Huduma za Filamu"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Toleo jipya {version} linapatikana."
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "Hakuna muunganisho wa Mtandao uliogunduliwa. Tafadhali angalia mtandao wako."
 
 msgid "No channels found"
-msgstr ""
+msgstr "Hakuna vituo vilivyopatikana"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "Hakuna vituo vilivyopatikana vya '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "Hakuna vituo vilivyopatikana vya: %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "Hakuna vituo vilivyopatikana katika utafutaji!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "Hakuna chaneli halali za: %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "Sasa %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "Nchi moja tu maalum"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "Tafadhali jaribu kituo kingine."
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "Nafasi ya bouquets ya Vavoo katika orodha kuu"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "Bonyeza kitufe cha TEXT kuandika, BACKSPACE ili kufuta"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "Wakala Amezimwa"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "Proksi Imewashwa"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "Seva mbadala imezimwa"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "Seva mbadala imezimwa. Tafadhali Washa Wakala kwanza. -- Usanidi wa Menyu --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "Seva mbadala imezimwa. Tafadhali iwashe katika usanidi."
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "Seva mbadala haifanyi kazi. Tafadhali anza seva mbadala kwanza."
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "Seva mbadala haitumiki. Haiwezi kutengeneza faili ya M3U."
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "Wakala hajibu baada ya"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "Seva inawasha tena... Tafadhali subiri"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "Tokeni ya seva mbadala imeonyeshwa upya"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "Je, ungependa kufunga bila kuhifadhi mipangilio?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "Inapendekezwa: dakika 5-8"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "Onyesha upya mtiririko (dakika):"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "Onyesha upya mtiririko kila dakika X (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "Pakia upya Bouqet"
 
 msgid "Remove"
-msgstr ""
+msgstr "Ondoa"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "Ungependa kuondoa shada ZOTE za Vavoo?"
 
 msgid "Restart"
-msgstr ""
+msgstr "Anzisha upya"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "CHAGUA UCHAGUZI WAKO"
 
 msgid "Save"
-msgstr ""
+msgstr "Hifadhi"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "Imehifadhiwa katika: %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "Imehifadhiwa katika: %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "Aina ya ratiba:"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "Sasisho la Orodha Iliyoratibiwa:"
 
 msgid "Search"
-msgstr ""
+msgstr "Tafuta"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "Tafuta Vituo:"
 
 msgid "Search..."
-msgstr ""
+msgstr "Tafuta..."
 
 msgid "Search:"
-msgstr ""
+msgstr "Tafuta:"
 
 msgid "Select Background"
-msgstr ""
+msgstr "Chagua Mandharinyuma"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "Chagua Fonti"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "Chagua hali ya usafirishaji ya M3U:"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "Chagua nchi ya kuhamisha M3U:"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Seva ya Mchezaji Inayotumika"
 
 msgid "Server for player."
-msgstr ""
+msgstr "Seva kwa mchezaji."
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "Inaonyesha vituo vyote: {}"
 
 msgid "Space"
-msgstr ""
+msgstr "Nafasi"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "Mtiririko umeisha. Matatizo mengi sana ya muunganisho."
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "Vipengele vya Kiufundi:"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "Hii itaonyesha upya tokeni ya uthibitishaji."
 
 msgid "This will remove:"
-msgstr ""
+msgstr "Hii itaondoa:"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "Wakati wa kuanza sasisho:"
 
 msgid "Top"
-msgstr ""
+msgstr "Juu"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "Jumla ya vituo: %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "KUBWA"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Usasishaji Umeghairiwa!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "Nisasishe"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "Sasisha muda (dakika):"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Vavoo Tiririsha Moja kwa Moja"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Tiririsha Moja kwa Moja - Taarifa"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "Programu-jalizi ya Vavoo Tiririsha Moja kwa Moja"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "Bouquets za Vavoo zimeondolewa kwa mafanikio!"
 
 msgid "Version:"
-msgstr ""
+msgstr "Toleo:"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "Inasubiri proksi..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "Unaweza kuianzisha kutoka kwa menyu au kwa kubonyeza kitufe cha TEXT."
 
 msgid "fixed time"
-msgstr ""
+msgstr "muda uliowekwa"
 
 msgid "interval"
-msgstr ""
+msgstr "muda"
 
 msgid "lowercase"
-msgstr ""
+msgstr "herufi ndogo"
 
 msgid "seconds"
-msgstr ""
+msgstr "sekunde"

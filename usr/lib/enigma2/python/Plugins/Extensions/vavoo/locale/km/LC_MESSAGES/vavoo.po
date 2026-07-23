@@ -10,472 +10,472 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(%(count)d channels)"
-msgstr ""
+msgstr "(%(count)d ឆានែល)"
 
 msgid "(%d channels)?"
-msgstr ""
+msgstr "(%d ប៉ុស្តិ៍)?"
 
 msgid "(%s files deleted)"
-msgstr ""
+msgstr "(ឯកសារ %s ត្រូវបានលុប)"
 
 msgid "- Auto token refresh every 9 minutes"
-msgstr ""
+msgstr "- ធ្វើបច្ចុប្បន្នភាពសញ្ញាសម្ងាត់ដោយស្វ័យប្រវត្តិរៀងរាល់ 9 នាទីម្តង"
 
 msgid "- Automatic bouquet generation"
-msgstr ""
+msgstr "- ការបង្កើតភួងដោយស្វ័យប្រវត្តិ"
 
 msgid "- Category bouquets"
-msgstr ""
+msgstr "- ប្រភេទភួង"
 
 msgid "- Commercial use is strictly prohibited"
-msgstr ""
+msgstr "- ការប្រើប្រាស់ពាណិជ្ជកម្មត្រូវបានហាមឃាត់យ៉ាងតឹងរ៉ឹង"
 
 msgid "- Community: Linuxsat-support.com, Corvoboys Forum"
-msgstr ""
+msgstr "- សហគមន៍៖ Linuxsat-support.com, Corvoboys Forum"
 
 msgid "- Container bouquets"
-msgstr ""
+msgstr "- ភួងកុងតឺន័រ"
 
 msgid "- Country bouquets"
-msgstr ""
+msgstr "- ភួងប្រទេស"
 
 msgid "- For personal use only"
-msgstr ""
+msgstr "- សម្រាប់តែការប្រើប្រាស់ផ្ទាល់ខ្លួន"
 
 msgid "- Free content only"
-msgstr ""
+msgstr "- មាតិកាឥតគិតថ្លៃតែប៉ុណ្ណោះ"
 
 msgid "- Graphics: @oktus"
-msgstr ""
+msgstr "- ក្រាហ្វិក៖ @oktus"
 
 msgid "- HTTP Live Streaming"
-msgstr ""
+msgstr "- ការផ្សាយបន្តផ្ទាល់ HTTP"
 
 msgid "- Integrated proxy system"
-msgstr ""
+msgstr "- ប្រព័ន្ធប្រូកស៊ីរួមបញ្ចូលគ្នា"
 
 msgid "- No direct server hosting"
-msgstr ""
+msgstr "- គ្មានម៉ាស៊ីនមេផ្ទាល់បង្ហោះ"
 
 msgid "- Redistribution must maintain attribution"
-msgstr ""
+msgstr "- ការចែកចាយឡើងវិញត្រូវតែរក្សាគុណលក្ខណៈ"
 
 msgid "- Service references: 4097, 5001, 5002"
-msgstr ""
+msgstr "- ឯកសារយោងសេវាកម្ម៖ 4097, 5001, 5002"
 
 msgid "- Streams from public sources"
-msgstr ""
+msgstr "- ស្ទ្រីមពីប្រភពសាធារណៈ"
 
 msgid "- TS/M3U8 formats"
-msgstr ""
+msgstr "- ទ្រង់ទ្រាយ TS/M3U8"
 
 msgid "- Technical support: Qu4k3, @KiddaC, @giorbak"
-msgstr ""
+msgstr "- ជំនួយបច្ចេកទេស៖ Qu4k3, @KiddaC, @giorbak"
 
 msgid "Active Automatic Bouquet Update"
-msgstr ""
+msgstr "ធ្វើឱ្យទាន់សម័យភួងដោយស្វ័យប្រវត្តិសកម្ម"
 
 msgid "Active or Disactive lan Ipv6."
-msgstr ""
+msgstr "សកម្ម ឬអសកម្ម និង Ipv6."
 
 msgid "All countries (%d)"
-msgstr ""
+msgstr "ប្រទេសទាំងអស់ (%d)"
 
 msgid "At an interval hours or fixed time"
-msgstr ""
+msgstr "នៅចន្លោះម៉ោង ឬម៉ោងកំណត់"
 
 msgid "Author:"
-msgstr ""
+msgstr "អ្នកនិពន្ធ៖"
 
 msgid "Back"
-msgstr ""
+msgstr "ត្រឡប់មកវិញ"
 
 msgid "Backspace"
 msgstr ""
 
 msgid "Bottom"
-msgstr ""
+msgstr "បាត"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr ""
+msgstr "ភួង '%(name)s' បានបង្កើតដោយជោគជ័យ!"
 
 msgid "Bouquet Position in List"
-msgstr ""
+msgstr "ទីតាំងភួងនៅក្នុងបញ្ជី"
 
 msgid "Bouquet creation error: %s"
-msgstr ""
+msgstr "កំហុសក្នុងការបង្កើតភួង៖ %s"
 
 msgid "Bouquets reorganized successfully!"
-msgstr ""
+msgstr "ភួងរៀបចំឡើងវិញដោយជោគជ័យ!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "បោះបង់"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "បោះបង់​ការ​អនុវត្ត?"
 
 msgid "Case: {}"
-msgstr ""
+msgstr "ករណី៖ {}"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "កំណត់ហេតុផ្លាស់ប្តូរ៖ {changelog}"
 
 msgid "Channels: %d"
-msgstr ""
+msgstr "ប៉ុស្តិ៍៖ %d"
 
 msgid "Checking proxy..."
-msgstr ""
+msgstr "កំពុងពិនិត្យប្រូកស៊ី..."
 
 msgid "Clear All"
-msgstr ""
+msgstr "ជម្រះទាំងអស់។"
 
 msgid "Configuration saved successfully!"
-msgstr ""
+msgstr "ការកំណត់រចនាសម្ព័ន្ធត្រូវបានរក្សាទុកដោយជោគជ័យ!"
 
 msgid "Configure Fonts."
-msgstr ""
+msgstr "កំណត់រចនាសម្ព័ន្ធពុម្ពអក្សរ។"
 
 msgid "Configure Main Background Image."
-msgstr ""
+msgstr "កំណត់រចនាសម្ព័ន្ធរូបភាពផ្ទៃខាងក្រោយចម្បង។"
 
 msgid "Configure at a fixed time"
-msgstr ""
+msgstr "កំណត់រចនាសម្ព័ន្ធនៅពេលកំណត់"
 
 msgid "Configure interval minutes from now"
-msgstr ""
+msgstr "កំណត់រចនាសម្ព័ន្ធនាទីចន្លោះពេលចាប់ពីពេលនេះ"
 
 msgid "Configure service Reference Iptv-Gstreamer-Exteplayer3"
-msgstr ""
+msgstr "កំណត់រចនាសម្ព័ន្ធសេវាកម្មយោង Iptv-Gstreamer-Exteplayer3"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "អបអរសាទរ! អ្នកមានកំណែចុងក្រោយបង្អស់..."
 
 msgid "Console"
-msgstr ""
+msgstr "កុងសូល។"
 
 msgid "Countries"
-msgstr ""
+msgstr "ប្រទេស"
 
 msgid "Countries: %(generated)d/%(total)d"
-msgstr ""
+msgstr "ប្រទេស៖ %(generated)d/%(total)d"
 
 msgid "Country: %s"
-msgstr ""
+msgstr "ប្រទេស៖ %s"
 
 msgid "Credits:"
-msgstr ""
+msgstr "ឥណទាន៖"
 
 msgid "Default View"
-msgstr ""
+msgstr "ទិដ្ឋភាពលំនាំដើម"
 
 msgid "Default view when opening the plugin"
-msgstr ""
+msgstr "ទិដ្ឋភាពលំនាំដើមនៅពេលបើកកម្មវិធីជំនួយ"
 
 msgid "Do you want to export this bouquet?"
-msgstr ""
+msgstr "តើអ្នកចង់នាំចេញភួងនេះទេ?"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "តើអ្នកចង់ដំឡើងវាឥឡូវនេះទេ?"
 
 msgid "Do you want to install update ( %s ) now?"
-msgstr ""
+msgstr "តើអ្នកចង់ដំឡើងអាប់ដេត (%s) ឥឡូវនេះទេ?"
 
 msgid "Eg: Arabic or other language."
-msgstr ""
+msgstr "ឧទាហរណ៍៖ ភាសាអារ៉ាប់ ឬភាសាផ្សេងទៀត។"
 
 msgid "Enable or disable proxy."
-msgstr ""
+msgstr "បើកឬបិទប្រូកស៊ី។"
 
 msgid "Enter text to search..."
-msgstr ""
+msgstr "បញ្ចូលអត្ថបទដើម្បីស្វែងរក..."
 
 msgid "Error starting channel"
-msgstr ""
+msgstr "កំហុសក្នុងការចាប់ផ្តើមឆានែល"
 
 msgid "Error: %s"
-msgstr ""
+msgstr "កំហុស៖ %s"
 
 msgid "Exit"
-msgstr ""
+msgstr "ចេញ"
 
 msgid "Export"
-msgstr ""
+msgstr "នាំចេញ"
 
 msgid "Failed to refresh proxy token"
-msgstr ""
+msgstr "បរាជ័យក្នុងការធ្វើឱ្យនិមិត្តសញ្ញាប្រូកស៊ីឡើងវិញ"
 
 msgid "Failed to refresh proxy:"
-msgstr ""
+msgstr "បរាជ័យក្នុងការផ្ទុកប្រូកស៊ីឡើងវិញ៖"
 
 msgid "Failed: %(failed)d"
-msgstr ""
+msgstr "បរាជ័យ៖ %(failed)d"
 
 msgid "Force proxy refresh?"
-msgstr ""
+msgstr "បង្ខំប្រូកស៊ីឡើងវិញ?"
 
 msgid "Found: {} channels"
-msgstr ""
+msgstr "បានរកឃើញ៖ ឆានែល {}"
 
 msgid "Generate .m3u file for:"
-msgstr ""
+msgstr "បង្កើតឯកសារ .m3u សម្រាប់៖"
 
 msgid "Generate .m3u files (Ok for Exec)"
-msgstr ""
+msgstr "បង្កើតឯកសារ .m3u (យល់ព្រមសម្រាប់ Exec)"
 
 msgid "Generate .m3u files and save to device %s."
-msgstr ""
+msgstr "បង្កើតឯកសារ .m3u ហើយរក្សាទុកក្នុងឧបករណ៍ %s ។"
 
 msgid "Generate .m3u files and save to device %s?"
-msgstr ""
+msgstr "បង្កើតឯកសារ .m3u ហើយរក្សាទុកក្នុងឧបករណ៍ %s?"
 
 msgid "Generate .m3u files for ALL %d countries?"
-msgstr ""
+msgstr "បង្កើតឯកសារ .m3u សម្រាប់ %d ប្រទេសទាំងអស់?"
 
 msgid "Hide/Show"
-msgstr ""
+msgstr "លាក់/បង្ហាញ"
 
 msgid "Important Notes:"
-msgstr ""
+msgstr "កំណត់ចំណាំសំខាន់ៗ៖"
 
 msgid "Ipv6 State Of Lan (On/Off)"
-msgstr ""
+msgstr "Ipv6 ស្ថានភាពនៃឡាន (បើក/បិទ)"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "ក្ដារចុច"
 
 msgid "Last channel update: %s"
-msgstr ""
+msgstr "ការអាប់ដេតឆានែលចុងក្រោយ៖ %s"
 
 msgid "License:"
-msgstr ""
+msgstr "អាជ្ញាប័ណ្ណ៖"
 
 msgid "License: CC BY-NC-SA 4.0"
-msgstr ""
+msgstr "អាជ្ញាប័ណ្ណ៖ CC BY-NC-SA 4.0"
 
 msgid "Link in Main Menu"
-msgstr ""
+msgstr "តំណភ្ជាប់នៅក្នុងម៉ឺនុយមេ"
 
 msgid "Lower = less interruption but more refreshes"
-msgstr ""
+msgstr "ទាប = ការរំខានតិច ប៉ុន្តែធ្វើឱ្យស្រស់កាន់តែច្រើន"
 
 msgid "M3U file generated successfully!"
-msgstr ""
+msgstr "បង្កើតឯកសារ M3U ដោយជោគជ័យ!"
 
 msgid "M3U generation completed!"
-msgstr ""
+msgstr "ជំនាន់ M3U ត្រូវបានបញ្ចប់!"
 
 msgid "M3U generation error: %s"
-msgstr ""
+msgstr "កំហុសជំនាន់ M3U៖ %s"
 
 msgid "Movie Services Reference"
-msgstr ""
+msgstr "ឯកសារយោងសេវាកម្មភាពយន្ត"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "កំណែថ្មី {version} មាន។"
 
 msgid "No Internet connection detected. Please check your network."
-msgstr ""
+msgstr "រកមិនឃើញការតភ្ជាប់អ៊ីនធឺណិតទេ។ សូមពិនិត្យមើលបណ្តាញរបស់អ្នក។"
 
 msgid "No channels found"
-msgstr ""
+msgstr "រកមិនឃើញឆានែលទេ។"
 
 msgid "No channels found for '%(name)s'"
-msgstr ""
+msgstr "រកមិនឃើញឆានែលសម្រាប់ '%(name)s'"
 
 msgid "No channels found for: %s"
-msgstr ""
+msgstr "រកមិនឃើញឆានែលសម្រាប់៖ %s"
 
 msgid "No channels found in search!!!"
-msgstr ""
+msgstr "រកមិនឃើញឆានែលទេ!!!"
 
 msgid "No valid channels for: %s"
-msgstr ""
+msgstr "មិនមានឆានែលត្រឹមត្រូវសម្រាប់៖ %s"
 
 msgid "Now %s"
-msgstr ""
+msgstr "ឥឡូវនេះ %s"
 
 msgid "Only one specific country"
-msgstr ""
+msgstr "ប្រទេសជាក់លាក់តែមួយ"
 
 msgid "Please try another channel."
-msgstr ""
+msgstr "សូមសាកល្បងឆានែលផ្សេងទៀត។"
 
 msgid "Position of Vavoo bouquets in the main list"
-msgstr ""
+msgstr "ទីតាំងនៃភួង Vavoo នៅក្នុងបញ្ជីសំខាន់"
 
 msgid "Press TEXT button to type, BACKSPACE to delete"
-msgstr ""
+msgstr "ចុចប៊ូតុង TEXT ដើម្បីវាយ BACKSPACE ដើម្បីលុប"
 
 msgid "Proxy Disabled"
-msgstr ""
+msgstr "ប្រូកស៊ីបិទ"
 
 msgid "Proxy Enabled"
-msgstr ""
+msgstr "បានបើកប្រូកស៊ី"
 
 msgid "Proxy disabled"
-msgstr ""
+msgstr "បានបិទប្រូកស៊ី"
 
 msgid "Proxy is disabled. Please Set Proxy On first. -- Menu Config --"
-msgstr ""
+msgstr "ប្រូកស៊ីត្រូវបានបិទ។ សូមកំណត់ប្រូកស៊ីបើកជាមុនសិន។ -- Menu Config --"
 
 msgid "Proxy is disabled. Please enable it in the configuration."
-msgstr ""
+msgstr "ប្រូកស៊ីត្រូវបានបិទ។ សូមបើកវានៅក្នុងការកំណត់។"
 
 msgid "Proxy is not running. Please start the proxy first."
-msgstr ""
+msgstr "ប្រូកស៊ីមិនដំណើរការទេ។ សូមចាប់ផ្តើមប្រូកស៊ីជាមុនសិន។"
 
 msgid "Proxy not active. Unable to generate M3U file."
-msgstr ""
+msgstr "ប្រូកស៊ីមិនដំណើរការទេ។ មិនអាចបង្កើតឯកសារ M3U បានទេ។"
 
 msgid "Proxy not responding after"
-msgstr ""
+msgstr "ប្រូកស៊ីមិនឆ្លើយតបបន្ទាប់ពី"
 
 msgid "Proxy restarting... Please wait"
-msgstr ""
+msgstr "កំពុងចាប់ផ្តើមប្រូកស៊ីឡើងវិញ... សូមរង់ចាំ"
 
 msgid "Proxy token refreshed successfully"
-msgstr ""
+msgstr "និមិត្តសញ្ញាប្រូកស៊ីត្រូវបានផ្ទុកឡើងវិញដោយជោគជ័យ"
 
 msgid "Really close without saving settings?"
-msgstr ""
+msgstr "ពិតជាបិទដោយមិនរក្សាទុកការកំណត់មែនទេ?"
 
 msgid "Recommended: 5-8 minutes"
-msgstr ""
+msgstr "បានណែនាំ៖ ៥-៨ នាទី។"
 
 msgid "Refresh stream (minutes):"
-msgstr ""
+msgstr "ផ្សាយឡើងវិញ (នាទី)៖"
 
 msgid "Refresh stream every X minutes (1-15)"
-msgstr ""
+msgstr "ធ្វើឱ្យស្ទ្រីមឡើងវិញរៀងរាល់ X នាទី (1-15)"
 
 msgid "Reload Bouqet"
-msgstr ""
+msgstr "ផ្ទុកភួងឡើងវិញ"
 
 msgid "Remove"
-msgstr ""
+msgstr "ដកចេញ"
 
 msgid "Remove ALL Vavoo bouquets?"
-msgstr ""
+msgstr "ដកភួង Vavoo ទាំងអស់ចេញ?"
 
 msgid "Restart"
-msgstr ""
+msgstr "ចាប់ផ្តើមឡើងវិញ"
 
 msgid "SELECT YOUR CHOICE"
-msgstr ""
+msgstr "ជ្រើសរើសជម្រើសរបស់អ្នក។"
 
 msgid "Save"
-msgstr ""
+msgstr "រក្សាទុក"
 
 msgid "Saved in: %(path)s"
-msgstr ""
+msgstr "រក្សាទុកក្នុង៖ %(path)s"
 
 msgid "Saved in: %s"
-msgstr ""
+msgstr "បានរក្សាទុកក្នុង៖ %s"
 
 msgid "Schedule type:"
-msgstr ""
+msgstr "ប្រភេទកាលវិភាគ៖"
 
 msgid "Scheduled List Update:"
-msgstr ""
+msgstr "ការធ្វើបច្ចុប្បន្នភាពបញ្ជីដែលបានគ្រោងទុក៖"
 
 msgid "Search"
-msgstr ""
+msgstr "ស្វែងរក"
 
 msgid "Search Channels:"
-msgstr ""
+msgstr "ស្វែងរកឆានែល៖"
 
 msgid "Search..."
-msgstr ""
+msgstr "ស្វែងរក..."
 
 msgid "Search:"
-msgstr ""
+msgstr "ស្វែងរក៖"
 
 msgid "Select Background"
-msgstr ""
+msgstr "ជ្រើសរើសផ្ទៃខាងក្រោយ"
 
 msgid "Select Fonts"
-msgstr ""
+msgstr "ជ្រើសរើសពុម្ពអក្សរ"
 
 msgid "Select M3U export mode:"
-msgstr ""
+msgstr "ជ្រើសរើសរបៀបនាំចេញ M3U៖"
 
 msgid "Select country to export M3U:"
-msgstr ""
+msgstr "ជ្រើសរើសប្រទេសដែលត្រូវនាំចេញ M3U៖"
 
 msgid "Server for Player Used"
-msgstr ""
+msgstr "Server សម្រាប់អ្នកលេងបានប្រើ"
 
 msgid "Server for player."
-msgstr ""
+msgstr "ម៉ាស៊ីនមេសម្រាប់អ្នកលេង។"
 
 msgid "Showing all channels: {}"
-msgstr ""
+msgstr "បង្ហាញប៉ុស្តិ៍ទាំងអស់៖ {}"
 
 msgid "Space"
-msgstr ""
+msgstr "លំហ"
 
 msgid "Stream ended. Too many connection issues."
-msgstr ""
+msgstr "ការស្ទ្រីមបានបញ្ចប់។ បញ្ហាការតភ្ជាប់ច្រើនពេក។"
 
 msgid "Technical Features:"
-msgstr ""
+msgstr "លក្ខណៈបច្ចេកទេស៖"
 
 msgid "This will refresh the authentication token."
-msgstr ""
+msgstr "វានឹងធ្វើឱ្យថូខឹនផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវឡើងវិញ។"
 
 msgid "This will remove:"
-msgstr ""
+msgstr "វានឹងដកចេញ៖"
 
 msgid "Time to start update:"
-msgstr ""
+msgstr "ដល់ពេលចាប់ផ្តើមអាប់ដេត៖"
 
 msgid "Top"
-msgstr ""
+msgstr "កំពូល"
 
 msgid "Total channels: %(total_channels)d"
-msgstr ""
+msgstr "ប៉ុស្តិ៍សរុប៖ %(total_channels)d"
 
 msgid "UPPERCASE"
-msgstr ""
+msgstr "ករណីខាងលើ"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "ការអាប់ដេតត្រូវបានលុបចោល!"
 
 msgid "Update Me"
-msgstr ""
+msgstr "ធ្វើបច្ចុប្បន្នភាពខ្ញុំ"
 
 msgid "Update interval (minutes):"
-msgstr ""
+msgstr "ចន្លោះពេលធ្វើបច្ចុប្បន្នភាព (នាទី)៖"
 
 msgid "Vavoo Stream Live"
-msgstr ""
+msgstr "Vavoo Stream បានផ្សាយបន្តផ្ទាល់"
 
 msgid "Vavoo Stream Live - Information"
-msgstr ""
+msgstr "Vavoo Stream Live - ព័ត៌មាន"
 
 msgid "Vavoo Stream Live Plugin"
-msgstr ""
+msgstr "កម្មវិធីជំនួយ Vavoo Stream Live"
 
 msgid "Vavoo bouquets removed successfully!"
-msgstr ""
+msgstr "ភួង Vavoo ត្រូវបានដកចេញដោយជោគជ័យ!"
 
 msgid "Version:"
-msgstr ""
+msgstr "កំណែ៖"
 
 msgid "Waiting for proxy..."
-msgstr ""
+msgstr "កំពុងរង់ចាំប្រូកស៊ី..."
 
 msgid "You can start it from the menu or by pressing the TEXT button."
-msgstr ""
+msgstr "អ្នកអាចចាប់ផ្តើមវាពីម៉ឺនុយ ឬដោយចុចប៊ូតុង TEXT ។"
 
 msgid "fixed time"
-msgstr ""
+msgstr "ពេលវេលាកំណត់"
 
 msgid "interval"
-msgstr ""
+msgstr "ចន្លោះពេល"
 
 msgid "lowercase"
-msgstr ""
+msgstr "អក្សរតូច"
 
 msgid "seconds"
-msgstr ""
+msgstr "វិនាទី"
