@@ -97,7 +97,7 @@ msgid "Bottom"
 msgstr "Behean"
 
 msgid "Bouquet '%(name)s' created successfully!"
-msgstr "\\\\\\\"%(name)s\\\\\\\" sorta behar bezala sortu da!"
+msgstr "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"%(name)s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" sorta behar bezala sortu da!"
 
 msgid "Bouquet Position in List"
 msgstr "Sortaren posizioa Zerrendan"
@@ -280,7 +280,7 @@ msgid "No channels found"
 msgstr "Ez da kanalik aurkitu"
 
 msgid "No channels found for '%(name)s'"
-msgstr "Ez da kanalik aurkitu \\\\\\\"%(name)s\\\\\\\"-rentzat"
+msgstr "Ez da kanalik aurkitu \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"%(name)s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"-rentzat"
 
 msgid "No channels found for: %s"
 msgstr "Ez da kanalik aurkitu: %s"

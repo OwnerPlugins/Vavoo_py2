@@ -281,7 +281,7 @@ msgid "No channels found"
 msgstr "No s'han trobat canals"
 
 msgid "No channels found for '%(name)s'"
-msgstr "No s'han trobat canals per a \\\\\\\"%(name)s\\\\\\\""
+msgstr "No s'han trobat canals per a \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"%(name)s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\""
 
 msgid "No channels found for: %s"
 msgstr "No s'han trobat canals per a: %s"
